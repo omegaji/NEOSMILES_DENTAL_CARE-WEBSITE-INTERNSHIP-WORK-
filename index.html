@@ -1,0 +1,3270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="neo smiles dental care,  Child Dental, Dental Care , Dental Clinic , Child dental Clinic ,  dental ,  dental care, kid dentist , child dentist ,dentist, Dr parth barot , Dr Parth Barot ,Articles , Pedodontics , smile makeover , pediatric dentist , Pediatric dental specialization , Habits and Special Children , Dental Surgery , Early loss of teeth , Orthodontic Treatment , Trauma ,adolescents , Oral Problem , Teeth problem , New Born Oral problem, Dental Caries , Emergency Teeth problem , Pediatric Dental Emergency , Broken Teeth , Fractured teeth , Broken jaw , loose teeth  , Child Dentistry , Bharuch , gujarat , india." />
+    <meta name="description" content="neo smiles dental care , Pediatric dentists promote the dental health of children as well as serve parents. Dr. PARTH BAROT experience in treating the oral health of children. For children, pediatric dentists give advice on how to make teeth strong, the importance of developing healthy eating habits, and other ways to prevent cavities from occurring. " />
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>Neo Smiles Dental Care</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0 , maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/tooltip-sharp.css" />
+    <link rel="stylesheet" type="text/css" href="css/tab/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/svg_popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/media_query.css" />
+
+    <!-- JS Script -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.custom.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script type="text/javascript">
+        // Stop Inspect Element
+
+
+        $(function() {
+               $(document).bind('contextmenu', function(e) {
+                    e.preventDefault();
+               });
+            });
+
+
+        $(document).ready(function (e) {
+            $("body").on('keydown', function () {
+                if (e.keyCode == 123) {
+                    e.preventDefault();
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                    e.preventDefault();
+                }
+            });
+            $('.about_dentisty').niceScroll({
+                cursorcolor: "#3a4573",
+                cursorborder: "#3a4573",
+            });
+
+
+						$('.about_dentisty1').niceScroll({
+								cursorcolor: "#3a4573",
+								cursorborder: "#3a4573",
+						});
+            $('.about_popup_container').niceScroll({
+                cursorcolor: "#801a32",
+                cursorborder: "#801a32",
+            });
+
+            $('.fancybox').fancybox();
+            $('.fancybox').click(function () {
+                $('.gallery_light').animate({
+                    opacity: '0'
+                }, 100);
+            });
+            $('.family_close,.family_dental_overlay , .family_parent_svg, .family_grandparent_svg , .family_children_svg').click(function () {
+
+                $('.family_dental_care').hide();
+                $('.family_dental_overlay').attr('style', 'z-index:0');
+                $('.family_dental_overlay').attr('style', 'display:none;');
+                $('.family_dental_overlay').removeClass('familyfadeIn');
+                $('.family_grandparent_svg').removeClass('familyfadeIn');
+                $('.family_image').removeClass('familyzoomIn');
+            });
+            $('.family_popup_container ,.family_parent_popup').click(function (event) {
+                event.stopPropagation();
+            });
+
+            /******Poup Open Effect********/
+            $('.tabs').hide();
+            $('.tabs').on('touchmove', function (e) {
+                e.preventDefault();
+            });
+            $('.svgpopup_body').on('touchmove', function (event) {
+                event.stopPropagation();
+            });
+            $('#chetna').click(function () {
+                $('.overlay').attr('style', 'display:block');
+                $('#Doctor_vidhi').hide();
+                $('#Doctor_meet').hide();
+                $('#Doctor_ridhima').hide();
+                $('#Doctor_samta').hide();
+                setTimeout(function () {
+                    $('.tabs').show();
+                    $('#Doctor_chetna').attr('style', 'display:block');
+                    	$('.svgpopup_image').addClass('svgfadeInLeft');
+                    	$('.svgpopup_position').addClass('svgfadeInRight');
+                    $("#tab-1").prop("checked", true);
+                    $("#tab-2").prop("checked", false);
+                    $("#tab-3").prop("checked", false);
+                    $("#tab-4").prop("checked", false);
+                    $("#tab-5").prop("checked", false);
+
+                }, 1000);
+
+            });
+            $('#vidhi').click(function () {
+                $('.overlay').attr('style', 'display:block');
+                $('#Doctor_chetna').hide();
+                $('#Doctor_meet').hide();
+                $('#Doctor_ridhima').hide();
+                $('#Doctor_samta').hide();
+
+                setTimeout(function () {
+                    $('.tabs').show();
+                    $('#Doctor_vidhi').attr('style', 'display:block');
+                    	$('.svgpopup_image').addClass('svgfadeInLeft');
+                    		$('.svgpopup_position').addClass('svgfadeInRight');
+                    $("#tab-1").prop("checked", false);
+                    $("#tab-2").prop("checked", true);
+                    $("#tab-3").prop("checked", false);
+                    $("#tab-4").prop("checked", false);
+                    $("#tab-5").prop("checked", false);
+
+                }, 1000);
+
+            });
+            $('#meet').click(function () {
+                $('.overlay').attr('style', 'display:block');
+                $('#Doctor_chetna').hide();
+                $('#Doctor_vidhi').hide();
+                $('#Doctor_ridhima').hide();
+                $('#Doctor_samta').hide();
+                setTimeout(function () {
+                    $('.tabs').show();
+                    $('#Doctor_meet').attr('style', 'display:block');
+                    	$('.svgpopup_image').addClass('svgfadeInLeft');
+                    	$('.svgpopup_position').addClass('svgfadeInRight');
+                    $("#tab-1").prop("checked", false);
+                    $("#tab-2").prop("checked", false);
+                    $("#tab-3").prop("checked", true);
+                    $("#tab-4").prop("checked", false);
+                    $("#tab-5").prop("checked", false);
+
+                }, 1000);
+
+            });
+            $('#ridhima').click(function () {
+                $('.overlay').attr('style', 'display:block');
+                $('#Doctor_chetna').hide();
+                $('#Doctor_vidhi').hide();
+                $('#Doctor_meet').hide();
+                $('#Doctor_samta').hide();
+
+                setTimeout(function () {
+                    $('.tabs').show();
+                    $('#Doctor_ridhima').attr('style', 'display:block');
+                    	$('.svgpopup_image').addClass('svgfadeInLeft');
+                    	$('.svgpopup_position').addClass('svgfadeInRight');
+                    $("#tab-1").prop("checked", false);
+                    $("#tab-2").prop("checked", false);
+                    $("#tab-3").prop("checked", false);
+                    $("#tab-4").prop("checked", true);
+                    $("#tab-5").prop("checked", false);
+
+                }, 1000);
+
+            });
+            $('#samta').click(function () {
+                $('.overlay').attr('style', 'display:block');
+                $('#Doctor_chetna').hide();
+                $('#Doctor_vidhi').hide();
+                $('#Doctor_meet').hide();
+                $('#Doctor_ridhima').hide();
+
+                setTimeout(function () {
+                    $('.tabs').show();
+                    $('#Doctor_samta').attr('style', 'display:block');
+                    	$('.svgpopup_image').addClass('svgfadeInLeft');
+                    	$('.svgpopup_position').addClass('svgfadeInRight');
+                    $("#tab-1").prop("checked", false);
+                    $("#tab-2").prop("checked", false);
+                    $("#tab-3").prop("checked", false);
+                    $("#tab-4").prop("checked", false);
+                    $("#tab-5").prop("checked", true);
+
+                }, 1000);
+            });
+            $('.popupsvg_close').click(function () {
+                //$('.overlay').attr('style', 'display:none');
+                $('#Doctor_chetna').hide();
+                $('#Doctor_vidhi').hide();
+                $('#Doctor_meet').hide();
+                $('#Doctor_ridhima').hide();
+                $('#Doctor_samta').hide();
+                $('.tabs').hide();
+                $('#tab-1').attr('checked', false);
+                $('#tab-2').attr('checked', false);
+                $('#tab-3').attr('checked', false);
+                $('#tab-4').attr('checked', false);
+                $('#tab-5').attr('checked', false);
+                //$('.overlay').attr('style', 'display:none;');
+                //$('.svgpopup_image').removeClass('svgfadeInLeft');
+                //$('.svgpopup_position').removeClass('svgfadeInRight');
+            });
+            $('.tab_lable').click(function () {
+
+                var tab_id =$(this).attr('for');
+                var split_tab = tab_id.substr(4, 4);
+                var content_show = '.content-' + split_tab;
+                var contentnav_show = '.content-' + split_tab + ' nav';
+
+
+                 	$('#Doctor_chetna').removeAttr('style');
+                	$('#Doctor_vidhi').removeAttr('style');
+                	$('#Doctor_meet').removeAttr('style');
+                	$('#Doctor_ridhima').removeAttr('style');
+                	$('#Doctor_samta').removeAttr('style');
+
+                $(content_show).attr('style', 'display:block;opacity:1;');
+                $(contentnav_show).attr('style', 'display:block;opacity:1;');
+            });
+        });
+        function fancybox_close() {
+            $('.gallery_light').delay(850).animate({
+                opacity: '1'
+            }, 100);
+            $('.home_family_denatl_menu').fadeIn();
+
+        }
+
+        function showFacilityContent(contentContainerId, imageControl) {
+            $(".bottle_text").removeClass("show_bottle_text");
+            $(contentContainerId).addClass("show_bottle_text");
+
+            var src = $(imageControl).attr('src');
+            var path = src.substring(0, src.indexOf('.'));
+            var hoverPath = path.split('_')[1];
+            var bottleId = $(imageControl).attr('id');
+
+            if (!$(imageControl).hasClass('bottle_active')) {
+                $('.dental_bottle').removeClass('bottle_active');
+                $(imageControl).addClass('bottle_active');
+
+                $('.dental_bottle').each(function () {
+                    if ($(this).attr("src").indexOf("_hover") < 0) {
+                        $(this).attr("src", $(this).attr("src").replace(".", "_hover."));
+                    }
+                });
+
+                if (hoverPath == "hover") {
+                    $(imageControl).attr('src', src.replace("_hover.png", ".png"));
+                }
+            }
+        }
+
+        function showFamilycareContent(contentContainerId, Content_Id) {
+
+            $('.family_image').attr('style', 'z-index:0;');
+            $(Content_Id).attr('style', 'z-index:9;-webkit-animation-delay: 0.5s;  -moz-animation-delay: 0.5s;  -ms-animation-delay: 0.5s; -o-animation-delay: 0.5s;  animation-delay: 0.5s;');
+            setTimeout(function () {
+                $(contentContainerId).fadeIn();
+                $(contentContainerId).attr('style', 'visibility:visible');
+                $('.family_dental_overlay').attr('style', 'z-index:1;visibility:visible');
+            }, 0);
+
+        }
+
+    </script>
+</head>
+<body>
+    <div class="loader_container">
+        <div class="loader_logo"></div>
+        <div class="loader_text">
+            Loading ....
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- <div class="loader"></div> -->
+
+    <div class="potrait_loader">
+        <div class="warning_text animated blink_me">
+            Please Change your orientation in Landscape
+        </div>
+    </div>
+    <div class="menu_content">
+        <div class="clear"></div>
+        <div id="nav-toggle">
+            <span></span>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="menu_container">
+
+        <div class="menubar_content animated">
+            <div class="menubar">
+                <div class="menu closemenu_content"></div>
+                <div class="menu homemenu_content" id="0">
+                    <div class="menu_text">
+                        Home
+                    </div>
+                </div>
+                <div class="menu aboutmenu_content" id="1">
+                    <div class="menu_text">
+                        About
+                    </div>
+                </div>
+                <div class="menu managementmenu_content" id="2">
+                    <div class="menu_text">
+                        Management
+                    </div>
+                </div>
+                <div class="menu gallerymenu_content" id="3">
+                    <div class="menu_text">
+                        Gallery
+                    </div>
+                </div>
+                <div class="menu facilitymenu_content" id="4">
+                    <div class="menu_text">
+                        Services
+                    </div>
+                </div>
+
+								                <div class="menu faqmenu_content" id="5">
+								                    <div class="menu_text">
+								                      FAQ
+								                    </div>
+								                </div>
+
+                <div class="menu emergencymenu_content" id="6">
+                    <div class="menu_text">
+                      More Services
+                    </div>
+                </div>
+                <div class="menu feedbackmenu_content" id="7">
+                    <div class="menu_text">
+                      Testimonials
+                    </div>
+                </div>
+                <div class="menu contactmenu_content" id="8">
+                    <div class="menu_text">
+                        Contact
+                    </div>
+                </div>
+								<div class="menu contactmenu_content" id="9">
+                    <div class="menu_text">
+                      New
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="body_loader"></div> -->
+
+    <input type="hidden" value="0" id="hidden_input" name="hidden_input" />
+    <input type="hidden" value="true" id="hidden_overlay" name="hidden_overlay" />
+    <!-- <div class="loader"></div> -->
+
+    <!-- Family Dental Care  -->
+
+    <div class="family_dental_container">
+
+        <div class="family_dental_overlay aboutdelay42"></div>
+        <div class="family_background"></div>
+
+        <div class="familydental_container">
+
+            <div class="family_grandparent_image family_image familyanimategrand" id="grand_family" onclick="showFamilycareContent('#grandparent',this);">
+                <img src="images/family_grand_parents.png" class="img" alt="Family Dental Care Images" />
+            </div>
+            <div class="family_grandparent_svg family_dental_care aboutdelay42" id="grandparent" style="display: block">
+                <svg class="family_svg">
+						<path fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" d="M180 580 300 100,300 100 600 180" stroke-dasharray="10,10" />
+					</svg>
+                <div class="clearfix"></div>
+                <div class="family_popup_container">
+                    <div class="family_close about_me"></div>
+                    <div class="family_header">
+                        Grandpa Grandma
+                    </div>
+                    <div class="family_subtitle">
+                        <span class="family_aerrow ">-></span>
+                        <div class="family_title">
+                            Cervical facets(due to old age)
+                        </div>
+                        <div class="family_body">
+                            May need filling
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Poor gum health
+                        </div>
+                        <div class="family_body">
+                            May need gum procedure
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Pieces of infected tooth
+                        </div>
+                        <div class="family_body">
+                            May need removal under consious sedation
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Lost or missing tooth
+                        </div>
+                        <div class="family_body">
+                            May need  implants or bridge
+                        </div>
+                        <div class="family_body">
+                            Removable acrylic dentures
+                        </div>
+                        <div class="family_body">
+                            Cast partial denture
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Complete loss of teeth
+                        </div>
+                        <div class="family_body">
+                            Removable dentures
+                        </div>
+                        <div class="family_body">
+                            Full mouth implants with bridges for fixed teeth
+                        </div>
+                        <div class="family_body">
+                            Implant supported dentures
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="family_parent_image family_image familyanimateparent" id="parent_family" onclick="showFamilycareContent('#parent',this);">
+                <img src="images/family_mummy_papa.png" class="img" alt="Family Dental Care Images" />
+            </div>
+            <div class="family_parent_svg family_dental_care" id="parent" style="display: none">
+                <svg class="parent_svg">
+						<path fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" d="M00 120 350 300,350 300 100 600" stroke-dasharray="10,10" />
+					</svg>
+                <div class="clearfix"></div>
+                <div class="family_popup_container family_parent_popup">
+                    <div class="family_close about_me"></div>
+                    <div class="family_header">
+                        Papa Mummy
+                    </div>
+                    <div class="family_subtitle">
+                        <span class="family_aerrow">-></span>
+                        <div class="family_title">
+                            Routine deposits on teeth
+                        </div>
+                        <div class="family_body">
+                            Needs scaling and polishing
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Tooth cavity without pain
+                        </div>
+                        <div class="family_body">
+                            Needs filling
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Tooth cavity with pain
+                        </div>
+                        <div class="family_body">
+                            May need root canal treatment(painless)
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Smile correction
+                        </div>
+                        <div class="family_body">
+                            May need veneers
+                        </div>
+
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Third molar pain
+                        </div>
+                        <div class="family_body">
+                            Removal with minor surgery under conscious sedation
+                        </div>
+
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Tooth piece pain
+                        </div>
+                        <div class="family_body">
+                            Removal under painless procedure
+                        </div>
+
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Replacement of missing tooth
+                        </div>
+                        <div class="family_body">
+                            May need implants or conventional bridges made by dental labs
+                        </div>
+
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Adult crooked teeth
+                        </div>
+                        <div class="family_body">
+                            May need braces for adults
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="family_children_image family_image familyanimatechild" id="child_family" onclick="showFamilycareContent('#child',this);">
+                <img src="images/family_bhaiya_didi.png" class="img" alt="Family Dental Care Images" />
+            </div>
+            <div class="family_clock animated1">
+                <img src="images/family_clock.png" alt="Family Dental" class="img" />
+            </div>
+            <div class="family_children_svg family_dental_care" id="child" style="display: none">
+                <svg class="children_svg">
+						<path fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" d="M100 105 500 300,500 300 430 650" stroke-dasharray="10,10" />
+					</svg>
+                <div class="clearfix"></div>
+                <div class="family_popup_container family_parent_popup">
+                    <div class="family_close about_me"></div>
+                    <div class="family_header">
+                        Bhaiya - Didi ( Teens )
+                    </div>
+                    <div class="family_subtitle">
+                        <span class="family_aerrow">-></span>
+                        <div class="family_title">
+                            Routine deposits on teeth
+                        </div>
+                        <div class="family_body">
+                            Oral prophylaxis with scaling
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Crooked teeth
+                        </div>
+                        <div class="family_body">
+                            May need braces
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Jewelry on teeth
+                        </div>
+                        <div class="family_body">
+                            Tooth diamond
+                        </div>
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Anticavity treatment
+                        </div>
+                        <div class="family_body">
+                            Sealants and fluoride treatment
+                        </div>
+
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Smile design
+                        </div>
+                        <div class="family_body">
+                            Veneers or zirconia caps
+                        </div>
+
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Small and big cavities
+                        </div>
+                        <div class="family_body">
+                            Fillings with tooth coloured material
+                        </div>
+
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Painful tooth cavity
+                        </div>
+                        <div class="family_body">
+                            May need root canal treatment(painless)
+                        </div>
+
+                    </div>
+                    <div class="family_subtitle">
+                        <div class="family_aerrow">
+                            ->
+                        </div>
+                        <div class="family_title">
+                            Third molar pain
+                        </div>
+                        <div class="family_body">
+                            Removal with minor surgery under conscious sedation
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--End  Family Dental Care  -->
+    <div class="body_container ">
+
+        <div class="vertical_block_container slide" id="homesection" isanimated="false">
+            <div class="section_container">
+                <div class="home_navigation animated">
+                    <div class="home_navigation_text blink_me">
+                        Use Left and Right to Navigation
+                    </div>
+
+                    <div class="clear"></div>
+                    <div class="home_navigation_btn">
+                        <img src="images/navigation_left.png" class="img" alt="Navigation Images" /><img src="images/navigation_right.png" class="img" alt="Navigation Images" />
+                    </div>
+                </div>
+                <div class="home_light animatedBounce1">
+                    <img src="images/home_lights.png" class="img" alt="Light Image" />
+                </div>
+                <div class="home_tree animated">
+                    <img src="images/home_tree.png" class="img" alt="Tree Image" />
+                </div>
+                <div class="home_bird animated">
+                    <img src="images/home_birds.png" class="img" alt="Bird Image" />
+                </div>
+                <div class="section_left">
+                    <div class="logo_img animated1">
+
+                    </div>
+                    <div class="logo_tagline animated1">
+
+                    </div>
+                    <div class="home_sofa animated1">
+                        <img src="images/home_sofa.png" class="img" alt="Sofa Image" />
+
+                    </div>
+                </div>
+                <div class="section_right">
+                    <div class="home_cupboard">
+                    </div>
+                    <div class="home_drawer animateddelay15">
+                        <img src="images/home_drawers.png" class="img" alt="Drawer Image" />
+                    </div>
+                    <div class="home_dustbin animateddelay2">
+                        <img src="images/home_dustbin.png" class="img" alt="Dustbin Image" />
+                    </div>
+                    <div class="home_combine_obj">
+                        <div class="home_phone animateddelay25">
+                            <img src="images/home_phone.png" class="img" alt="Phone Image" />
+                        </div>
+                        <div class="home_laptop animateddelay33">
+                            <img src="images/home_laptop.png" class="img" alt="Laptop Image" />
+                        </div>
+                        <div class="home_pen_stand animateddelay25">
+                            <img src="images/home_pen_stand.png" class="img" alt="Pen Stand Image" />
+                        </div>
+                        <div class="home_table animateddelay25">
+
+                            <img src="images/home_table.png" class="img" alt="Table Image" />
+
+                        </div>
+
+                    </div>
+                    <div class="home_lady animateddelay43">
+                        <img src="images/home_receptionist.png" class="img" alt="Lady Receptionist Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical_block_container aboutsection_margin slide" id="aboutsection" isanimated="false" style="visibility: hidden">
+            <div class="about_overlay"></div>
+            <div class="section_container">
+
+                <div class="about_light aboutdelay24">
+                    <img src="images/about_bulb.png" class="img bulb" alt="Bulb Image" />
+                </div>
+                <div class="about_bulb_shadow aboutdelay29">
+                    <img src="images/about_bulb_shadow.png" class="img bulb_shadow" alt="Bulb Shadow Image" />
+                </div>
+                <div class="about_bird aboutdelay14">
+                    <img src="images/about_birds.png" class="img" alt="Birds Image" />
+                </div>
+                <div class="about_birdcage aboutdelay14">
+                    <img src="images/about_birdcage.png" class="img" alt="Birds Cage Image" />
+                </div>
+                <div class="about_door">
+                    <img style="top:-20vh;"src="images/about_door_left.png" class="img left_door aboutdelay27" alt="Door  Image" />
+                    <img style="top:-20vh;" src="images/about_door_right.png" class="img right_door aboutdelay27" alt="Door Image" />
+                </div>
+                <div class="about_close_door_shadow aboutdelay27">
+                    <img src="images/about_close_door_shadow.png" class="img" alt="Close Door Shadow Image" />
+                </div>
+                <div class="about_open_door_shadow aboutdelay27">
+                    <img src="images/about_open_door_shadow.png" class="img" alt="Close Door Shadow Image" />
+                </div>
+                <div class="about_doctor bounceIn delay-2s doctor_small">
+                    <img  id="yehai" style="margin-left:-30vw;" src="images/about_doctor_small.png" class="img " alt="Doctor Image" />
+                </div>
+
+
+                <div class="about_svg_container animated">
+                    <svg class="about_svg">
+							<path fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" d="M200 365 400 0,400 0 600 540" stroke-dasharray="10,10" />
+
+						</svg>
+                    <div class="about_popup_container">
+                        <div class="popup_close about_me"></div>
+													<h1>about doctor Parth Barot</h1>
+
+													<p></p>
+												<h2>
+
+
+
+
+												Neo smiles Dental care is preciously designed speciality base dental clinic
+
+													3 YRS post graduation in department of paediatric and preventive <p></p> dentistry at daswani dental college and <p></p> research centre, kota.
+
+													Dr. Parth Barot is a well known Dentist in <p></p>Noida and has an experience of %experience% years <p></p>
+in this field. Dr. Parth Barot practices at Roots Dental Clinic in Noida.
+
+													<p></p>The services provided by Dr. Parth Barot at %clinicname% include <p></p> pediatric endodontic procedure, root canal procedure, space maintainers,	<p></p> laminates &amp; veneers, fluoride application,	post &amp; <p></p> cores, obturators,	implant placement, restoration (amalgam &amp;<p></p> composite &amp;gic),	oral prophylaxis procedures, extractions &amp; minor surgical <p></p>procedures,	removable appliance, banding and bonding, <p></p>bleaching,	crown preparations.
+
+
+												</h2>
+                    </div>
+                </div>
+
+                <div class="about_dentistry aboutdelay19">
+                    <img src="images/about_dentistry.png" class="img" alt="About Dentistry Image" />
+                    <div class="about_destisty_text"></div>
+										<div class="about_destisty_text1"></div>
+										<div class="about_destisty_text2"></div>
+
+                </div>
+
+
+
+
+
+								<div class="about_dentisty_container2 animated">
+
+										<div class="about_dentisty">
+												<div class="popup_close2 denstisty2"></div>
+												<div class="about_dentisty_content">
+	                            <div class="about_body_text">
+	                                Pedodontics or Pediatric Dentistry refers to a branch of dentistry that specializes in dental care for children under the age of 18. Pediatric dentists require an extra two to three years of dental training that prepare them in meeting the unique dental needs of infant, children, and adolescent dental care. This also includes those with special health care needs.
+	                            </div>
+	                            <div class="about_body_text">
+	                                Differentiating itself from regular dentistry, pediatric dentistry emphasizes the establishment of trust and confidence in children with their dentists. Consequently, one of the main components of pediatric training is child psychology. This manifests itself in special office designs, different communication style, and an emphasis on teaching preventative dental habits to children in an effort to make dental visits enjoyable.
+	                            </div>
+	                            <div class="about_body_text">
+	                                For children, pedodontics place special importance in preventing tooth decay. Studies show that poor oral health care in children lead to decrease school performance and poor social relationships. Therefore, pediatric dentists give advice on how to make teeth strong, the importance of developing healthy eating habits, and other ways to prevent cavities from occurring.
+	                            </div>
+	                            <div class="about_body_text">
+	                                Additionally, pediatric dentists work towards the maintenance of primary teeth (baby teeth) until they are naturally lost. This is due to the importance they serve in permitting children to chew properly and therefore maintain good nutrition, its role in speech development, and the way it aids permanent teeth by saving space for them.
+	                            </div>
+	                            <div class="about_body_text">
+	                                The role of the pediatric dentists changes as children enter adolescence. Recognizing the growing importance of appearance and self-image in their clients, pediatric dentists work to ensure that adolescents' dental needs are met. Preventative dental health care is emphasized and when necessary, information is provided to adolescents about subjects such as wisdom teeth, tobacco use, sealants, and oral piercing.
+	                            </div>
+	                            <div class="about_body_text">
+	                                Pedodontics not only aids in the dental health of children but serves as an educational tool for parents. It is recommended that a dental visit should occur between shortly after the presence of the first tooth in a child to that child's first birthday. This is because early mouth examinations aids in the detection of the early stages of tooth decay and can therefore be immediately treated. Additionally, parents are given a program of preventative home care (brushing, flossing, fluorides), a caries risk assessment, the latest facts on finger, thumb and pacifier habits, advice on preventing injuries to the mouth and teeth of their children, and information on growth and development.
+	                            </div>
+	                        </div>
+										</div>
+								</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<div class="about_dentisty_container1 animated">
+
+										<div class="about_dentisty" style="height:44vh;">
+												<div class="popup_close1 denstisty1"></div>
+												<div class="about_dentisty_content">
+														<div class="about_body_text">
+														Neo smiles Dental care is preciously designed speciality base dental clinic
+														</div>
+
+														<div class="about_body_text">
+It has dedicated play area for the kids and premium waiting longue for adult patients.														</div>
+														<div class="about_body_text">
+Clinic is located in the centre of the city which makes it easily approachable for all patients.						</div>
+<div class="about_body_text">
+Neo smiles dental care is equipped with all the latest armamentarium to provide top-notch Dental treatments to infants to adults</div>
+
+
+												</div>
+										</div>
+								</div>
+                <div class="about_dentisty_container animated">
+
+                    <div class="about_dentisty">
+                        <div class="popup_close denstisty"></div>
+                        <div class="about_dentisty_content">
+                            <div class="about_body_text">
+Dr. Parth Barot , B.D.S. , M.D.S.
+   </div>
+
+                            <div class="about_body_text">
+Dr Parth Barot graduated from Bharati Vidyapeeth University Pune. (2013) and post graduated from Rajasthan Health Science University, Jaipur. (2017) with a specialty in Peadiatric  Dentistry.                            </div>
+                            <div class="about_body_text">
+Dr. Parth Barot has started his privet practice at Neo smiles Dental Care, Bharuch. Neo Smiles Dental Care is specially designed dental Clinic for peadiatric patients and equipped with all the advanced armamentarium to provide best possible treatments.                            </div>
+
+                            <div class="about_body_text">
+
+Dr.Parth Barot is also associated with Sevashram Hospital and Narayan Charitable Hospital as a Consultant Pedodontist.	                            </div>
+<div class="about_body_text">
+	The services provided by Dr. Parth Barot at Neo Smiles Dental Care include  pediatric endodontic procedure, root canal procedure, space maintainers,	 laminates  veneers, fluoride application,	post  cores, obturators,	implant placement, restoration (amalgam  composite gic),	oral prophylaxis procedures, extractions  minor surgical procedures,	removable appliance, banding and bonding, bleaching,	crown preparations.
+
+</div>
+
+
+                      </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="vertical_block_container aboutsection_margin slide" id="managementsection" isanimated="false" style="visibility: hidden">
+            <div class="section_container">
+
+                <div class="management_doctor_center aboutdelay14" id="meet">
+                    <div class="tooltip tooltip-turnleft">
+                        <img style="height:70vh; width:30vw; margin-left:-25vw;"  src="images/management_doctor.png" class="img" alt="Doctor Image" />
+                        <span style="position:absolute; left:-10vw;" class="tooltip-content Third_doctor">
+                            <p>
+                                Dr. Parth barot
+                            </p>
+                            <p>
+
+                            </p>
+                            <div class="doctor_hover_overlay"></div>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="management_board">
+                    <img src="images/management_board.png" class="img facility_board aboutdelay39" alt="Doctor Lady Image" />
+                    <div class="management_text_container animateddelay5">
+                        <div class="management_header">
+                            FACILITIES
+
+                        </div>
+                        <div class="management_body">
+                            <div class="management_aerrow">
+                                ->
+
+                            </div>
+                            <div class="management_text_body">
+                              DEDICATED PLAY AREA FOR KIDS
+
+                            </div>
+                        </div>
+                        <div class="management_body">
+                            <div class="management_aerrow">
+                                ->
+
+                            </div>
+                            <div class="management_text_body">
+                              DIET AND ORAL HYGIENE MAINTENANCE COUNSELING FOR PATIENTS AND PARENTS
+                            </div>
+                        </div>
+                        <div class="management_body">
+                            <div class="management_aerrow">
+                                ->
+
+                            </div>
+                            <div class="management_text_body">
+                        EMPANELLED ON ONGC
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical_block_container slide" id="gallerysection" isanimated="false" style="visibility: hidden">
+            <div class="section_container">
+                <div class="gallery_overlay aboutdelay42"></div>
+                <div class="gallery_lamp aboutdelay14">
+                    <img src="images/gallery_lamp.png" class="img" alt="Light Lamp Image" />
+                </div>
+                <div class="gallery_desk aboutdelay19">
+                    <img src="images/gallery_desk.png" class="img" alt="Desk Image" />
+
+                    <div class="gallery_text">
+
+							<div class="clear"></div>
+                        Gallery
+
+                    </div>
+                </div>
+                <div class="gallery_doctor aboutdelay24">
+                    <img src="images/gallery_doctor.png" class="img" alt="Doctor Image" />
+                </div>
+                <div class="gallery_projector aboutdelay14">
+                    <img src="images/gallery_projector.png" class="img" alt="Projector Image" />
+                </div>
+                <div class="gallery_projector_light aboutdelay42">
+                    <img src="images/gallery_projector_light.png" class="img gallery_light" alt="Projector Image" />
+                </div>
+                <div class="gallery_screen ">
+                    <img src="images/gallery_screen.png" class="img screen aboutdelay14" alt="Projector Screen Image" />
+                    <div class="Gallery_Image_container aboutdelay42">
+                        <div class="navigation">
+                              <div class="clear"></div>
+                        </div>
+                        <div class="slideshow-container" id="owl-demo" class="owl-carousel">
+
+
+
+
+
+
+
+
+
+
+
+
+
+													<style>
+													.mySlides {display:none;}
+
+</style>
+
+                            <div class=" mySlides  gallery_image">
+                                <a  href="images/gallery/IMG_1488.JPG" class="fancybox">
+                                    <div class="   G"></div>
+                                    <img src="images/gallery/IMG_1488.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1489.JPG.jpg" class="fancybox">
+                                    <div class="  G"></div>
+                                    <img src="images/gallery/IMG_1489.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1490.JPG" class="fancybox">
+                                    <div class=" G"></div>
+                                    <img src="images/gallery/IMG_1490.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1491.JPG" class="fancybox">
+                                    <div class=" G"></div>
+                                    <img src="images/gallery/IMG_1491.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1492.JPG" class="fancybox">
+                                    <div class=" G"></div>
+                                    <img src="images/gallery/IMG_1492.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1493.JPG" class="fancybox">
+                                    <div class=" G"></div>
+                                    <img src="images/gallery/IMG_1493.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1494.JPG" class="fancybox">
+                                    <div class="G"></div>
+                                    <img src="images/gallery/IMG_1494.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1497.JPG" class="fancybox">
+                                    <div class="G"></div>
+                                    <img src="images/gallery/IMG_1497.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1498.JPG" class="fancybox">
+                                    <div class="G"></div>
+                                    <img src="images/gallery/IMG_1498.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1499.JPG" class="fancybox">
+                                    <div class="G"></div>
+                                    <img src="images/gallery/IMG_1499.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+                            <div class="mySlides gallery_image">
+                                <a href="images/gallery/IMG_1500.JPG" class="fancybox">
+                                    <div class="G"></div>
+                                    <img src="images/gallery/IMG_1500.JPG" class="img" alt="Child Dental Gallery Image" />
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+								<div style="text-align:center">
+								  <span class="dot"></span>
+								  <span class="dot"></span>
+								  <span class="dot"></span>
+								</div>
+                <div class="gallery_table aboutdelay19">
+                    <img src="images/gallery_table.png" class="img" alt="table Image" />
+                </div>
+                <div class="gallery_doctors aboutdelaySlow29">
+                    <img src="images/gallery_doctors.png" class="img" alt="Doctors Image" />
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical_block_container slide" id="facilitysection" isanimated="false" style="visibility: hidden">
+            <div class="section_container">
+                <div class="facilities_board aboutdelay14">
+                    <img src="images/facility_board.png" class="img" alt="Board Image" />
+                    <div class="facility_text_container">
+                        <div class="facility_text">
+                            Services
+                        </div>
+                        <div class="bottle_text " id="bottle1">
+                            <div class="bootle_text_header">
+                                Management of Early Loss of Teeth
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Space Maintainer
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="bottle_text show_bottle_text" id="bottle2">
+													<div class="bottle_text_body">
+															<div class="bottle_aerrow">
+																	-->
+															</div>
+															<div class="bottle_body">
+														DIGITAL X-RAY
+															</div>
+													</div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                              ROOT CANAL TREATMENT
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                              TOOTH COLOURED FILLINGS
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                  EXTRACTION OF TOOTH
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                              METAL/TOOTH COLOURED CROWNS
+                                </div>
+                            </div>
+														<div class="bottle_text_body">
+																<div class="bottle_aerrow">
+																		-->
+																</div>
+																<div class="bottle_body">
+																HABIT BREAKING THERAPY
+																</div>
+														</div>
+														<div class="bottle_text_body">
+																<div class="bottle_aerrow">
+																		-->
+																</div>
+																<div class="bottle_body">
+																	DIET COUNSELING
+																</div>
+														</div>
+                        </div>
+                        <div class="bottle_text" id="bottle3">
+                            <div class="bootle_text_header">
+                          HABIT BREAKING THERAPY
+                            </div>
+
+
+                        </div>
+                        <div class="bottle_text" id="bottle4">
+                            <div class="bootle_text_header">
+                                Management of Trauma
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Dental Trauma
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Sports Injury e.g. Preventive Guard
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="bottle_text" id="bottle5">
+                            <div class="bootle_text_header">
+                                Management of New Born Oral Problems
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Natal Tooth Management(Tooth present at birth)
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Management of Deep/Cleft Palate with an obturator feeding plate
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Esthetic Correction For Front Teeth
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Diet Counseling and Oral Hygiene Motivation
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottle_text" id="bottle6">
+                            <div class="bootle_text_header">
+                                Management of Dental Caries
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Pit and Fissure Sealant
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Restorations
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Root Canal Treatment For Primary and Permanent Teeth
+                                </div>
+                            </div>
+                            <div class="bottle_text_body">
+                                <div class="bottle_aerrow">
+                                    -->
+                                </div>
+                                <div class="bottle_body">
+                                    Crown (cap) For Primary and Permanent Teeth
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="facility_table aboutdelay19">
+                    <div class="bottle">
+                        <img src="images/facility-bottel2.png" class="img dental_bottle bottle_active"  alt="Dental Bottle Image" />
+                        <img src="images/facility-bottel1_hover.png" class="img dental_bottle "  alt="Dental Bottle Image" />
+                        <img src="images/facility-bottel3_hover.png" class="img dental_bottle"  alt="Dental Bottle Image" />
+                        <img src="images/facility-bottel4_hover.png" class="img dental_bottle"  alt="Dental Bottle Image" />
+                        <img src="images/facility-bottel5_hover.png" class="img dental_bottle"  alt="Dental Bottle Image" />
+                        <img src="images/facility-bottel6_hover.png" class="img dental_bottle"  alt="Dental Bottle Image" />
+                    </div>
+                    <div class="clear"></div>
+                    <div class="facility_single_table">
+                        <img src="images/facility_table_single.png" class="img" alt="Table Image" />
+                    </div>
+
+                </div>
+
+                <div class="facility_stand aboutdelay29">
+                    <img src="images/facility_stand.png" class="img" alt="Dental Stand Image" />
+                </div>
+                <div class="facility_table_big aboutdelay24">
+                    <img src="images/facility_table_big.png" class="img" alt="Dental Table Image" />
+                </div>
+                <div class="facility_doctor aboutdelay34">
+                    <img style="position:relative; left:20vw;width:30vw; height:50vh;" src="images/facility_doctor.png" class="img" alt="Dental Doctor Image" />
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical_block_container slide" id="faqsection" isanimated="false" style="visibility: hidden">
+            <div class="section_container">
+                <div class="faq_cloud aboutdelay19">
+                    <img src="images/faq_cloud.png" class="img Slide_cloud " alt="Cloud Image" />
+                    <div class="faq_text_container ">
+                        <div class="faq_text">
+                            FAQ<span class="text_small">s</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq_family aboutdelay14">
+                    <img src="images/faq_family.png" class="img" alt="Table Image" />
+                </div>
+                <div class="faq_board ">
+                    <img src="images/faq_board.png" class="img F_board aboutdelay29" alt="FAQ Board Image" />
+                    <div class="faq_slider_text_container aboutdelay42">
+                        <div class="faq_slider_body_container">
+                            <div id="owl-dem" class="owl-carousel slider_desktop">
+                                <div class="faq_slider">
+                                    <div class="slider_desktop">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What should I do if my child has a toothache?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                First, rinse the irritated area with warm salt water and place a cold compress on the face if it is swollen. Give the child acetaminophen for any pain, rather than placing aspirin on the teeth or gums. Finally, see a dentist as soon as possible.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                Are thumbsucking and pacifier habits harmful for a child's teeth?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Thumb and pacifier sucking habits will generally only become a problem if they go on for a very long period of time. Most children stop these habits on their own, but if they are still sucking their thumbs or fingers when the permanent teeth arrive, a mouth appliance may be recommended by your pediatric dentist.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How can I prevent decay caused by nursing?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Avoid nursing children to sleep or putting anything other than water in their bed-time bottle. Also, learn the proper way to brush and floss your child's teeth. Take your child to a pediatric dentist regularly to have his/her teeth and gums checked. The first dental visit should be scheduled by your child's first birthday.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How do dental sealants work?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Sealants work by filling in the crevasses on the chewing surfaces of the teeth. This shuts out food particles that could get caught in the teeth, causing cavities. The application is fast and comfortable and can effectively protect teeth for many years.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq_slider">
+                                    <div class="slider_desktop">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What should I use to clean my baby's teeth?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                A toothbrush will remove plaque bacteria that can lead to decay. Any soft-bristled toothbrush with a small head, preferably one designed specifically for infants, should be used at least once a day at bedtime.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                When should I take my child to the dentist for the first check-up?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                In order to prevent dental problems, your child should see a pediatric dentist when the first tooth appears, or no later than his/her first birthday.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What is the difference between a pediatric dentist and a family dentist?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Pediatric dentists are the pediatricians of dentistry. A pediatric dentist has two to three years specialty training following dental school and limits his/her practice to treating children only. Pediatric dentists are primary and specialty oral care providers for infants and children.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                Are baby teeth really that important to my child?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Primary, or "baby," teeth are important for many reasons. Not only do they help children speak clearly and chew naturally, they also aid in forming a path that permanent teeth can follow when they are ready to erupt.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_slider">
+                                    <div class="slider_desktop">
+
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How often does my child need to see the pediatric dentist?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                A check-up every six months is recommended in order prevent cavities and other dental problems. However, your pediatric dentist can tell you when and how often your child should visit based on their personal oral health.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                Toothpaste: when should we begin using it and how much should we use?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Fluoridated toothpaste should be introduced when a child is 2-3 years of age. Prior to that, parents should clean the child's teeth with water and a soft-bristled toothbrush. When toothpaste is used after age 2-3, parents should supervise brushing and make sure the child uses no more than a pea-sized amount on the brush. Children should spit out and not swallow excess toothpaste after brushing.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How do I know if my child is getting enough fluoride?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Have your pediatric dentist evaluate the fluoride level of your child's primary source of drinking water. If your child is not getting enough fluoride internally through water (especially if the fluoride level is deficient or if your child drinks bottled water without fluoride), then your pediatric dentist may prescribe fluoride supplements.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq_slider">
+                                    <div class="slider_desktop">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How do I make my child's diet safe for his teeth?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Make sure your child has a balanced diet, including one serving each of: fruits and vegetables, breads and cereals, milk and dairy products, and meat fish and eggs. Limiting the servings of sugars and starches will also aid in protecting your child's teeth from decay. You can also ask your pediatric dentist to help you select foods that protect your children's teeth.
+                                            </div>
+                                        </div>
+
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How can parents help prevent tooth decay?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Parents should take their children to the dentist regularly, beginning with the eruption of the first tooth. Then, the dentist can recommend a specific program of brushing, flossing, and other treatments for parents to supervise and teach to their children. These home treatments, when added to regular dental visits and a balanced diet, will help give your child a lifetime of healthy habits.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How safe are dental X-rays?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                There is very little risk in dental X-rays. Pediatric dentists are especially careful to limit the amount of radiation to which children are exposed. Lead aprons and high-speed film are used to ensure safety and minimize the amount of radiation.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_slider">
+                                    <div class="slider_desktop">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What can I do to protect my child's teeth during sporting events?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Soft plastic mouthguards can be used to protect a child's teeth, lips, cheeks and gums from sport related injuries. A custom-fitted mouthguard developed by a pediatric dentist will protect your child from injuries to the teeth, face and even provide protection from severe injuries to the head.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What should I do if my child falls and knocks out a permanent tooth?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                The most important thing to do is to remain calm. Then find the tooth. Hold it by the crown rather than the root and try to reinsert it in the socket. If that is not possible, put the tooth in a glass of milk and take your child and the glass immediately to the pediatric dentist.
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="owl-de" class="owl-carousel slider_mobile">
+                                <div class="faq_slider">
+                                    <div class="slider_mobile">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What should I use to clean my baby's teeth?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                A toothbrush will remove plaque bacteria that can lead to decay. Any soft-bristled toothbrush with a small head, preferably one designed specifically for infants, should be used at least once a day at bedtime.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How often does my child need to see the pediatric dentist?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                A check-up every six months is recommended in order prevent cavities and other dental problems. However, your pediatric dentist can tell you when and how often your child should visit based on their personal oral health.
+                                            </div>
+                                        </div>
+
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What should I do if my child has a toothache?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                First, rinse the irritated area with warm salt water and place a cold compress on the face if it is swollen. Give the child acetaminophen for any pain, rather than placing aspirin on the teeth or gums. Finally, see a dentist as soon as possible.
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="faq_slider">
+                                    <div class="slider_mobile">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                When should I take my child to the dentist for the first check-up?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                In order to prevent dental problems, your child should see a pediatric dentist when the first tooth appears, or no later than his/her first birthday.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                Are baby teeth really that important to my child?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Primary, or "baby," teeth are important for many reasons. Not only do they help children speak clearly and chew naturally, they also aid in forming a path that permanent teeth can follow when they are ready to erupt.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How do dental sealants work?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Sealants work by filling in the crevasses on the chewing surfaces of the teeth. This shuts out food particles that could get caught in the teeth, causing cavities. The application is fast and comfortable and can effectively protect teeth for many years.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_slider">
+                                    <div class="slider_mobile">
+
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                Toothpaste: when should we begin using it and how much should we use?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Fluoridated toothpaste should be introduced when a child is 2-3 years of age. Prior to that, parents should clean the child's teeth with water and a soft-bristled toothbrush. When toothpaste is used after age 2-3, parents should supervise brushing and make sure the child uses no more than a pea-sized amount on the brush. Children should spit out and not swallow excess toothpaste after brushing.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How do I know if my child is getting enough fluoride?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Have your pediatric dentist evaluate the fluoride level of your child's primary source of drinking water. If your child is not getting enough fluoride internally through water (especially if the fluoride level is deficient or if your child drinks bottled water without fluoride), then your pediatric dentist may prescribe fluoride supplements.
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="faq_slider">
+                                    <div class="slider_mobile">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                Are thumbsucking and pacifier habits harmful for a child's teeth?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Thumb and pacifier sucking habits will generally only become a problem if they go on for a very long period of time. Most children stop these habits on their own, but if they are still sucking their thumbs or fingers when the permanent teeth arrive, a mouth appliance may be recommended by your pediatric dentist.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How do I make my child's diet safe for his teeth?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Make sure your child has a balanced diet, including one serving each of: fruits and vegetables, breads and cereals, milk and dairy products, and meat fish and eggs. Limiting the servings of sugars and starches will also aid in protecting your child's teeth from decay. You can also ask your pediatric dentist to help you select foods that protect your children's teeth.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq_slider">
+                                    <div class="slider_mobile">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What is the difference between a pediatric dentist and a family dentist?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Pediatric dentists are the pediatricians of dentistry. A pediatric dentist has two to three years specialty training following dental school and limits his/her practice to treating children only. Pediatric dentists are primary and specialty oral care providers for infants and children.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How can I prevent decay caused by nursing?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Avoid nursing children to sleep or putting anything other than water in their bed-time bottle. Also, learn the proper way to brush and floss your child's teeth. Take your child to a pediatric dentist regularly to have his/her teeth and gums checked. The first dental visit should be scheduled by your child's first birthday.
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="faq_slider">
+                                    <div class="slider_mobile">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What can I do to protect my child's teeth during sporting events?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Soft plastic mouthguards can be used to protect a child's teeth, lips, cheeks and gums from sport related injuries. A custom-fitted mouthguard developed by a pediatric dentist will protect your child from injuries to the teeth, face and even provide protection from severe injuries to the head.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                What should I do if my child falls and knocks out a permanent tooth?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                The most important thing to do is to remain calm. Then find the tooth. Hold it by the crown rather than the root and try to reinsert it in the socket. If that is not possible, put the tooth in a glass of milk and take your child and the glass immediately to the pediatric dentist.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_slider">
+                                    <div class="slider_mobile">
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How safe are dental X-rays?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                There is very little risk in dental X-rays. Pediatric dentists are especially careful to limit the amount of radiation to which children are exposed. Lead aprons and high-speed film are used to ensure safety and minimize the amount of radiation.
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyQ">
+                                            <div class="question">
+                                                Q.
+                                            </div>
+                                            <div class="question_text">
+                                                How can parents help prevent tooth decay?
+                                            </div>
+                                        </div>
+                                        <div class="faq_slider_bodyA">
+                                            <div class="answer">
+                                                ->
+                                            </div>
+                                            <div class="answer_text">
+                                                Parents should take their children to the dentist regularly, beginning with the eruption of the first tooth. Then, the dentist can recommend a specific program of brushing, flossing, and other treatments for parents to supervise and teach to their children. These home treatments, when added to regular dental visits and a balanced diet, will help give your child a lifetime of healthy habits.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical_block_container slide" id="emergencysection" isanimated="false" style="visibility: hidden">
+            <div class="section_container">
+                <div class="emergency_door_shadow aboutdelay19">
+                </div>
+                <div class="emergency_Door ">
+                    <img src="images/emergency_door.png" class="img emerg_door aboutdelay19" alt="Emergency Door Image" />
+                    <div class="emergency_text_door aboutdelay24">
+											<div class="emergency_door_container">
+		                            <div class="door_text">
+		                                <div class="emer_aerrow">
+		                                    -&gt;
+
+		                                </div>
+		                                <div class="emmer_text">
+		                      PROTECTIVE MOUTH GUARDS FOR KIDS
+
+		                                </div>
+		                            </div>
+		                            <div class="door_text">
+		                                <div class="emer_aerrow">
+		                                    -&gt;
+
+		                                </div>
+		                                <div class="emmer_text">
+	                             DENTAL IMPLANTS AND REPLACEMENT OF MISSING TEETH
+
+		                                </div>
+		                            </div>
+		                            <div class="door_text">
+		                                <div class="emer_aerrow">
+		                                    -&gt;
+
+		                                </div>
+		                                <div class="emmer_text">
+		                        ORTHODONTIC TREATMENT /BRACES
+
+		                                </div>
+		                            </div>
+		                            <div class="door_text">
+		                                <div class="emer_aerrow">
+		                                    -&gt;
+
+		                                </div>
+		                                <div class="emmer_text">
+		            SPECIALITY BASE CONSULTATION
+
+		                                </div>
+		                            </div>
+		                            <div class="door_text">
+		                                <div class="emer_aerrow">
+		                                    -&gt;
+
+		                                </div>
+		                                <div class="emmer_text">
+		                     TREATMENT FOR DENTAL TRAUMA
+
+		                                </div>
+		                            </div>
+		                            <div class="door_text">
+
+		                                <div class="emmer_text">
+
+
+		                                </div>
+		                            </div>
+		                            <div class="door_text">
+
+
+		                            </div>
+		                        </div>
+                    </div>
+                </div>
+                <div class="emergency_nurse aboutdelay34">
+                    <img src="images/emergency_nurse.png" class="img" alt="Emergency Nurse Image" />
+                    <div class="emergency_teeth">
+                        <img style="margin-top:-8vh;"src="images/images.png" class="img" alt="Teeth Image" />
+                    </div>
+
+                </div>
+
+                <div class="emergency_light aboutdelay29">
+                    <img  style="position:relative; top:-9vh;"src="images/emergency_light.png" class="img" alt="Emergency Light Image" />
+                    <div class="emergency_text_operation">
+                        <div style="position:relative; top:-9vh;"  class="operation_text">
+                            More services
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical_block_container slide" id="feedbacksection" isanimated="false" style="visibility: hidden">
+					<div class="section_container">
+
+
+
+					<div style="position:relative;right:-55vw;"class="faq_board ">
+							<img src="images/faq_board.png" class="img F_board aboutdelay29" alt="FAQ Board Image" />
+							<div class="faq_slider_text_container aboutdelay42">
+									<div class="faq_slider_body_container">
+											<div id="owl-dem1" class ="owl-carousel slider_desktop">
+												<div class="faq_slider">
+														<div class="slider_desktop">
+																<div class="faq_slider_bodyQ">
+																	<h2> Testimonials</h2>
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+																			Bharti Patel
+																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+																			Dr. Parth sir is excellent ...The way Dr. Baroth treats child is very good & highly appreciated ,
+																			Excellent treatment given by Dr.parth sir highly recommend it to every parents...sweet behaviour staff...																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+			gayatri bhatt																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+																		Excellent treatment !!!! Very easy care handle with love n care I m very happy with the treatment given Dr Parth Barot																		</div>
+																</div>
+
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+			Seema Reghu																			</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+			The way Dr. Barot treats child is very good and highly appreciated. Good environment with toys make children comfortable. Good and supportive Staff. Excellent service																			</div>
+																</div>
+
+														</div>
+												</div>
+
+												<div class="faq_slider">
+														<div class="slider_desktop">
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+			Ashwani Gupta
+			</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+			Great hospitality found.  Doctor is soon good and careing... Descent staff and play stuff available for children's.... Overall best...																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+																				Shahin Akku
+																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+			Got a very good treatment for my kid. Superb kid friendly doctor. Highly recomond it to every parents.																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+																						</div>
+																		<div class="question_text">
+																			AFROZA ADAM
+																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+																			Good efforts
+																			Sweet behaviour wid li'l kids
+																			Thanks for the treatment..																			</div>
+																</div>
+
+														</div>
+														<div class="faq_slider_bodyQ">
+																<div class="question">
+
+																</div>
+																<div class="question_text">
+			Vasava Mohan																			</div>
+														</div>
+														<div class="faq_slider_bodyA">
+																<div class="answer">
+																		->
+																</div>
+																<div class="answer_text">
+			Good experience, excellent treatment,good positive nature hence best for kids.																			</div>
+														</div>
+														<div class="faq_slider_bodyQ">
+																<div class="question">
+
+																</div>
+																<div class="question_text">
+																		Harsha Deshpande
+																</div>
+														</div>
+														<div class="faq_slider_bodyA">
+																<div class="answer">
+																		->
+																</div>
+																<div class="answer_text">
+			We are very happy with the service and with the doctor....I would highly recommend.....																			</div>
+														</div>
+												</div>
+
+												<div class="faq_slider">
+														<div class="slider_desktop">
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+																			Soyab Lucky
+																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+			Good job.. And nice Trement																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+			Patel Asif																			</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+			Very good.. Vary Nice treatment...																			</div>
+																</div>
+
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+										GAURAV MODI																			</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+										My Daughter's Root Canal is going good																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+										Rathva Ravi																			</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+										Very good tret.																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+									Miral Soni																			</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+									Doctor is excellent and he help and care of Child awasome.																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+									Hardik Patel																			</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+									A satisfaction with his teeth treatment ver7good																			</div>
+																</div>
+														</div>
+
+												</div>
+
+												<div class="faq_slider">
+														<div class="slider_desktop">
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+																		Jalpa Jhala
+																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+			Very good job done... .. Keep it up... 																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+																			Sunil Patel
+																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+			Treatment is very well.staff is also helpful																			</div>
+																</div>
+
+
+
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+			Soyab Hanif																			</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+																			I m very nervous in first visit but Amazing dental visit with my 6 years old daughter
+																			Thanks to an attractive setup for children which makes every visit easier.
+																				" Excellent treatment given by dr. parth sir."																			</div>
+																</div>
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+
+			Ankita Prajapati
+																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+			Good Tritment																			</div>
+																</div>
+
+
+																<div class="faq_slider_bodyQ">
+																		<div class="question">
+
+																		</div>
+																		<div class="question_text">
+
+															Ankita Prajapati
+																		</div>
+																</div>
+																<div class="faq_slider_bodyA">
+																		<div class="answer">
+																				->
+																		</div>
+																		<div class="answer_text">
+														Very best for children's...</div>
+																</div>
+
+														</div>
+												</div>
+
+											</div>
+											<div id="owl-de1" class="owl-carousel slider_mobile">
+													<div class="faq_slider">
+															<div class="slider_mobile">
+																	<div class="faq_slider_bodyQ">
+																		<h2> Testimonials</h2>
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+																				Bharti Patel
+																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+																				Dr. Parth sir is excellent ...The way Dr. Baroth treats child is very good & highly appreciated ,
+																				Excellent treatment given by Dr.parth sir highly recommend it to every parents...sweet behaviour staff...																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+gayatri bhatt																		</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+																				Excellent treatment !!!! Very easy care handle with love n care I m very happy with the treatment given Dr Parth Barot																	</div>
+																	</div>
+
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+Seema Reghu																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+The way Dr. Barot treats child is very good and highly appreciated. Good environment with toys make children comfortable. Good and supportive Staff. Excellent service																			</div>
+																	</div>
+
+															</div>
+													</div>
+
+													<div class="faq_slider">
+															<div class="slider_mobile">
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+Ashwani Gupta
+</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+Great hospitality found.  Doctor is soon good and careing... Descent staff and play stuff available for children's.... Overall best...																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+																					Shahin Akku
+																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+Got a very good treatment for my kid. Superb kid friendly doctor. Highly recomond it to every parents.																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+																							</div>
+																			<div class="question_text">
+																				AFROZA ADAM
+																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+																				Good efforts
+																				Sweet behaviour wid li'l kids
+																				Thanks for the treatment..																			</div>
+																	</div>
+
+															</div>
+															<div class="faq_slider_bodyQ">
+																	<div class="question">
+
+																	</div>
+																	<div class="question_text">
+Vasava Mohan																			</div>
+															</div>
+															<div class="faq_slider_bodyA">
+																	<div class="answer">
+																			->
+																	</div>
+																	<div class="answer_text">
+Good experience, excellent treatment,good positive nature hence best for kids.																			</div>
+															</div>
+															<div class="faq_slider_bodyQ">
+																	<div class="question">
+
+																	</div>
+																	<div class="question_text">
+																			Harsha Deshpande
+																	</div>
+															</div>
+															<div class="faq_slider_bodyA">
+																	<div class="answer">
+																			->
+																	</div>
+																	<div class="answer_text">
+We are very happy with the service and with the doctor....I would highly recommend.....																			</div>
+															</div>
+													</div>
+
+													<div class="faq_slider">
+															<div class="slider_mobile">
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+																				Soyab Lucky
+																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+Good job.. And nice Trement																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+Patel Asif																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+Very good.. Vary Nice treatment...																			</div>
+																	</div>
+
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+											GAURAV MODI																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+											My Daughter's Root Canal is going good																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+											Rathva Ravi																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+											Very good tret.																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+										Miral Soni																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+										Doctor is excellent and he help and care of Child awasome.																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+										Hardik Patel																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+										A satisfaction with his teeth treatment ver7good																			</div>
+																	</div>
+															</div>
+
+													</div>
+
+													<div class="faq_slider">
+															<div class="slider_mobile">
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+																			Jalpa Jhala
+																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+Very good job done... .. Keep it up... 																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+																				Sunil Patel
+																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+Treatment is very well.staff is also helpful																			</div>
+																	</div>
+
+
+
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+Soyab Hanif																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+																				I m very nervous in first visit but Amazing dental visit with my 6 years old daughter
+																				Thanks to an attractive setup for children which makes every visit easier.
+																				  " Excellent treatment given by dr. parth sir."																			</div>
+																	</div>
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+
+	Ankita Prajapati
+																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+Good Tritment																			</div>
+																	</div>
+
+
+																	<div class="faq_slider_bodyQ">
+																			<div class="question">
+
+																			</div>
+																			<div class="question_text">
+
+																Ankita Prajapati
+																			</div>
+																	</div>
+																	<div class="faq_slider_bodyA">
+																			<div class="answer">
+																					->
+																			</div>
+																			<div class="answer_text">
+															Very best for children's....👍</div>
+																	</div>
+
+															</div>
+													</div>
+
+
+
+
+
+
+
+											</div>
+
+									</div>
+
+
+
+
+
+							</div>
+					</div>
+
+
+
+
+
+
+							<div class="feedback_board ">
+
+							</div>
+
+                <div class="feedback_computer aboutdelay19">
+									  <img src="images/feedback_computer.png" class="img" alt="Computer Image" />
+                    <div class="feedback_text">
+                        Testimonials
+
+
+
+                    </div>
+                </div>
+                <div class="feedback_apple animateddelay25">
+                    <img src="images/feedback_apple.png" class="img" alt="Shelf Image" />
+                </div>
+                <div class="feedback_computer_book animateddelay31">
+                    <img src="images/feedback_computer_books.png" class="img" alt="Shelf Image" />
+
+                </div>
+                <div class="feedback_shelf animateddelay38">
+                    <img src="images/feedback_shelf.png" class="img" alt="Shelf Image" />
+                </div>
+                <div class="feedback_line_book1 book1delay">
+                    <img src="images/feedback_book1.png" class="img" alt="Shelf Image" />
+                </div>
+                <div class="feedback_line_book2 book2delay">
+                    <img src="images/feedback_book2.png" class="img" alt="Shelf Image" />
+                </div>
+                <div class="feedback_line_book3 book3delay">
+                    <img src="images/feedback_book3.png" class="img" alt="Shelf Image" />
+                </div>
+                <div class="feedback_line_book4 book4delay">
+                    <img src="images/feedback_book4.png" class="img" alt="Shelf Image" />
+                </div>
+                <div class="feedback_line_book5 book5delay">
+                    <img src="images/feedback_book5.png" class="img" alt="Shelf Image" />
+                </div>
+
+                <div class="feedback_board ">
+                    <div class="feedback_form_container animateddelay7">
+
+                        <form method="post" name="feeedbackform" onsubmit="return ValidateFeedback();" action="send_inquiry.asp" autocomplete="off">
+
+                            <div class="feedback_form_text_content">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="vertical_block_container slide" id="contactsection" isanimated="false" style="visibility: hidden">
+            <div class="section_container">
+                <div class="contact_doctor animateddelay4">
+                    <img src="images/contact_doctor.png" class="img" alt="Doctor Image" />
+                </div>
+                <div class="contact_board ">
+                    <img src="images/contact_board.png" class="img doctor_board animateddelay33" alt="Board Image" />
+                    <div class="contact_text_container animateddelay5">
+                        <div class="contact_text_header">
+													<h5>DR. PARTH BAROT<BR>		B.D.S , M.D.S.(Pediatric Dentist)<br>  </h5>
+
+
+
+
+                        </div>
+												<div class="contact_text_subtitle_container">
+				                            <div class="contact_text_body_content">
+				                                <div class="contact_text_body">
+				                                    Dr. Parth barot
+				                                </div>
+				                                <div class="contact_text_body">
+				                                Neo Smiles dental care  110, R K SQUARE, OPP. PANDIT
+				                                </div>
+				<b>
+				                                <div class="contact_text_body">
+				                                    OMKARNATH TOWN HALL, Bharuch
+				                                </div>
+				                                <div class="contact_text_body">
+				                                    Gujarat<br>
+				                                </div>
+
+				                            </b></div><b>
+
+				                        <div class="contact_text_subtitle_container">
+				                            <div class="contact_text_subtitle phone">
+
+				                                <span class="contact_mobile"></span><a href="tel:+919049598042">:<h3> 090495 98042</a>|<a href="tel:+919377706667"> 09377706667</h3></a>
+				                                <!--, <a href="tel:+91 89800 54980">+91 89800 54980</a>-->
+				                            </div>
+
+				                        </div>
+				                        <div class="contact_text_subtitle_container">
+																	<div class="contact_text_subtitle time"><br><br><br><br>
+																                                 <span class="contact_mail"></span>
+																                             </div>
+																                             <div class="contact_text_subtitle">
+																                               <h3>  <a href="mailto:drpathbarot@gmail.com">drparthbarot@gmail.com</a><h3>
+																                             </div>
+				                        </div>
+				                        <div class="contact_text_subtitle_container">
+
+				                        </div>
+				                    </b></div></b>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+<!--New Section starts here -->
+
+<div class="vertical_block_container slide" id="newsection" isanimated="false" style="visibility: hidden">
+		<div class="section_container">
+				<div class="contact_doctor animateddelay4">
+						<img src="images/contact_doctor.png" class="img" alt="Doctor Image" />
+				</div>
+				<div class="contact_board ">
+						<img src="images/contact_board.png" class="img doctor_board animateddelay33" alt="Board Image" />
+						<div class="new_contact_text_container animateddelay5">
+								<div class="contact_text_header">
+
+					<h1> Contact Details
+					 </h1>
+								</div>
+								<div class="contact_text_subtitle_container">
+										<div class="contact_text_body_content">
+												<div class="contact_text_body">
+														Dr. Parth barot
+												</div>
+												<div class="contact_text_body">
+												Neo Smiles dental care  110, R K SQUARE, OPP. PANDIT
+												</div>
+
+												<div class="contact_text_body">
+														OMKARNATH TOWN HALL, Bharuch
+												</div>
+												<div class="contact_text_body">
+														Gujarat
+												</div>
+
+										</div>
+
+								<div class="contact_text_subtitle_container">
+										<div class="contact_text_subtitle phone">
+
+												<span class="contact_mobile"></span><a href="tel:+91 97143 50805">:<h1> 090495 98042</h1></a>
+												<!--, <a href="tel:+91 89800 54980">+91 89800 54980</a>-->
+										</div>
+
+								</div>
+								<div class="contact_text_subtitle_container">
+
+								</div>
+								<div class="contact_text_subtitle_container">
+
+								</div>
+						</div>
+				</div>
+
+		</div>
+</div>
+
+</div>
+
+    <!--Start Management Section Popup Details  -->
+    <div class="overlay overlay-boxes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="101%" viewBox="0 0 1440 806" preserveAspectRatio="none">
+            <path d="m0.005959,200.364029l207.551124,0l0,204.342453l-207.551124,0l0,-204.342453z" />
+            <path d="m0.005959,400.45401l207.551124,0l0,204.342499l-207.551124,0l0,-204.342499z" />
+            <path d="m0.005959,600.544067l207.551124,0l0,204.342468l-207.551124,0l0,-204.342468z" />
+            <path d="m205.752151,-0.36l207.551163,0l0,204.342437l-207.551163,0l0,-204.342437z" />
+            <path d="m204.744629,200.364029l207.551147,0l0,204.342453l-207.551147,0l0,-204.342453z" />
+            <path d="m204.744629,400.45401l207.551147,0l0,204.342499l-207.551147,0l0,-204.342499z" />
+            <path d="m204.744629,600.544067l207.551147,0l0,204.342468l-207.551147,0l0,-204.342468z" />
+            <path d="m410.416046,-0.36l207.551117,0l0,204.342437l-207.551117,0l0,-204.342437z" />
+            <path d="m410.416046,200.364029l207.551117,0l0,204.342453l-207.551117,0l0,-204.342453z" />
+            <path d="m410.416046,400.45401l207.551117,0l0,204.342499l-207.551117,0l0,-204.342499z" />
+            <path d="m410.416046,600.544067l207.551117,0l0,204.342468l-207.551117,0l0,-204.342468z" />
+            <path d="m616.087402,-0.36l207.551086,0l0,204.342437l-207.551086,0l0,-204.342437z" />
+            <path d="m616.087402,200.364029l207.551086,0l0,204.342453l-207.551086,0l0,-204.342453z" />
+            <path d="m616.087402,400.45401l207.551086,0l0,204.342499l-207.551086,0l0,-204.342499z" />
+            <path d="m616.087402,600.544067l207.551086,0l0,204.342468l-207.551086,0l0,-204.342468z" />
+            <path d="m821.748718,-0.36l207.550964,0l0,204.342437l-207.550964,0l0,-204.342437z" />
+            <path d="m821.748718,200.364029l207.550964,0l0,204.342453l-207.550964,0l0,-204.342453z" />
+            <path d="m821.748718,400.45401l207.550964,0l0,204.342499l-207.550964,0l0,-204.342499z" />
+            <path d="m821.748718,600.544067l207.550964,0l0,204.342468l-207.550964,0l0,-204.342468z" />
+            <path d="m1027.203979,-0.36l207.550903,0l0,204.342437l-207.550903,0l0,-204.342437z" />
+            <path d="m1027.203979,200.364029l207.550903,0l0,204.342453l-207.550903,0l0,-204.342453z" />
+            <path d="m1027.203979,400.45401l207.550903,0l0,204.342499l-207.550903,0l0,-204.342499z" />
+            <path d="m1027.203979,600.544067l207.550903,0l0,204.342468l-207.550903,0l0,-204.342468z" />
+            <path d="m1232.659302,-0.36l207.551147,0l0,204.342437l-207.551147,0l0,-204.342437z" />
+            <path d="m1232.659302,200.364029l207.551147,0l0,204.342453l-207.551147,0l0,-204.342453z" />
+            <path d="m1232.659302,400.45401l207.551147,0l0,204.342499l-207.551147,0l0,-204.342499z" />
+            <path d="m1232.659302,600.544067l207.551147,0l0,204.342468l-207.551147,0l0,-204.342468z" />
+            <path d="m-0.791443,-0.360001l207.551163,0l0,204.342438l-207.551163,0l0,-204.342438z" />
+        </svg>
+        <button type="button" class="overlay-close popupsvg_close">
+            Close
+        </button>
+        <section class="tabs">
+	            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" />
+		        <label for="tab-1" class="tab-label-1 tab_lable">Dr. Chetna Barad</label>
+
+	            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2 " />
+		        <label for="tab-2" class="tab-label-2 tab_lable">Dr. Vidhi Khamar </label>
+
+	            <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+		        <label for="tab-3" class="tab-label-3 tab_lable">Dr. parth barot</label>
+
+	            <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
+		        <label for="tab-4" class="tab-label-4 tab_lable">Dr. Ridhima Ramatri</label>
+
+           	    <input id="tab-5" type="radio" name="radio-set" class="tab-selector-5 " />
+		        <label for="tab-5" class="tab-label-5 tab_lable">Dr. Samta Shah</label>
+             <div class="clear"> </div>
+
+		        <div class="content">
+			        <div class="content-1">
+						<nav id="Doctor_chetna">
+							<div class="svgpopup_container">
+							<div class="svgpopup_header" >
+								<div class="svgpopup_image popupsvganimated"><img src="images/chetna_management.png" alt="Doctor Chetna" class="img"/>
+								</div>
+								<div class="svgpopup_position popupsvganimated">
+									<div class="svgpopup_headertxt">
+										Dr. Chetna Barad
+									</div>
+									<!-- <div class="svgpopup_titletxt">
+										Associate Dentist
+									</div> -->
+									<div class="svgpopup_body">
+										<p>
+											Dr.Chetna Barad has completed her graduation from Government dental College and hospital.
+										</p>
+										<p>
+											She is a consultant dentist at our prestigious hospital since more than two years and has given smile to many young kids and grown ups. She can help you with diagnosis and treatment planning with her sharp and experienced practice.
+										</p>
+										<p>
+											She has published articles in
+										</p>
+										<p>
+											She has organised many Oral health awareness camps in Ahmedabad and across Gujarat.
+										</p>
+										<p>
+											She is a Life Member of the following dental associations:
+										</p>
+										<p class="svg_bold ">
+											-> Indian Dental Association (IDA)
+										</p>
+										<div class="clear"></div>
+									</div>
+								</div>
+
+							</div>
+							<div class="clear"></div>
+
+							<div class="clear"></div>
+						</div>
+					 	</nav>
+					</div>
+			        <div class="content-2">
+						<nav id="Doctor_vidhi">
+							<div class="svgpopup_container">
+								<div class="svgpopup_header">
+									<div class="svgpopup_image vidhi_svg popupsvganimated "><img src="images/vidhi_management.png" alt="Doctor Chetna" class="img"/>
+									</div>
+									<div class="svgpopup_position vidhi_svg_text popupsvganimated">
+										<div class="svgpopup_headertxt">
+											Dr. Vidhi Khamar
+										</div>
+										<!--	<div class="svgpopup_titletxt"> </div>  -->
+										<div class="svgpopup_body">
+											<p>
+												Dr. Vidhi Khamar has completed her graduation from D.Y. Patil dental College and hospital.
+											</p>
+											<p>
+												She is a consultant dentist at our prestigious hospital and has given smile to many young kids and grown ups. She can help you with diagnosis and treatment planning with her sharp and experienced practice. She is heading our Naranpura branch with her good administration skills and clinical expertise.
+											</p>
+											<p>
+												She has organised many Oral health awareness camps in Ahmedabad and across Gujarat.
+											</p>
+											<p>
+												She is a Life Member of the following dental associations:
+											</p>
+											<p class="svg_bold">
+												-> Indian Dental Association (IDA)
+											</p>
+										</div>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="clear"></div>
+
+								<div class="clear"></div>
+							</div>
+				 		</nav>
+				    </div>
+			        <div class="content-3">
+					 	<nav id="Doctor_meet">
+							<div class="svgpopup_container">
+
+
+								<div class="clear"></div>
+							</div>
+						</nav>
+
+				    </div>
+				    <div class="content-4">
+						<nav id="Doctor_ridhima">
+							<div class="svgpopup_container">
+								<div class="svgpopup_header">
+									<div class="svgpopup_image popupsvganimated"><img src="images/ridhima_management.png" alt="Doctor Chetna" class="img"/>
+									</div>
+									<div class="svgpopup_position popupsvganimated">
+										<div class="svgpopup_headertxt">
+											Dr. Ridhima Ramatri
+										</div>
+										<!-- <div class="svgpopup_titletxt"></div> -->
+										<div class="svgpopup_body">
+											<p>
+												Dr.Ridhima Ramatri has completed her Post Graduation (MDS) in Periodontology which cover Gum Diseases, pyorrhea & smile design from Ahmedabad Dental College and hospital.
+											</p>
+											<p>
+												She is consulting as a Periodontist since 7 year including three years of specialisation. She specializes in conservative treatment of gum disease, cosmetic procedures to aesthetically enhance your smile. She can help you with diagnosis and treat oral pathology, and aim to prevent early tooth loss.
+											</p>
+											<p>
+												She has performed number of Periodontal Surgical procedures (Gum Surgeries)
+											</p>
+											<p>
+												She has published articles in newspaper related to Gum diseases & surgery.
+											</p>
+											<p>
+												She has organised many Oral health awareness camps as well as Tobacco & Oral Cancer campaign camps in Ahmedabad and across Gujarat.
+											</p>
+											<p>
+												She is a popular speaker for her Clinical Oriented, Interactive and Interesting power point presentations. She prefers a range of topics like Marketing Dentistry, Dental Practice Management, Simplifying Periodontics etc. She has an intense interest in clinical & surgical dentistry.
+											</p>
+											<p>
+												She is a Life Member of the following dental associations:
+											</p>
+											<p class="svg_bold">
+												-> Indian Dental Association (IDA)
+											</p>
+											<p class="svg_bold">
+												-> Indian Society of Periodontology (ISP)
+											</p>
+										</div>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="clear"></div>
+
+								<div class="clear"></div>
+							</div>
+						</nav>
+				    </div>
+				    <div class="content-5">
+						<nav id="Doctor_samta">
+							<div class="svgpopup_container">
+								<div class="svgpopup_header">
+									<div class="svgpopup_image samta_svg popupsvganimated"><img src="images/samta_management.png" alt="Doctor Chetna" class="img"/>
+									</div>
+									<div class="svgpopup_position popupsvganimated">
+										<div class="svgpopup_headertxt">
+											Dr. Samta shah
+										</div>
+										<!-- <div class="svgpopup_titletxt"></div> -->
+										<div class="svgpopup_body">
+											<p>
+												Dr. Samta Shah has completed her graduation from Vaghodia dental College and hospital.
+											</p>
+											<p>
+												She is a consultant dentist at prestigious hospitals at Baroda since more than three years and has given smile to many young kids and grown ups. She can help you with diagnosis and treatment planning with her sharp and experienced practice. She is heading our Prahalladnagar branch with her good administration skills and clinical expertise.
+											</p>
+											<p>
+												She has organised many Oral health awareness camps in Ahmedabad and across Gujarat.
+											</p>
+											<p>
+												She is a Life Member of the following dental associations:
+											</p>
+											<p class="svg_bold">
+												-> Indian Dental Association (IDA)
+											</p>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+
+								<div class="clear"></div>
+							</div>
+					 	</nav>
+
+				    </div>
+		        </div>
+			</section>
+    </div>
+
+    <script src="js/classie.js"></script>
+    <script src="js/svg_popup.js"></script>
+    <!--End  Management Section Popup Details  -->
+
+    <!-- Script -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var owl = $("#owl-demo");
+						var owl1 = $("#owl-demo1");
+
+            owl.owlCarousel({
+                transitionStyle: "fade",
+                items: 1, //10 items above 1000px browser width
+                itemsDesktop: [1000, 1], //5 items between 1000px and 901px
+                itemsDesktopSmall: [900, 1], // 3 items betweem 900px and 601px
+                itemsTablet: [600, 1], //2 items between 600 and 0;
+                itemsMobile: true, // itemsMobile disabled - inherit from itemsTablet option
+                pagination: false
+            });
+
+
+
+
+						owl1.owlCarousel({
+								transitionStyle: "fade",
+								items: 1, //10 items above 1000px browser width
+								itemsDesktop: [1000, 1], //5 items between 1000px and 901px
+								itemsDesktopSmall: [900, 1], // 3 items betweem 900px and 601px
+								itemsTablet: [600, 1], //2 items between 600 and 0;
+								itemsMobile: true, // itemsMobile disabled - inherit from itemsTablet option
+								pagination: false
+						});
+
+            // Custom Navigation Events
+            $("#next").click(function () {
+                $('.gallery_light').animate({
+                    opacity: '0'
+                }, 0);
+                setTimeout(function () {
+                    $('.gallery_light').animate({
+                        opacity: '1'
+                    }, 0);
+                    owl.trigger('owl.next');
+										  owl1.trigger('owl.next');
+                }, 50);
+            });
+            $("#prev").click(function () {
+                $('.gallery_light').animate({
+                    opacity: '0'
+                }, 0);
+                setTimeout(function () {
+                    $('.gallery_light').animate({
+                        opacity: '1'
+                    }, 0);
+                    owl.trigger('owl.prev');
+										owl1.trigger('owl.prev');
+                }, 50);
+            });
+
+            /*FAQ NAvigation*/
+            var faqowl = $("#owl-dem");
+						var faqowl1 = $("#owl-dem1");
+            faqowl.owlCarousel({
+                transitionStyle: "fade",
+                items: 1, //10 items above 1000px browser width
+                itemsDesktop: [1000, 1], //5 items between 1000px and 901px
+                itemsDesktopSmall: [900, 1], // 3 items betweem 900px and 601px
+                itemsTablet: [600, 1], //2 items between 600 and 0;
+                itemsMobile: false, // itemsMobile disabled - inherit from itemsTablet option
+                paginationNumbers: true,
+            });
+
+
+						faqowl1.owlCarousel({
+								transitionStyle: "fade",
+								items: 1, //10 items above 1000px browser width
+								itemsDesktop: [1000, 1], //5 items between 1000px and 901px
+								itemsDesktopSmall: [900, 1], // 3 items betweem 900px and 601px
+								itemsTablet: [600, 1], //2 items between 600 and 0;
+								itemsMobile: false, // itemsMobile disabled - inherit from itemsTablet option
+								paginationNumbers: true,
+						});
+
+            var faqowl = $("#owl-de");
+						      var faqowl1 = $("#owl-de1");
+            faqowl.owlCarousel({
+                transitionStyle: "fade",
+                items: 1, //10 items above 1000px browser width
+                itemsDesktop: [1000, 1], //5 items between 1000px and 901px
+                itemsDesktopSmall: [900, 1], // 3 items betweem 900px and 601px
+                itemsTablet: [600, 1], //2 items between 600 and 0;
+                itemsMobile: false, // itemsMobile disabled - inherit from itemsTablet option
+                paginationNumbers: true,
+            });
+						faqowl1.owlCarousel({
+								transitionStyle: "fade",
+								items: 1, //10 items above 1000px browser width
+								itemsDesktop: [1000, 1], //5 items between 1000px and 901px
+								itemsDesktopSmall: [900, 1], // 3 items betweem 900px and 601px
+								itemsTablet: [600, 1], //2 items between 600 and 0;
+								itemsMobile: false, // itemsMobile disabled - inherit from itemsTablet option
+								paginationNumbers: true,
+						});
+
+
+        });
+    </script>
+    <!-- loader  -->
+    <script src="js/loader/nprogress.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/loader/nprogress.css" type="text/css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            NProgress.start();
+            var imageCount = $(".body_container, .family_dental_container").find("img").length;
+
+            $(".body_container, .family_dental_container").find("img").each(function (i, item) {
+                var _imageUrl = $(item).attr('src');
+                if (_imageUrl != undefined && _imageUrl.length > 0) {
+                    var img = new Image();
+                    img.src = _imageUrl;
+                    $(img).load(function () {
+                        if (i == (imageCount - 1)) {
+                            setTimeout(function () {
+                                NProgress.done();
+                                $('.body_container, .family_dental_container').fadeIn('slow', function () {
+                                    $('.loader_container').fadeOut('fast');
+
+                                    $('.menu_content').fadeIn('slow');
+                                    $('.menu_container').fadeIn('slow');
+                                    $('.family_dental_container').fadeOut('slow');
+
+                                });
+                            }, 500);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}
+	  x[myIndex-1].style.display = "block";
+	  setTimeout(carousel, 2000); // Change image every 2 seconds
+	}
+	</script>
+</body>
+</html>
