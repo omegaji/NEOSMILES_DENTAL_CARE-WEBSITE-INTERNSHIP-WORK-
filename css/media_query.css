@@ -1,0 +1,8665 @@
+@media screen and (max-width: 1366px) {
+    .body_container {
+        font-size: 1.1%;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+    .family_svg {
+        height: 92%;
+    }
+
+    .children_svg {
+        height: 80%;
+        top: 3%;
+    }
+
+    .family_grandparent_svg {
+        top: 3%;
+    }
+
+    .family_parent_svg {
+        top: 3%;
+    }
+    /*Home Section */
+    .home_tree {
+        bottom: 8%;
+        width: 58%;
+    }
+
+    .home_bird {
+        top: 8%;
+    }
+
+    .home_sofa {
+        width: 65%;
+    }
+
+    .home_cupboard {
+        top: 18%;
+    }
+
+    .logo_img {
+        top: 29%;
+        left: 26%;
+        width: 13%;
+    }
+
+    .logo_tagline {
+        top: 33%;
+        width: 18%;
+        left: 41%;
+    }
+
+    .home_lady {
+        bottom: 21%;
+        right: 23%;
+        width: 25%;
+    }
+
+    .home_phone {
+        margin: 7.8% 6% 0 0;
+    }
+    /*About Section */
+    .about_svg_container {
+        left: 1.3%;
+    }
+
+    .about_door {
+        width: 14.6%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 10.5%;
+        left: 2.2%;
+    }
+
+    .about_doctor {
+        width: 27%;
+    }
+
+    .about_bulb_shadow {
+        right: 5%;
+        width: 20%;
+    }
+
+    .about_dentistry {
+        right: 4%;
+        width: 21%;
+    }
+
+    .about_dentisty_container {
+        right: 24%;
+        width: 75%;
+    }
+
+    .about_dentisty {
+        bottom: 15%;
+        right: 20%;
+        width: 42%;
+    }
+
+    .about_popup_container {
+        width: 29%;
+    }
+    /*management*/
+    .management_lady_Lastleft {
+        width: 8.9%;
+    }
+
+    .management_lady_secondleft {
+        width: 16.4%;
+        left: 12.5%;
+    }
+
+    .management_doctor_center {
+        width: 15.9%;
+        left: 28.5%;
+    }
+
+    .management_lady_secondright {
+        width: 10.4%;
+        left: 44.5%;
+    }
+
+    .management_lady_Lastright {
+        width: 9.9%;
+        left: 56.5%;
+    }
+
+    .management_board {
+        width: 25%;
+    }
+
+    .First_doctor {
+        margin: 0 0 59% -44% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 23% -71% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 15% -17% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 40% -47% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 46% -31% !important;
+    }
+
+    /*GAllery*/
+    .gallery_screen {
+        top: 19.5%;
+    }
+
+    .gallery_projector_light {
+        top: 12%;
+        right: 16%;
+        width: 57%;
+    }
+
+    .gallery_table {
+        width: 59%;
+        bottom: 0%;
+        right: 15%;
+    }
+
+    .gallery_doctors {
+        width: 51%;
+        right: 19%;
+    }
+    /*Facility*/
+    .facilities_board {
+        width: 32%;
+    }
+
+    .bottle_text_body {
+        font-size: 165%;
+    }
+
+    .facility_table {
+        width: 33%;
+    }
+
+    .facility_doctor {
+        width: 48%;
+    }
+
+    .facility_table_big {
+        right: 28%;
+        width: 14%;
+    }
+
+    .facility_stand {
+        right: 6%;
+        width: 31%;
+    }
+    /*Faq*/
+
+    .faq_cloud {
+        top: 29%;
+        width: 15%;
+    }
+
+    .faq_board {
+        width: 42%;
+    }
+
+    /*Emergency*/
+    .emergency_nurse {
+        left: 4%;
+        width: 53%;
+    }
+
+    .emergency_light {
+        top: 17%;
+        right: 16%;
+        width: 17%;
+    }
+
+    .emergency_text_operation {
+        bottom: 6%;
+    }
+
+    .operation_texts {
+        font-size: 250%;
+    }
+
+    .emergency_door_shadow {
+        right: 3.3%;
+        width: 42%;
+        bottom: 8%;
+    }
+    /*feedback*/
+    .feedback_board {
+        width: 29%;
+    }
+
+    .feedback_computer {
+        width: 26%;
+    }
+
+    .feedback_computer_book {
+        left: 22.5%;
+    }
+
+    .feedback_line_book1 {
+        top: 33.5%;
+    }
+
+    .feedback_line_book4 {
+        top: 20%;
+    }
+
+    .feedback_line_book5 {
+        top: 19.7%;
+    }
+    /*Contact*/
+    .contact_board {
+        left: 5%;
+        width: 55%;
+    }
+
+    .contact_doctor {
+        right: 13%;
+        width: 26%;
+    }
+
+    .contact_text_body {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+    .family_header {
+        margin: 5% 0 2% 0;
+    }
+		.parent_svg { height:90%;}
+    .children_svg {
+        height: 82%;
+    }
+
+    .family_svg {
+        height: 79%;
+    }
+
+    .home_sofa {
+        width: 58%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 0.3%;
+        left: 2%;
+        width: 25.5%;
+    }
+
+    .about_dentisty_container {
+        right: 22%;
+        width: 75%;
+    }
+
+    .about_dentisty {
+        bottom: 15%;
+        right: 20%;
+        width: 42%;
+    }
+
+    .about_popup_container {
+        height: 450px;
+        width: 30%;
+    }
+
+    .about_svg_container {
+        left: 1%;
+    }
+
+    .First_doctor {
+        margin: 0 0 63% -38% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 23% -73% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 15% -16% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 47% -46% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 50% -28% !important;
+    }
+
+    .gallery_screen {
+        width: 57.7%;
+    }
+
+    .gallery_projector_light {
+        width: 57%;
+    }
+
+    .gallery_projector {
+        right: 38.8%;
+    }
+
+    .emergency_light {
+        top: 11%;
+    }
+
+    .emergency_text_operation {
+        bottom: 4%;
+    }
+
+    .facilities_board {
+        width: 30%;
+    }
+
+    .bottle_text_body {
+        font-size: 157%;
+    }
+
+    .facility_table {
+        width: 31%;
+    }
+
+    .contact_doctor {
+        width: 24%;
+    }
+
+    .fancybox-close {
+        background-size: 70% 90%;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
+
+    .parent_svg {
+        width: 68%;
+        height: 83%;
+    }
+
+    .children_svg {
+        width: 64%;
+        height: 84%;
+    }
+    .family_text{  font-size: 190%;}
+    .family_logo{ top:4%;}
+    /*Home*/
+    .home_family_denatl_menu {
+        width: 11%;
+        top: 6%;
+    }
+
+    .home_tree {
+        bottom: 8%;
+        width: 58%;
+    }
+
+    .home_light {
+        width: 33%;
+    }
+
+    .home_bird {
+        top: 8%;
+    }
+
+    .home_sofa {
+        width: 62%;
+    }
+
+    .home_cupboard {
+        top: 18%;
+    }
+
+    .logo_img {
+        top: 29%;
+        left: 26%;
+        width: 13%;
+    }
+
+    .logo_tagline {
+        top: 33%;
+        width: 18%;
+        left: 41%;
+    }
+
+    .home_lady {
+        bottom: 22%;
+        right: 23%;
+        width: 25%;
+    }
+
+    .home_phone {
+        margin: 7.8% 6% 0 0;
+    }
+    /*About Section */
+    .about_popup_container {
+        height: 450px;
+        width: 30%;
+    }
+
+    .about_svg_container {
+        left: 1.3%;
+    }
+
+    .about_door {
+        width: 14.6%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 11.5%;
+        left: 3.6%;
+        width: 21.8%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 1.7%;
+        left: 2%;
+        width: 25.2%;
+    }
+
+    .about_doctor {
+        width: 27%;
+    }
+
+    .about_bulb_shadow {
+        right: 5%;
+        width: 20%;
+    }
+
+    .about_dentistry {
+        right: 4%;
+        width: 21%;
+    }
+
+    .about_dentisty_container {
+        right: 24%;
+        width: 75%;
+    }
+
+    .about_dentisty {
+        bottom: 15%;
+        right: 20%;
+        width: 45%;
+    }
+
+    .about_svg_dentisty {
+        width: 59%;
+    }
+    /*management*/
+    .management_lady_Lastleft {
+        width: 8.9%;
+    }
+
+    .management_lady_secondleft {
+        width: 16.4%;
+        left: 12.5%;
+    }
+
+    .management_doctor_center {
+        width: 15.9%;
+        left: 28.5%;
+    }
+
+    .management_lady_secondright {
+        width: 10.4%;
+        left: 44.5%;
+    }
+
+    .management_lady_Lastright {
+        width: 9.9%;
+        left: 56.5%;
+    }
+
+    .management_board {
+        width: 25%;
+    }
+
+    .First_doctor {
+        margin: 0 0 65% -38% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 30% -77% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 15% -16% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 50% -44% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 59% -27% !important;
+    }
+
+    /*Gallery*/
+    .gallery_screen {
+        top: 19.5%;
+    }
+
+    .gallery_projector_light {
+        top: 11.8%;
+    }
+
+    .gallery_table {
+        width: 59%;
+        bottom: 0%;
+        right: 15%;
+    }
+
+    .gallery_doctors {
+        width: 51%;
+        right: 19%;
+    }
+    /*Facility*/
+    .facilities_board {
+        width: 32%;
+    }
+
+    .bottle_text_body {
+        font-size: 160%;
+    }
+
+    .facility_table {
+        width: 33%;
+    }
+
+    .facility_doctor {
+        width: 48%;
+    }
+
+    .facility_table_big {
+        right: 28%;
+        width: 14%;
+    }
+
+    .facility_stand {
+        right: 5.9%;
+        width: 31%;
+    }
+    /*Faq*/
+
+    .faq_cloud {
+        top: 29%;
+        width: 15%;
+        left:28%;
+    }
+
+    .faq_board {
+        width: 42%;
+        right:11%;
+    }
+    .faq_family{ left:5%;}
+
+    /*Emergency*/
+    .emergency_nurse {
+        left: 4%;
+        width: 53%;
+    }
+
+    .emergency_light {
+        top: 16%;
+        right: 16%;
+        width: 17%;
+    }
+
+    .emergency_text_operation {
+        bottom: 6%;
+    }
+
+    .operation_text {
+        font-size: 240%;
+    }
+
+    .emergency_door_shadow {
+        right: 0.3%;
+        width: 49%;
+    }
+    /*feedback*/
+    .feedback_board {
+        width: 29%;
+        right:12%;
+    }
+
+    .feedback_computer {
+        width: 26%;
+    }
+
+    .feedback_computer_book {
+        left: 22.5%;
+    }
+
+    .feedback_line_book1 {
+        top: 34%;
+    }
+
+    .feedback_line_book4 {
+        top: 20%;
+    }
+
+    .feedback_line_book5 {
+        top: 19.7%;
+    }
+    /*Contact*/
+    .contact_board {
+        left: 5%;
+        width: 55%;
+    }
+
+    .contact_doctor {
+        right: 13%;
+        width: 26%;
+    }
+
+    .contact_text_body {
+        font-size: 92%;
+    }
+
+    .fancybox-close {
+        background-size: 70% 90%;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1439px) {
+    .home_family_denatl_menu {
+        width: 10%;
+        top: 6%;
+    }
+
+    .family_dental_container {
+        line-height: 115%;
+        font-size: 1.2%;
+    }
+
+    .family_grandparent_svg, .family_parent_svg {
+        top: 5%;
+    }
+
+    .children_svg {
+        top: 5%;
+        width: 65%;
+    }
+    /*Home*/
+    .home_sofa {
+        width: 66%;
+    }
+
+    .home_light {
+        width: 38%;
+    }
+
+    .logo_img {
+        width: 15%;
+        top: 29%;
+    }
+
+    .logo_tagline {
+        top: 33.5%;
+        left: 44%;
+        width: 20%;
+    }
+
+    .home_tree {
+        width: 58%;
+        height: 42%;
+    }
+
+    .home_bird {
+        width: 23%;
+        top: 6%;
+        left: 47.5%;
+    }
+
+    .home_cupboard {
+        left: 39%;
+        width: 45%;
+    }
+
+    .home_combine_obj {
+        width: 100%;
+        right: 1.5%;
+    }
+
+    .home_table {
+        width: 68%;
+    }
+
+    .home_pen_stand {
+        width: 6%;
+        margin: 2.2% 3% 0 4%;
+    }
+
+    .home_laptop {
+        width: 23%;
+        margin: 0.7% 6% 0 7%;
+    }
+
+    .home_phone {
+        width: 13%;
+        margin: 9.1% 6% 0 0;
+    }
+
+    .home_lady {
+        bottom: 19%;
+        right: 22.5%;
+        width: 30%;
+    }
+
+    .home_drawer {
+        width: 23%;
+    }
+
+    .home_dustbin {
+        width: 12%;
+        right: 1.5%;
+    }
+
+    /*About Section */
+    .about_svg_container {
+        left: 1%;
+    }
+
+    .about_popup_container {
+        left: 7%;
+        width: 28%;
+    }
+
+    .about_bird {
+        top: 10%;
+        width: 30%;
+    }
+
+    .about_door {
+        width: 16%;
+    }
+
+    .about_light {
+        width: 10%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 11.8%;
+        left: 2.7%;
+        width: 25%;
+    }
+
+    .about_doctor {
+        width: 29%;
+    }
+
+    .about_bulb_shadow {
+        right: 5.5%;
+        width: 21%;
+        top: 17%;
+    }
+
+    .about_dentistry {
+        right: 3.5%;
+        width: 23.5%;
+    }
+
+    .about_dentisty_container {
+        right: 24%;
+        width: 75%;
+    }
+
+    .about_dentisty {
+        bottom: 23%;
+        right: 23%;
+        width: 38%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 4%;
+        width: 25.4%;
+        left: 2.7%;
+    }
+
+    .about_svg_dentisty {
+        width: 68%;
+    }
+    /*management*/
+    .management_lady_Lastleft {
+        width: 9.3%;
+    }
+
+    .management_lady_secondleft {
+        width: 16.8%;
+        left: 12.5%;
+    }
+
+    .management_doctor_center {
+        width: 16%;
+        left: 28.5%;
+    }
+
+    .management_lady_secondright {
+        width: 10.8%;
+        left: 44.5%;
+    }
+
+    .management_lady_Lastright {
+        width: 10.3%;
+        left: 56.5%;
+    }
+
+    .management_board {
+        width: 25%;
+    }
+
+    .First_doctor {
+        margin: 0 0 65% -38% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 30% -77% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 15% -16% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 50% -44% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 59% -27% !important;
+    }
+    /*Gallery*/
+    .gallery_text {
+        top: 60%;
+    }
+
+    .gallery_logo {
+        top: 37%;
+    }
+
+    .gallery_lamp {
+        width: 11%;
+    }
+
+    .gallery_doctor {
+        width: 22%;
+    }
+
+    .gallery_desk {
+        width: 13%;
+    }
+
+    .gallery_projector {
+        width: 12%;
+        right: 41.8%;
+    }
+
+    .gallery_projector_light {
+        top: 11%;
+        right: 18.5%;
+        width: 58%;
+    }
+
+    .gallery_screen {
+        right: 17%;
+        top: 17%;
+        width: 61.7%;
+    }
+
+    .gallery_table {
+        width: 61%;
+        bottom: 3%;
+        right: 17%;
+    }
+
+    .gallery_doctors {
+        width: 54%;
+        right: 21%;
+        bottom: -3%;
+    }
+    /*Facility*/
+    .facilities_board {
+        width: 36%;
+    }
+
+    .facility_text_container {
+        line-height: 200%;
+    }
+
+    .facility_text {
+        font-size: 320%;
+    }
+
+    .bootle_text_header {
+        font-size: 215%;
+    }
+
+    .bottle_text_body {
+        font-size: 175%;
+    }
+
+    .facility_table {
+        width: 35%;
+    }
+
+    .facility_doctor {
+        width: 51%;
+        right: 5.4%;
+    }
+
+    .facility_table_big {
+        right: 29%;
+        width: 14%;
+    }
+
+    .facility_stand {
+        right: 4.8%;
+        width: 33%;
+    }
+    /*Faq*/
+    .faq_family {
+        width: 29%;
+        left: 5%;
+    }
+
+    .faq_cloud {
+        top: 37%;
+        width: 15%;
+        left: 30%;
+    }
+
+    .owl-page {
+        font-size: 160%;
+    }
+
+    .faq_board {
+        width: 48%;
+        right: 5%;
+    }
+
+    .answer_text {
+        font-size: 110%;
+        line-height: 145%;
+    }
+
+    .answer {
+        font-size: 180%;
+        line-height: 100%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 190%;
+    }
+
+    /*Emergency*/
+    .emergency_nurse {
+        left: 3%;
+        width: 55%;
+    }
+
+    .emergency_light {
+        top: 25%;
+        right: 16%;
+        width: 17%;
+    }
+
+    .emergency_text_operation {
+        bottom: 6%;
+    }
+
+    .operation_text {
+        font-size: 240%;
+    }
+
+    .emergency_door_shadow {
+        right: 1.3%;
+        width: 45%;
+        bottom: 7.9%;
+    }
+
+    .emergency_Door {
+        width: 33%;
+        right: 8%;
+    }
+
+    .emergency_text_door {
+        top: 18%;
+    }
+
+    /*feedback*/
+    .feedback_board {
+        width: 32%;
+    }
+
+    .feedback_computer {
+        width: 29%;
+    }
+
+    .feedback_computer_book {
+        left: 24.5%;
+    }
+
+    .feedback_line_book1 {
+        top: 32.5%;
+    }
+
+    .feedback_line_book4 {
+        top: 27%;
+    }
+
+    .feedback_line_book4 {
+        top: 21%;
+    }
+
+    .feedback_line_book5 {
+        top: 20.6%;
+    }
+
+    .feedback_apple {
+        left: 8%;
+    }
+
+    .form_submit {
+        padding: 2% 0 1% 0;
+        font-size: 190%;
+    }
+
+    .feedback_form_header {
+        font-size: 280%;
+    }
+
+    .feedback_form_text {
+        font-size: 230%;
+    }
+    /*Contact*/
+    .contact_board {
+        left: 2%;
+        width: 58%;
+    }
+    .family_text {
+        font-size:180%;
+    }
+    .contact_doctor {
+        right: 11%;
+        width: 28%;
+    }
+
+    .contact_baby_top {
+        width: 9.5%;
+        top: 7%;
+    }
+
+    .contact_baby_bottom {
+        width: 10%;
+        bottom: 18%;
+    }
+
+    .contact_baby_middle {
+        top: 33%;
+        width: 10.5%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 97%;
+    }
+
+    .contact_text_header {
+        font-size: 300%;
+    }
+
+    .fancybox-close {
+        background-size: 70% 90%;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1399px) {
+    /*Home Section*/
+    .family_parent_svg {
+        z-index: 12;
+    }
+
+    .family_svg {
+        height: 78%;
+    }
+
+    .parent_svg {
+        width: 74%;
+        height: 88%;
+    }
+
+    .children_svg {
+        width: 72%;
+        height: 82%;
+    }
+
+    .home_family_denatl_menu {
+        width: 9.5%;
+        top: 2.5%;
+    }
+
+    .family_text {
+        font-size: 160%;
+        left: 4%;
+    }
+
+    #nav-toggle {
+        padding: 6px 24px 16px 0px;
+    }
+
+    .about_dentisty {
+        height: 400px;
+    }
+
+    .home_tree {
+        width: 57%;
+    }
+
+    .home_bird {
+        width: 21%;
+    }
+
+    .home_sofa {
+        width: 60%;
+    }
+
+    .home_cupboard {
+        left: 46%;
+        width: 36%;
+    }
+
+    .home_lady {
+        bottom: 25%;
+    }
+
+    .home_phone {
+        margin: 7.86% 6% 0 0;
+    }
+
+    .home_laptop {
+        margin: 0.8% 8% 0 7%;
+    }
+
+    .home_family_denatl {
+        top: 51%;
+        left: 29%;
+    }
+    /*About*/
+    .about_svg_container {
+        left: 1%;
+    }
+
+    .about_popup_container {
+        left: 4%;
+        width: 29%;
+        height: 400px;
+    }
+
+    .about_open_door_shadow {
+        bottom: 3.2%;
+    }
+
+    .about_bulb_shadow {
+        right: 6.4%;
+        width: 16.6%;
+    }
+
+    /*.about_popup_container{ top:29.5%; width: 74%;}*/
+    .about_dentisty_container {
+        right: 17.5%;
+    }
+
+    .about_dentisty {
+        right: 15%;
+        width: 36%;
+        bottom: 12%;
+    }
+
+    .popup_close {
+        padding: 2.5%;
+    }
+
+    .about_dentistry {
+        width: 18.5%;
+    }
+
+    .about_body_text {
+        font-size: 85%;
+    }
+    /*management*/
+    .management_lady_Lastleft {
+        width: 8.3%;
+    }
+
+    .management_lady_secondleft {
+        width: 15.8%;
+        left: 12.5%;
+    }
+
+    .management_doctor_center {
+        width: 15%;
+        left: 28.5%;
+        bottom: 3%;
+    }
+
+    .management_lady_secondright {
+        width: 9.8%;
+        left: 44.5%;
+    }
+
+    .management_lady_Lastright {
+        width: 9.3%;
+        left: 56.5%;
+    }
+
+    .management_board {
+        width: 25%;
+    }
+    .tooltip-content {
+        width:115%;
+    }
+    .First_doctor {
+        width:116%;
+        margin: 0 0 76% -28% !important;
+    }
+
+    .Second_doctor {
+        width:67%;
+        margin: 0 0 30% -78% !important;
+    }
+
+    .Third_doctor {
+        width:67%;
+        margin: 0 0 22% -13% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 47% -32% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 66% -19% !important;
+    }
+
+    .tooltip-content {
+        font-size: 90%;
+        padding: 15px 20px;
+    }
+
+    .management_text_body {
+        font-size: 190%;
+        line-height: 100%;
+    }
+
+    .tooltip-content p:nth-child(1) {
+        margin-bottom:2px;
+        margin-top:2px;
+    }
+    .tooltip-content p:nth-child(2) {
+        margin-bottom:0;
+    }
+    .tooltip-content a {
+        font-size:80%;
+    }
+    .tabs label {
+        font-size:30px;
+    }
+    .svgpopup_header {
+        padding: 10% 0 0 0 !important;
+    }
+    /*Gallery*/
+    .gallery_text {
+        top: 55%;
+        font-size: 250%;
+    }
+
+    .gallery_logo {
+        top: 32%;
+    }
+
+    .gallery_screen {
+        width: 55.7%;
+        top: 20.5%;
+        right: 18%;
+    }
+
+    .gallery_projector {
+        right: 40.5%;
+    }
+
+    .gallery_table {
+        right: 18%;
+    }
+
+    .gallery_doctors {
+        right: 22%;
+    }
+
+    .gallery_projector_light {
+        top: 13%;
+        right: 18%;
+        width: 54%;
+    }
+    /*Facility*/
+
+    .facilities_board {
+        width: 28%;
+    }
+
+    .facility_text_container {
+        line-height: 150%;
+    }
+
+    .bootle_text_header {
+        font-size: 170%;
+    }
+
+    .bottle_text_body {
+        font-size: 130%;
+    }
+
+    .bottle_text {
+        width: 78%;
+        margin: 0 11%;
+    }
+
+    .bottle {
+        margin: -2px auto;
+    }
+
+    .facility_text {
+        font-size: 240%;
+    }
+
+    .facility_table {
+        width: 31%;
+    }
+
+    .faq_text {
+        font-size: 400%;
+    }
+
+    .door_text {
+        font-size: 230%;
+    }
+
+    .emergency_light {
+        top: 10%;
+        right: 17.5%;
+        width: 14%;
+    }
+
+    .operation_text {
+        font-size: 190%;
+    }
+
+    .emergency_text_operation {
+        bottom: 4%;
+    }
+    /*FAQ*/
+    .question, .question_text {
+        line-height: 90%;
+    }
+
+    .answer {
+        font-size: 140%;
+    }
+
+    .faq_board {
+        width: 40%;
+        right:9%;
+    }
+
+    .answer_text {
+        font-size: 80%;
+        line-height: 112%;
+    }
+
+    .owl-page {
+        font-size: 130%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 160%;
+    }
+    /*Feedback*/
+    .feedback_form_header {
+        font-size: 220%;
+    }
+
+    .feedback_form_text {
+        font-size: 180%;
+    }
+
+    .form_submit {
+        font-size: 160%;
+        margin: 3% 33% 0 33%;
+    }
+
+    .feedback_form_container {
+        top: 9%;
+    }
+
+    .feedback_line_book1 {
+        top: 35%;
+    }
+    .feedback_board {
+        right:13%;
+    }
+    /*Contact*/
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 72%;
+    }
+
+    .contact_text_body_content {
+        margin: 0% 0 0 6.5%;
+    }
+
+    .contact_mail {
+        padding: 1% 1.9%;
+    }
+
+    .contact_text_header {
+        font-size: 260%;
+    }
+
+    .contact_text_subtitle_container {
+        width: 98%;
+    }
+
+    .fancybox-close {
+        background-size: 65% 80%;
+    }
+
+    .fancybox-next span, .fancybox-prev span {
+        background-size: 75%;
+    }
+
+    .fancybox-next, .fancybox-prev {
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1365px) {
+    /*Home Section*/
+    .family_svg {
+        height: 78%;
+    }
+
+    .family_parent_svg {
+        z-index: 12;
+    }
+
+    .parent_svg {
+        width: 74%;
+        height: 88%;
+    }
+
+    .children_svg {
+        width: 74%;
+        height: 82%;
+    }
+
+    .home_family_denatl_menu {
+        width: 9.5%;
+        top: 2.5%;
+    }
+    .family_text {
+        font-size:165%;
+    }
+
+    .family_popup_container {
+        right: 0%;
+    }
+
+    .about_dentisty {
+        height: 400px;
+    }
+
+    #nav-toggle {
+        padding: 6px 24px 16px 0px;
+    }
+
+    .home_family_denatl {
+        top: 51%;
+        left: 29%;
+    }
+
+    .home_tree {
+        width: 57%;
+    }
+
+    .home_bird {
+        width: 21%;
+    }
+
+    .home_sofa {
+        width: 60%;
+    }
+
+    .home_cupboard {
+        left: 46%;
+        width: 36%;
+    }
+
+    .home_lady {
+        bottom: 25%;
+    }
+
+    .home_phone {
+        margin: 7.8% 6% 0 0;
+    }
+
+    /*About*/
+    .about_svg_container {
+        left: 1%;
+    }
+
+    .about_popup_container {
+        left: 4%;
+        width: 29%;
+        height: 400px;
+    }
+
+    .about_open_door_shadow {
+        bottom: 3.2%;
+    }
+
+    .about_bulb_shadow {
+        right: 6.8%;
+        width: 16.6%;
+    }
+
+    .about_dentisty_container {
+        right: 17.5%;
+    }
+
+    .about_dentisty {
+        right: 15%;
+        width: 36%;
+        bottom: 12%;
+    }
+
+    .popup_close {
+        padding: 2.5%;
+    }
+
+    .about_dentistry {
+        width: 18.5%;
+        right: 5.5%;
+    }
+
+    .about_body_text {
+        font-size: 85%;
+    }
+    /*management*/
+    .management_lady_Lastleft {
+        width: 8.3%;
+    }
+
+    .management_lady_secondleft {
+        width: 15.8%;
+        left: 12.5%;
+    }
+
+    .management_doctor_center {
+        width: 15%;
+        left: 28.5%;
+        bottom: 3%;
+    }
+
+    .management_lady_secondright {
+        width: 9.8%;
+        left: 44.5%;
+    }
+
+    .management_lady_Lastright {
+        width: 9.3%;
+        left: 56.5%;
+    }
+
+    .management_board {
+        width: 25%;
+    }
+
+    .First_doctor {
+        width:115%;
+        margin: 0 0 76% -28% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 30% -78% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 22% -13% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 47% -32% !important;
+        width:115%;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 66% -19% !important;
+    }
+
+    .tooltip-content {
+        font-size: 90%;
+        padding: 15px 20px;
+    }
+
+    .management_text_body {
+        font-size: 190%;
+        line-height: 100%;
+    }
+
+       .tooltip-content {
+        font-size: 90%;
+        padding: 15px 20px;
+    }
+
+    .management_text_body {
+        font-size: 190%;
+        line-height: 100%;
+    }
+
+    .tooltip-content p:nth-child(1) {
+        margin-bottom:2px;
+        margin-top:2px;
+    }
+    .tooltip-content p:nth-child(2) {
+        margin-bottom:0;
+    }
+    .tooltip-content a {
+        font-size:80%;
+    }
+    .tabs label {
+        font-size:30px;
+    }
+    .svgpopup_header {
+        padding: 10% 0 0 0 !important;
+    }
+    /*Gallery*/
+    .gallery_text {
+        top: 55%;
+        font-size: 250%;
+    }
+
+    .gallery_logo {
+        top: 32%;
+    }
+
+    .gallery_screen {
+        width: 55.7%;
+        top: 20.5%;
+        right: 18%;
+    }
+
+    .gallery_projector {
+        right: 40.5%;
+    }
+
+    .gallery_table {
+        right: 18%;
+    }
+
+    .gallery_doctors {
+        right: 22%;
+    }
+
+    .gallery_projector_light {
+        top: 13%;
+        right: 18%;
+        width: 54%;
+    }
+
+    /*Facility*/
+    .facilities_board {
+        width: 28%;
+    }
+
+    .facility_text_container {
+        line-height: 150%;
+    }
+
+    .bootle_text_header {
+        font-size: 170%;
+    }
+
+    .bottle_text_body {
+        font-size: 130%;
+    }
+
+    .bottle_text {
+        width: 78%;
+        margin: 0 11%;
+    }
+
+    .bottle {
+        margin: -2px auto;
+    }
+
+    .facility_text {
+        font-size: 240%;
+    }
+
+    .facility_table {
+        width: 31%;
+    }
+
+    .faq_text {
+        font-size: 400%;
+    }
+
+    .door_text {
+        font-size: 230%;
+    }
+
+    .emergency_light {
+        top: 10%;
+        right: 17.5%;
+        width: 14%;
+    }
+
+    .operation_text {
+        font-size: 190%;
+    }
+
+    .emergency_text_operation {
+        bottom: 4%;
+    }
+    /*FAQ*/
+    .question, .question_text {
+        line-height: 90%;
+    }
+
+    .answer {
+        font-size: 140%;
+    }
+
+    .faq_board {
+        width: 40%;
+          right:9%;
+    }
+
+    .answer_text {
+        font-size: 80%;
+        line-height: 100%;
+    }
+
+    .owl-page {
+        font-size: 130%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 160%;
+    }
+    /*Feedback*/
+    .feedback_form_header {
+        font-size: 220%;
+    }
+
+    .feedback_form_text {
+        font-size: 180%;
+    }
+
+    .form_submit {
+        font-size: 160%;
+        margin: 3% 33% 0 33%;
+    }
+
+    .feedback_form_container {
+        top: 9%;
+    }
+
+    .feedback_line_book1 {
+        top: 35%;
+    }
+     .feedback_board {
+        right:13%;
+    }
+    /*Contact*/
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 72%;
+    }
+
+    .contact_text_body_content {
+        margin: 0% 0 0 6.5%;
+    }
+
+    .contact_mail {
+        padding: 1% 1.9%;
+    }
+
+    .contact_text_header {
+        font-size: 260%;
+    }
+
+    .contact_text_subtitle_container {
+        width: 98%;
+    }
+
+    .fancybox-close {
+        background-size: 65% 80%;
+    }
+
+    .fancybox-next span, .fancybox-prev span {
+        background-size: 75%;
+    }
+
+    .fancybox-next, .fancybox-prev {
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1359px) {
+    /*Home Section*/
+    .family_text {
+        font-size: 180%;
+        left: 4%;
+    }
+
+    .family_svg {
+        height: 87%;
+    }
+
+    .home_family_denatl_menu {
+        width: 11%;
+        top: 2.5%;
+    }
+
+    .parent_svg {
+        width: 76%;
+        height: 84%;
+    }
+
+    .children_svg {
+        width: 81%;
+        height: 87%;
+    }
+
+    .family_dental_container {
+        font-size: 1.2%;
+        line-height: 120%;
+    }
+
+
+    .home_tree {
+        bottom: 9%;
+    }
+
+    #nav-toggle {
+        padding: 10px 25px 16px 0px;
+    }
+
+    .menu_text {
+        bottom: 10%;
+    }
+
+    .home_family_denatl {
+        top: 51%;
+        left: 29%;
+    }
+
+    .home_cupboard {
+        top: 15%;
+        left: 47%;
+        width: 37%;
+    }
+
+    .home_phone {
+        margin: 7.8% 6% 0 0;
+    }
+
+    .home_lady {
+        bottom: 22.5%;
+        right: 23%;
+        width: 25%;
+    }
+    /* About Section */
+    .about_dentistry {
+        right: 4.4%;
+        width: 20%;
+    }
+
+    .about_svg_container {
+        left: 1%;
+    }
+
+    .about_popup_container {
+        left: 2%;
+        width: 34%;
+        top: 32.5%;
+        height: 400px;
+    }
+
+    .about_dentisty {
+        right: 15%;
+        width: 36%;
+        bottom: 12%;
+        height: 400px;
+    }
+
+    .about_dentisty_container {
+        right: 22%;
+    }
+
+    .popup_close {
+        padding: 2.5%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 10.3%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 3.6%;
+    }
+    /*Management Section*/
+    .First_doctor {
+        width:123%;
+        margin: 0 0 76% -34% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 30% -78% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 22% -12% !important;
+    }
+
+    .Fourth_doctor {
+        width:119%;
+        margin: 0 0 56% -37% !important;
+    }
+
+    .Fifth_doctor {
+        width:98%;
+        margin: 0 0 70% -23% !important;
+    }
+    .tooltip-content a {
+        font-size:80%;
+    }
+    .management_aerrow {
+        width: 8%;
+        font-size: 210%;
+    }
+
+    .management_text_body {
+        font-size: 210%;
+        line-height: 83%;
+    }
+
+    .management_header {
+        font-size: 300%;
+    }
+    .tabs label {
+            font-size:30px;
+    }
+    .svgpopup_header {
+        padding:13% 0 0 0 !important;
+    }
+    /*Gallery*/
+    .gallery_text {
+        top: 58%;
+        font-size: 250%;
+    }
+
+    .gallery_logo {
+        top: 35%;
+    }
+
+    .gallery_screen {
+        top: 19%;
+        width: 57.7%;
+    }
+
+    .gallery_projector {
+        width: 11%;
+        right: 39.5%;
+    }
+
+    .gallery_table {
+        width: 60%;
+        right: 15%;
+        bottom: 2%;
+    }
+
+    .gallery_doctors {
+        width: 51%;
+        bottom: -2%;
+        right: 20%;
+    }
+
+    .gallery_projector_light {
+        right: 16.5%;
+        width: 56%;
+        top: 12%;
+    }
+    /*Facility*/
+    .facilities_board {
+        width: 31%;
+    }
+
+    .facility_text_container {
+        line-height: 150%;
+    }
+
+    .bootle_text_header {
+        font-size: 180%;
+    }
+
+    .bottle_text_body {
+        font-size: 140%;
+    }
+
+    .bottle_text {
+        width: 78%;
+        margin: 0 11%;
+    }
+
+    .bottle {
+        margin: -2px auto;
+    }
+
+    .facility_text {
+        font-size: 270%;
+    }
+
+    .facility_doctor {
+        right: 6.6%;
+        width: 49%;
+    }
+
+    .facility_stand {
+        right: 6.5%;
+        width: 31%;
+    }
+
+    .facility_table_big {
+        right: 28.5%;
+        width: 13%;
+    }
+
+    /*FAQ*/
+    .faq_board {
+        width: 43%;
+    }
+
+    .answer_text {
+        font-size: 82%;
+        line-height: 125%;
+    }
+
+    .owl-page {
+        font-size: 140%;
+    }
+
+    .answer {
+        line-height: 100%;
+    }
+
+    .faq_text {
+        font-size: 420%;
+    }
+    .faq_cloud{ left:28%;}
+    .faq_family{ left:3%;}
+    /*Emergency*/
+    .door_text {
+        font-size: 235%;
+    }
+
+    .emergency_nurse {
+        width: 52%;
+    }
+
+    .emergency_light {
+        top: 16%;
+        width: 15%;
+    }
+
+    .operation_text {
+        font-size: 190%;
+    }
+
+    .emergency_text_operation {
+        bottom: 4%;
+    }
+
+    .emergency_door_shadow {
+        right: 3.3%;
+        width: 42%;
+        bottom:8%;
+    }
+
+    /*Feedback*/
+    .feedback_board {
+        right:8%;
+    }
+    .feedback_form_header {
+        font-size: 225%;
+    }
+
+    .feedback_form_container {
+        top: 8%;
+    }
+
+    .feedback_text {
+        font-size: 380%;
+    }
+
+    .form_submit {
+        font-size: 160%;
+        margin: 2% 33% 0 33%;
+    }
+
+    .feedback_form_text {
+        font-size: 190%;
+    }
+
+    .feedback_line_book4 {
+        top: 19.8%;
+    }
+
+    .feedback_line_book1 {
+        top: 34%;
+    }
+
+    .feedback_line_book5 {
+        top: 19.5%;
+    }
+    /*Contact*/
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 73%;
+    }
+
+    .contact_text_body_content {
+        margin: 0% 0 0 6.5%;
+    }
+
+    .contact_mail {
+        padding: 1% 1.9%;
+    }
+
+    .contact_text_header {
+        font-size: 260%;
+    }
+
+    .contact_text_subtitle_container {
+        width: 98%;
+    }
+
+    .fancybox-close {
+        background-size: 65%;
+    }
+
+    .fancybox-next span {
+        background-size: 70%;
+        right: 25px;
+    }
+
+    .fancybox-prev span {
+        background-size: 70%;
+        left: 42px;
+    }
+}
+
+@media only screen and (min-width: 1152px) and (max-width: 1279px) {
+    .home_family_denatl_menu {
+        width: 11%;
+        font-size: 1.25%;
+        top: 2.5%;
+    }
+
+    .parent_svg {
+        width: 75%;
+        height: 82%;
+    }
+
+    .family_dental_container {
+        font-size: 1.2%;
+        line-height: 120%;
+    }
+
+    .family_grandparent_svg, .family_popup_container, .family_children_svg {
+        top: 8%;
+    }
+
+    .family_parent_svg {
+        top: 6%;
+    }
+
+    .children_svg {
+        width: 82%;
+        height: 83%;
+    }
+
+    .family_svg {
+        height: 87%;
+    }
+
+    .family_text {
+        left: 3%;
+    }
+
+    #nav-toggle {
+        padding: 10px 25px 16px 0px;
+    }
+
+    .menu_text {
+        bottom: 6%;
+    }
+
+    .home_family_denatl {
+        top: 51%;
+        left: 29%;
+    }
+    /*Home Section*/
+
+    .home_tree {
+        height: 44%;
+    }
+
+    .home_lady {
+        bottom: 25%;
+    }
+
+    .home_light {
+        width: 37%;
+        left: 4%;
+    }
+
+    .logo_tagline {
+        left: 44%;
+        width: 19%;
+    }
+
+    .logo_img {
+        width: 15%;
+    }
+
+    .home_bird {
+        width: 24%;
+        top: 6%;
+        left: 50.8%;
+    }
+
+    .home_cupboard {
+        top: 16%;
+        left: 47%;
+        width: 39%;
+    }
+
+    .home_lady {
+        right: 22%;
+        width: 27%;
+        bottom: 18.5%;
+    }
+
+    .home_drawer {
+        width: 22%;
+    }
+
+    .home_combine_obj {
+        right: 1.5%;
+        width: 99%;
+    }
+
+    .home_laptop {
+        margin: 0.71% 7% 0 7%;
+    }
+
+    .home_pen_stand {
+        margin: 2.5% 2% 0 4%;
+    }
+
+    .home_dustbin {
+        width: 12%;
+    }
+    /*About*/
+    .about_svg_container {
+        left: 1%;
+    }
+
+    .about_popup_container {
+        left: 2%;
+        width: 34%;
+        top: 32.5%;
+        height: 400px;
+    }
+
+    .about_bird {
+        top: 8%;
+        width: 31%;
+    }
+
+    .about_door {
+        width: 16%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 11.7%;
+        left: 2.8%;
+        width: 25%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 4.8%;
+        left: 2.5%;
+        width: 25.5%;
+    }
+
+    .about_doctor {
+        width: 28%;
+    }
+
+    .about_light {
+        width: 8.8%;
+        right: 10.7%;
+    }
+
+    .about_bulb_shadow {
+        right: 4%;
+        width: 22%;
+    }
+
+    .about_dentistry {
+        right: 2%;
+        width: 25%;
+    }
+
+    .about_dentisty_container {
+        right: 26%;
+        width: 99%;
+    }
+
+    .about_dentisty {
+        bottom: 18%;
+        right: 12%;
+        width: 37%;
+        height: 400px;
+    }
+
+    .popup_close {
+        padding: 2.5%;
+    }
+    /*management*/
+    .management_lady_Lastleft {
+        width: 9%;
+    }
+
+    .management_lady_secondleft {
+        width: 16.5%;
+        left: 12.5%;
+    }
+
+    .management_doctor_center {
+        width: 16%;
+        left: 28.5%;
+        bottom: 3%;
+    }
+
+    .management_lady_secondright {
+        width: 10.5%;
+        left: 44.5%;
+    }
+
+    .management_lady_Lastright {
+        width: 9.9%;
+        left: 56.5%;
+    }
+
+    .management_board {
+        width: 25%;
+    }
+
+    .First_doctor {
+        margin: 0 0 83% -24% !important;
+        width:110%;
+    }
+
+    .Second_doctor {
+        margin: 0 0 41% -82% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 24% -8% !important;
+    }
+
+    .Fourth_doctor {
+        width:109%;
+        margin: 0 0 68% -32% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 76% -15% !important;
+    }
+/**SVG**/
+	 .tooltip-content p:nth-child(1) {
+        margin-bottom:2px;
+        margin-top:5px;
+        font-size:195%
+    }
+    .tooltip-content p:nth-child(2) {
+        margin-bottom:0;
+    }
+    .tooltip-content a {
+        font-size:90%;
+    }
+    .tabs label {
+        font-size:30px;
+        width:auto;
+    }
+    .svgpopup_header {
+        padding: 10% 0 0 0 !important;
+    }
+    .svgpopup_image {
+        width:17%;
+    }
+    .svgpopup_header {
+        padding: 14% 0 0 0 !important;
+    }
+    .meet_svg {
+        width: 20.5%;
+    }
+    .samta_svg {
+        width: 18%;
+    }
+    .svgpopup_body {
+        font-size:75%;
+    }
+    .vidhi_svg {
+        width: 23%;
+    }
+    /**End SVG**/
+    .tooltip-content {
+        font-size: 90%;
+        padding: 15px 20px;
+    }
+
+    .management_text_body {
+        font-size: 190%;
+        line-height: 100%;
+    }
+    /*Gallery*/
+    .gallery_text {
+        top: 55%;
+        font-size: 250%;
+    }
+
+    .gallery_logo {
+        top: 32%;
+    }
+
+    .gallery_screen {
+        top: 18%;
+        width: 60.7%;
+    }
+
+    .gallery_projector {
+        width: 12.3%;
+        right: 39.3%;
+    }
+
+    .gallery_table {
+        width: 60%;
+        right: 16%;
+        bottom: 2%;
+    }
+
+    .gallery_doctors {
+        width: 51%;
+        bottom: -2%;
+        right: 21%;
+    }
+
+    .gallery_projector_light {
+        right: 15.5%;
+        width: 59%;
+        top: 11.5%;
+    }
+    /*Facility*/
+    .facilities_board {
+        width: 38%;
+    }
+
+    .bottle {
+        margin: -1px auto;
+    }
+
+    .facility_text {
+        font-size: 290%;
+    }
+
+    .facility_table {
+        width: 35%;
+    }
+
+    .facility_doctor {
+        right: 5.4%;
+        width: 51%;
+    }
+
+    .facility_stand {
+        right: 5.3%;
+        width: 32%;
+    }
+
+    .facility_table_big {
+        right: 28.5%;
+        width: 14%;
+    }
+
+    .door_text {
+        font-size: 230%;
+    }
+
+    .emergency_Door {
+        width: 34%;
+    }
+
+    .emergency_text_door {
+        top: 19%;
+    }
+
+    .emergency_light {
+        top: 23%;
+        right: 18.5%;
+        width: 15%;
+    }
+
+    .operation_text {
+        font-size: 200%;
+    }
+
+    .emergency_text_operation {
+        bottom: 5%;
+    }
+
+    .emergency_nurse {
+        left: 4%;
+        width: 52%;
+    }
+
+    .emergency_door_shadow {
+        bottom: 8%;
+        right: 3%;
+        width: 45.5%;
+    }
+    /*FAQ*/
+    .question, .question_text {
+        line-height: 90%;
+    }
+
+    .faq_board {
+        width: 47%;
+    }
+
+    .answer_text {
+        font-size: 90%;
+        line-height: 100%;
+    }
+
+    .faq_text {
+        font-size: 400%;
+    }
+
+    .faq_family {
+        width: 28%;
+        left:5%;
+    }
+
+    .faq_cloud {
+        top: 39%;
+        left: 28%;
+    }
+    /*Feedback*/
+    .feedback_board {
+        width: 32%;
+    }
+
+    .feedback_computer {
+        width: 29%;
+    }
+
+    .feedback_computer_book {
+        left: 24.5%;
+    }
+
+    .feedback_line_book1 {
+        top: 32.5%;
+    }
+
+    .feedback_line_book4 {
+        top: 27%;
+    }
+
+    .feedback_line_book4 {
+        top: 21%;
+    }
+
+    .feedback_line_book5 {
+        top: 20.6%;
+    }
+
+    .feedback_apple {
+        left: 8%;
+    }
+
+    .feedback_form_header {
+        font-size: 220%;
+    }
+
+    .feedback_form_text {
+        font-size: 180%;
+    }
+
+    .form_submit {
+        font-size: 160%;
+        margin: 3% 33% 0 33%;
+    }
+
+    .feedback_form_container {
+        top: 9%;
+    }
+    /*Contact*/
+    .contact_board {
+        left: 3%;
+        width: 58%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 80%;
+    }
+
+    .contact_mail {
+        padding: 1% 1.9%;
+    }
+
+    .contact_text_header {
+        font-size: 270%;
+    }
+
+    .contact_text_subtitle_container {
+        width: 98%;
+    }
+
+    .contact_doctor {
+        right: 12%;
+        width: 26%;
+    }
+
+    .fancybox-close {
+        background-size: 65% 80%;
+    }
+
+    .fancybox-next span, .fancybox-prev span {
+        background-size: 75%;
+    }
+
+    .fancybox-next, .fancybox-prev {
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1151px) {
+
+
+    .home_family_denatl_menu {
+        width: 11%;
+        font-size: 1.25%;
+        top: 2.5%;
+    }
+
+    .family_dental_container {
+        font-size: 1.2%;
+        line-height: 120%;
+    }
+
+    .family_grandparent_svg, .family_popup_container, .family_children_svg {
+        top: 8%;
+    }
+
+    .family_parent_svg {
+        top: 5%;
+    }
+
+    .children_svg {
+        height: 80%;
+        width: 91%;
+        z-index: 0;
+    }
+
+    .parent_svg {
+        width: 82%;
+        height: 88%;
+    }
+
+
+    .fancybox-close {
+        background-size: 65% 80%;
+    }
+
+    .fancybox-next span {
+        background-size: 65%;
+        right: 24px;
+    }
+
+    .fancybox-prev span {
+        background-size: 65%;
+        left: 34px;
+    }
+
+    .fancybox-next, .fancybox-prev {
+        right: 0;
+    }
+
+    #nav-toggle {
+        padding: 10px 25px 16px 0px;
+    }
+
+    .menu_text {
+        bottom: 6%;
+    }
+
+    .home_family_denatl {
+        top: 51%;
+        left: 29%;
+    }
+    /*Home Section*/
+    .home_phone {
+        margin: 7.8% 6% 0 0;
+    }
+
+    .home_tree {
+        height: 44%;
+    }
+
+    .home_lady {
+        bottom: 25%;
+    }
+
+    .home_light {
+        width: 37%;
+        left: 4%;
+    }
+
+    .logo_tagline {
+        left: 44%;
+        width: 19%;
+    }
+
+    .logo_img {
+        width: 15%;
+    }
+
+    .home_bird {
+        width: 24%;
+        top: 6%;
+        left: 50.8%;
+    }
+
+    .home_cupboard {
+        top: 16%;
+        left: 47%;
+        width: 39%;
+    }
+
+    .home_lady {
+        right: 22%;
+        width: 27%;
+        bottom: 18.5%;
+    }
+
+    .home_drawer {
+        width: 22%;
+    }
+
+    .home_combine_obj {
+        right: 1.5%;
+        width: 99%;
+    }
+
+    .home_laptop {
+        margin: 0.71% 7% 0 7%;
+    }
+
+    .home_pen_stand {
+        margin: 2.5% 2% 0 4%;
+    }
+
+    .home_dustbin {
+        width: 12%;
+    }
+    /*About*/
+    .about_svg_container {
+        left: 1%;
+    }
+
+    .about_popup_container {
+        left: 2%;
+        width: 34%;
+        top: 32.5%;
+        height: 400px;
+    }
+
+    .about_bird {
+        top: 8%;
+        width: 31%;
+    }
+
+    .about_door {
+        width: 16%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 11.7%;
+        left: 2.8%;
+        width: 25%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 4.8%;
+        left: 2.8%;
+        width: 25.5%;
+    }
+
+    .about_doctor {
+        width: 28%;
+    }
+
+    .about_light {
+        width: 8.8%;
+        right: 10.7%;
+    }
+
+    .about_bulb_shadow {
+        right: 4%;
+        width: 22%;
+    }
+
+    .about_dentistry {
+        right: 1.7%;
+        width: 25%;
+    }
+
+    .about_dentisty_container {
+        right: 26%;
+        width: 99%;
+    }
+
+    .about_dentisty {
+        bottom: 18%;
+        right: 12%;
+        width: 37%;
+        height: 400px;
+    }
+
+    .popup_close {
+        padding: 2.5%;
+    }
+
+    .about_svg_dentisty {
+        width: 59%;
+    }
+    /*management*/
+    .management_lady_Lastleft {
+        width: 9%;
+    }
+
+    .management_lady_secondleft {
+        width: 16.5%;
+        left: 12.5%;
+    }
+
+    .management_doctor_center {
+        width: 16%;
+        left: 28.5%;
+        bottom: 3%;
+    }
+
+    .management_lady_secondright {
+        width: 10.5%;
+        left: 44.5%;
+    }
+
+    .management_lady_Lastright {
+        width: 9.9%;
+        left: 56.5%;
+    }
+
+    .management_board {
+        width: 25%;
+    }
+
+    .First_doctor {
+        width:122%;
+        margin: 0 0 100% -30% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 49% -87% !important;
+    }
+
+    .Third_doctor {
+        width:70%;
+        margin: 0 0 37% -6% !important;
+    }
+
+    .Fourth_doctor {
+        width:120%;
+        margin: 0 0 73% -37% !important;
+    }
+
+    .Fifth_doctor {
+        width:97%;
+        margin: 0 0 88% -17% !important;
+    }
+
+    .tooltip-content {
+        font-size: 100%;
+        padding: 15px 20px;
+    }
+
+    .management_text_body {
+        font-size: 190%;
+        line-height: 100%;
+    }
+
+     .tooltip-content p:nth-child(1) {
+        margin-bottom:2px;
+        margin-top:5px;
+        font-size:195%
+    }
+    .tooltip-content p:nth-child(2) {
+        margin-bottom:0;
+    }
+    .tooltip-content a {
+        font-size:90%;
+    }
+    .tabs label {
+        font-size:25px;
+        width:auto;
+    }
+    .svgpopup_header {
+        padding: 10% 0 0 0 !important;
+    }
+    .svgpopup_image {
+        vertical-align:top;
+        width:17%;
+    }
+    .svgpopup_header {
+        padding: 11% 0 0 0 !important;
+    }
+    .meet_svg {
+        width: 20.5%;
+    }
+    .samta_svg {
+        width: 18%;
+    }
+    .svgpopup_body {
+        font-size:75%;
+    }
+    .vidhi_svg {
+        width: 23%;
+    }
+    .content {
+        /*height:550px;
+        overflow:hidden;
+        overflow-y:scroll;
+        */margin:2% 0 0 0;
+
+    }
+    /*Gallery*/
+    .gallery_text {
+        top: 55%;
+        font-size: 250%;
+    }
+
+    .gallery_logo {
+        top: 32%;
+    }
+
+    .gallery_screen {
+        top: 18%;
+    }
+
+    .gallery_screen {
+        top: 18%;
+        width: 60.7%;
+    }
+
+    .gallery_projector {
+        width: 12.3%;
+        right: 39.3%;
+    }
+
+    .gallery_table {
+        width: 60%;
+        right: 16%;
+        bottom: 2%;
+    }
+
+    .gallery_doctors {
+        width: 51%;
+        bottom: -2%;
+        right: 21%;
+    }
+
+    .gallery_projector_light {
+        right: 15.5%;
+        width: 59%;
+        top: 11.5%;
+    }
+    /*Facility*/
+    .facilities_board {
+        width: 38%;
+    }
+
+    .bottle {
+        margin: -1px auto;
+    }
+
+    .bottle_text_body {
+        font-size: 165%;
+    }
+
+    .facility_text {
+        font-size: 290%;
+    }
+
+    .facility_table {
+        width: 35%;
+    }
+
+    .facility_doctor {
+        right: 5.4%;
+        width: 51%;
+    }
+
+    .facility_stand {
+        right: 5.3%;
+        width: 32%;
+    }
+
+    .facility_table_big {
+        right: 28.5%;
+        width: 14%;
+    }
+
+    .door_text {
+        font-size: 230%;
+    }
+
+    .emergency_Door {
+        width: 34%;
+    }
+
+    .emergency_text_door {
+        top: 19%;
+    }
+
+    .emergency_light {
+        top: 23%;
+        right: 18.5%;
+        width: 15%;
+    }
+
+    .operation_text {
+        font-size: 200%;
+    }
+
+    .emergency_text_operation {
+        bottom: 5%;
+    }
+
+    .emergency_nurse {
+        left: 4%;
+        width: 52%;
+    }
+
+    .emergency_door_shadow {
+        bottom: 8%;
+        right: 3%;
+        width: 45.5%;
+    }
+    /*FAQ*/
+    .question, .question_text {
+        line-height: 90%;
+    }
+
+    .faq_board {
+        width: 47%;
+    }
+
+    .answer_text {
+        font-size: 90%;
+        line-height: 125%;
+    }
+
+    .faq_text {
+        font-size: 400%;
+    }
+
+    .faq_family {
+        width: 28%;
+        left:5%;
+    }
+
+    .faq_cloud {
+        top: 39%;
+        left: 28%;
+    }
+    /*Feedback*/
+
+    .feedback_computer {
+        width: 29%;
+    }
+
+    .feedback_computer_book {
+        left: 24.5%;
+    }
+
+    .feedback_line_book1 {
+        top: 32.5%;
+    }
+
+    .feedback_line_book4 {
+        top: 27%;
+    }
+
+    .feedback_line_book4 {
+        top: 21%;
+    }
+
+    .feedback_line_book5 {
+        top: 20.6%;
+    }
+
+    .feedback_apple {
+        left: 8%;
+    }
+
+    .feedback_form_header {
+        font-size: 220%;
+    }
+
+    .feedback_form_text {
+        font-size: 180%;
+    }
+
+    .form_submit {
+        font-size: 160%;
+        margin: 3% 33% 0 33%;
+    }
+
+    .feedback_form_container {
+        top: 9%;
+    }
+    /*Contact*/
+    .contact_board {
+        left: 3%;
+        width: 58%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 80%;
+    }
+
+    .contact_mail {
+        padding: 1% 1.9%;
+    }
+
+    .contact_text_header {
+        font-size: 270%;
+    }
+
+    .contact_text_subtitle_container {
+        width: 98%;
+    }
+
+    .contact_doctor {
+        right: 12%;
+        width: 26%;
+    }
+}
+
+/*Firefox css Style*/
+@-moz-document url-prefix() {
+
+    @media only screen and (min-width: 1680px) and (max-width: 1919px) {
+        .emergency_text_door {
+            top: 12%;
+        }
+
+        .answer_text {
+            line-height: 122%;
+        }
+    }
+
+    @media only screen and (min-width: 1600px) and (max-width: 1679px) {
+        .emergency_text_door {
+            top: 12%;
+        }
+
+        .emergency_light {
+            top: 10.5%;
+            width: 14.5%;
+        }
+
+        .faq_board {
+            width: 40%;
+        }
+
+        .parent_svg {
+            width: 63%;
+            height: 87%;
+        }
+
+        .feedback_line_book1 {
+            top: 35%;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) and (max-width: 1599px) {
+        .emergency_text_door {
+            top: 12%;
+        }
+
+        .answer_text {
+            line-height: 120%;
+        }
+    }
+
+    @media only screen and (min-width: 1400px) and (max-width: 1439px) {
+        .emergency_text_door {
+            top: 17%;
+        }
+
+        .answer_text {
+            line-height: 140%;
+        }
+
+        .answer {
+            line-height: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 1366px) and (max-width: 1399px) {
+        .answer_text {
+            line-height: 112%;
+            font-size: 78%;
+        }
+
+        .facility_text {
+            font-size: 220%;
+        }
+
+        .facility_text_container {
+            bottom: 30%;
+        }
+
+        .emergency_text_door {
+            top: 12%;
+        }
+
+        .feedback_text {
+            font-size: 380%;
+        }
+
+        .feedback_form_container {
+            top: 7%;
+        }
+
+        .feedback_form_header {
+            font-size: 210%;
+        }
+
+        .feedback_form_text {
+            font-size: 175%;
+        }
+
+        .feedback_form_text_content {
+            margin: 1.6% 0;
+        }
+
+        .form_submit {
+            font-size: 160%;
+            margin: 0% 33% 0px;
+        }
+    }
+
+    @media only screen and (min-width: 1360px) and (max-width: 1365px) {
+        .answer_text {
+            line-height: 120%;
+            font-size: 78%;
+        }
+
+        .facility_text {
+            font-size: 220%;
+        }
+
+        .facility_text_container {
+            bottom: 30%;
+        }
+
+        .emergency_text_door {
+            top: 12%;
+        }
+
+        .feedback_text {
+            font-size: 380%;
+        }
+
+        .feedback_form_container {
+            top: 7%;
+        }
+
+        .feedback_form_header {
+            font-size: 210%;
+        }
+
+        .feedback_form_text {
+            font-size: 175%;
+        }
+
+        .feedback_form_text_content {
+            margin: 1.6% 0;
+        }
+
+        .form_submit {
+            font-size: 160%;
+            margin: 0% 33% 0px;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (max-width: 1359px) {
+        .home_laptop {
+            margin: 0.75% 8% 0px 7%;
+        }
+
+        .home_phone {
+            margin: 7.82% 6% 0px 0px;
+        }
+
+        .facility_text {
+            font-size: 250%;
+        }
+
+        .facility_text_container {
+            bottom: 30%;
+        }
+
+        .answer_text {
+            line-height: 120%;
+            font-size: 83%;
+        }
+
+        .emergency_text_door {
+            top: 12%;
+        }
+
+        .faq_text {
+            font-size: 400%;
+        }
+
+        .feedback_text {
+            font-size: 380%;
+        }
+
+        .feedback_form_container {
+            top: 7%;
+        }
+
+        .feedback_form_header {
+            font-size: 210%;
+        }
+
+        .feedback_form_text {
+            font-size: 175%;
+        }
+
+        .feedback_form_text_content {
+            margin: 1.6% 0;
+        }
+
+        .form_submit {
+            font-size: 160%;
+            margin: 0% 33% 0px;
+        }
+    }
+
+    @media only screen and (min-width: 1152px) and (max-width: 1279px) {
+        .home_phone {
+            margin: 7.8% 6% 0px 0px;
+        }
+
+        .answer_text {
+            line-height: 120%;
+            font-size: 90%;
+        }
+
+        .facility_text {
+            font-size: 280%;
+        }
+
+        .facility_text_container {
+            bottom: 30%;
+        }
+
+        .emergency_text_door {
+            top: 18%;
+        }
+
+        .feedback_text {
+            font-size: 380%;
+        }
+
+        .feedback_form_container {
+            top: 7%;
+        }
+
+        .feedback_form_header {
+            font-size: 210%;
+        }
+
+        .feedback_form_text {
+            font-size: 175%;
+        }
+
+        .feedback_form_text_content {
+            margin: 1.6% 0;
+        }
+
+        .form_submit {
+            font-size: 160%;
+            margin: 0% 33% 0px;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1151px) {
+        .home_phone {
+            margin: 7.815% 6% 0px 0px;
+        }
+
+        .answer_text {
+            line-height: 120%;
+            font-size: 90%;
+        }
+
+        .facility_text {
+            font-size: 280%;
+        }
+
+        .facility_text_container {
+            bottom: 30%;
+        }
+
+        .emergency_text_door {
+            top: 18%;
+        }
+
+        .feedback_text {
+            font-size: 380%;
+        }
+
+        .feedback_form_container {
+            top: 7%;
+        }
+
+        .feedback_form_header {
+            font-size: 210%;
+        }
+
+        .feedback_form_text {
+            font-size: 175%;
+        }
+
+        .feedback_form_text_content {
+            margin: 1.6% 0;
+        }
+
+        .form_submit {
+            font-size: 160%;
+            margin: 0% 33% 0px;
+        }
+    }
+}
+/*End Firefox */
+
+/*Table & Mobile Responsive 992 * 627*/
+
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+    .home_family_denatl_menu {
+        top:5%;
+        width:12%;
+    }
+    .family_logo{top:2%;}
+    .family_text  {
+        font-size:200%;
+        left:5%;
+    }
+    .family_grandparent_svg, .family_parent_svg , .family_children_svg {
+        top:10%;
+    }
+    .family_svg {
+        height:78%;
+    }
+    .children_svg{
+        width: 94%;
+        height: 77%;
+    }
+    #nav-toggle {
+        width: 0%;
+        left: 1.5%;
+        padding: 25px 27px 16px 9px;
+    }
+
+        #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+            height: 3px;
+        }
+
+            #nav-toggle span:after {
+                bottom: -7px;
+            }
+
+            #nav-toggle span:before {
+                top: -7px;
+            }
+
+    .menu_container {
+        width: 21%;
+    }
+
+    .menu {
+        background-size: 17%;
+        background-position: 15%;
+        height: 10%;
+    }
+
+        .menu:first-child {
+            height: 10%;
+        }
+
+    .menu_text {
+        bottom: 17%;
+        width: 75%;
+        font-size: 150%;
+        left: 25%;
+        transform: translateY(-75%);
+        -webkit-transform: translateY(-75%);
+        -moz-transform: translateY(-75%);
+        -o-transform: translateY(-75%);
+        -ms-transform: translateY(-75%);
+    }
+
+    .home_tree {
+        height: 46%;
+    }
+
+    .home_light {
+        width: 38.5%;
+        height: 40%;
+    }
+
+    .logo_img {
+        width: 16%;
+        left: 24%;
+    }
+
+    .logo_tagline {
+        left: 43%;
+        width: 21%;
+    }
+
+    .home_bird {
+        width: 24%;
+        top: 6%;
+        left: 48.8%;
+    }
+
+    .home_cupboard {
+        top: 17%;
+        left: 43%;
+        width: 42%;
+    }
+
+    .home_drawer {
+        width: 21%;
+    }
+
+    .home_table {
+        width: 70%;
+    }
+
+    .home_lady {
+        bottom: 20.5%;
+        right: 23%;
+        width: 28%;
+    }
+
+    .home_laptop {
+        width: 23%;
+        margin: 1% 6.5% 0 7%;
+    }
+
+    .home_pen_stand {
+        width: 5.3%;
+        margin: 4% 4% 0 4%;
+    }
+
+    .home_phone {
+        width: 13.5%;
+        margin: 9.1% 6% 0 0;
+    }
+
+    .home_dustbin {
+        width: 12%;
+    }
+
+    /*About*/
+    .about_light {
+        width: 8.8%;
+    }
+
+    .about_bulb_shadow {
+        right: 5%;
+        width: 21%;
+    }
+
+    .about_dentistry {
+        right: 3%;
+        bottom: 11%;
+        width: 23%;
+    }
+
+    .about_birdcage {
+        width: 45%;
+        left: 25%;
+    }
+
+    .about_doctor {
+        width: 27%;
+    }
+
+    .about_door {
+        width: 15.7%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 11.8%;
+        left: 3%;
+        width: 24.2%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 3.9%;
+        left: 2.9%;
+        width: 24.7%;
+    }
+
+    .about_bird {
+        width: 30%;
+        top: 10%;
+    }
+
+    .about_dentisty_container {
+        right: 19%;
+        width: 100%;
+    }
+
+    .about_svg_dentisty {
+        width: 66%;
+    }
+
+    .about_dentisty {
+        bottom: 11%;
+        right: 19%;
+        width: 40%;
+        height:400px;
+    }
+
+    .about_svg_container {
+        left: 1%;
+    }
+
+    .about_popup_container {
+        top: 38.5%;
+        left: 0%;
+        width: 28%;
+        height:300px;
+    }
+    /*Management*/
+    .management_lady_Lastleft {
+        width: 9%;
+    }
+
+    .management_lady_secondleft {
+        left: 13%;
+        width: 16.5%;
+    }
+
+    .management_doctor_center {
+        width: 16%;
+        bottom: 4%;
+        left: 29%;
+    }
+
+    .management_lady_secondright {
+        left: 45%;
+        width: 10.5%;
+    }
+
+    .management_lady_Lastright {
+        width: 9.9%;
+        left: 57%;
+    }
+
+    .management_board {
+        width: 26%;
+        z-index: -1;
+    }
+
+    .management_header {
+        line-height: 80%;
+    }
+
+    .management_aerrow {
+        font-size: 280%;
+    }
+
+    .management_text_body {
+        margin: 0 0 0 6%;
+        line-height: 100%;
+    }
+
+    .tooltip-content {
+        padding: 16px;
+        font-size: 105%;
+    }
+ 	.tooltip-content{ width:140%;}
+    .First_doctor {
+        margin: 0 0 99% -35% !important;
+    }
+
+    .Second_doctor {
+    	width:76%;
+        margin: 0 0 48% -90% !important;
+    }
+
+    .Third_doctor {
+    	width:79%;
+        margin: 0 0 33% -1% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 80% -50% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 94% -43% !important;
+    }
+    .tooltip-content p:nth-child(1){ font-size: 210%; margin-top: 5px;}
+    .tooltip-content a{ font-size: 90%;}
+    .tooltip-content p:nth-child(2){ margin-bottom:0;}
+  	.tabs{ width:90%; margin:15px auto 40px auto; }
+  	.tabs label{width:auto; font-size: 25px; }
+  	.svgpopup_header{ padding: 4% 0 0  0 !important;}
+  	/*.content{ height:500px; overflow: hidden; overflow-y: scroll; }*/
+  	.svgpopup_image{ width:17%; vertical-align: top;}
+  	.svgpopup_position{ font-size: 200%;}
+  	.svgpopup_body{ width:100%; font-size: 62%; max-height:188px; overflow-y: scroll;}
+  	.meet_svg {   width: 21%;}
+	.samta_svg {    width: 18%;}
+	.vidhi_svg {  width: 23%; }
+	.overlay .overlay-close{ padding: 1.2%;}
+    /*Gallery*/
+
+    .gallery_projector {
+        width: 16.5%;
+        right: 34.5%;
+    }
+
+    .gallery_projector_light {
+        top: 16%;
+        right: 14%;
+        width: 56%;
+    }
+
+    .gallery_screen {
+        top: 22%;
+        right: 13%;
+        width: 57.7%;
+    }
+
+    .gallery_desk {
+        width: 13%;
+    }
+
+    .gallery_doctor {
+        width: 22%;
+    }
+
+    .gallery_table {
+        width: 58%;
+        right: 14%;
+        bottom: 3%;
+    }
+
+    .gallery_doctors {
+        width: 52%;
+        right: 17%;
+        bottom: -2%;
+    }
+
+    .navigation {
+        opacity: 1;
+    }
+
+    .gallery_text {
+        top: 59%;
+    }
+
+    .gallery_logo {
+        top: 36%;
+    }
+    /*Facility*/
+    .facilities_board {
+        width: 39%;
+    }
+
+    .bottle_text_body {
+        font-size: 170%;
+    }
+
+    .facility_table {
+        width: 37%;
+    }
+
+    .bottle {
+        margin: -1px auto;
+    }
+
+    .facility_doctor {
+        width: 52%;
+        right: 5.4%;
+    }
+
+    .facility_stand {
+        width: 33%;
+        right: 5%;
+    }
+
+    .facility_table_big {
+        width: 14.5%;
+        right: 28.5%;
+    }
+    /*FAQ*/
+    .faq_family {
+        width: 28%;
+        left: 6%;
+    }
+
+    .faq_cloud {
+        top: 37%;
+        left: 30%;
+        width: 14%;
+    }
+
+    .faq_text {
+        font-size: 380%;
+    }
+
+    .faq_text_container {
+        top: 36%;
+    }
+
+    .faq_board {
+        right: 5%;
+        width: 48%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 170%;
+    }
+
+    .answer_text {
+        line-height: 110%;
+    }
+    /*Emergency*/
+    .emergency_Door {
+        width: 33%;
+    }
+
+    .emergency_light {
+        width: 17%;
+        top: 22%;
+    }
+
+    .door_text {
+        font-size: 224%;
+        line-height: 80%;
+    }
+
+    .emergency_nurse {
+        bottom: 7%;
+        left: 4%;
+        width: 53%;
+    }
+
+    .emergency_text_operation {
+        bottom: 4%;
+    }
+
+    .emergency_door_shadow {
+        bottom: 7.9%;
+        right: 3%;
+        width: 44%;
+    }
+    /*Feedback*/
+    .feedback_computer {
+        width: 30%;
+    }
+
+    .feedback_apple {
+        left: 8%;
+        width: 3.7%;
+    }
+
+    .feedback_computer_book {
+        left: 25%;
+        width: 11%;
+    }
+
+    .feedback_shelf {
+        width: 52%;
+    }
+
+    .feedback_line_book1 {
+        top: 33%;
+    }
+
+    .feedback_line_book2 {
+        top: 26%;
+        left: 13.5%;
+    }
+
+    .feedback_line_book3 {
+        left: 23.2%;
+    }
+
+    .feedback_line_book4 {
+        left: 30%;
+        top: 20.7%;
+    }
+
+    .feedback_line_book5 {
+        top: 20.5%;
+        left: 39.7%;
+    }
+
+    .feedback_board {
+        width: 32%;
+    }
+
+    .contact_board {
+        left: 2%;
+        width: 61%;
+    }
+
+    .contact_text_header {
+        font-size: 290%;
+        margin: 3% 0 0 0;
+    }
+
+    .contact_doctor {
+        bottom: 4%;
+        right: 10%;
+        width: 27%;
+    }
+
+    .contact_baby_top {
+        width: 9.5%;
+    }
+
+    .contact_baby_middle {
+        width: 10.5%;
+    }
+
+    .contact_baby_bottom {
+        width: 10%;
+        bottom: 17%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 89%;
+    }
+
+    .close-popup {
+        right: 3%;
+        background-size: 65%;
+    }
+
+    .about_body_text  {
+        margin:8% 0 0 0;
+    }
+    .about_me {
+        padding:4%;
+    }
+
+}
+/* for kindle fire 800x600, 853x533 */
+@media (max-width: 853px) and (orientation: landscape) {
+
+    .about_academic_text {
+        font-size:115%;
+
+    }
+    .family_svg , .parent_svg , .children_svg {
+        display:none;
+    }
+    .family_body {
+        font-size:120%;
+        margin:1% 0 0 20% ;
+    }
+    .family_header {
+        font-size:290%;
+    }
+    .family_title {
+        font-size:130%;
+    }
+    .family_close {
+        padding:3% !important;
+    }
+    .family_popup_container {
+        width:95%;
+    }
+    .family_grandparent_svg {
+        width:60%;
+    }
+    .family_grandparent_svg, .family_parent_svg, .family_children_svg {
+        top:6%;
+    }
+    .family_grandparent_svg {
+        left:20%;
+    }
+    .family_parent_svg , .family_children_svg{
+        right: 20%;
+        width: 60%;
+    }
+     .home_tree {
+        width: 61%;
+        height: 40%;
+    }
+
+    .home_light {
+        width: 44%;
+        top: 9%;
+    }
+
+    .home_sofa {
+        width: 66%;
+    }
+
+    .logo_img {
+        width: 18%;
+        left: 23%;
+        top: 32%;
+    }
+
+    .logo_tagline {
+        left: 44%;
+        width: 24%;
+        top: 37%;
+    }
+
+    .home_bird {
+        width: 25%;
+        top: 7%;
+        left: 47.5%;
+    }
+
+    .home_cupboard {
+        top: 17%;
+        left: 40%;
+        width: 46%;
+    }
+
+    .home_drawer {
+        width: 23%;
+    }
+
+    .home_table {
+        width: 75%;
+    }
+
+    .home_lady {
+        bottom: 18.5%;
+        right: 24%;
+        width: 30%;
+    }
+
+    .home_laptop {
+        width: 25%;
+        margin: 1% 7% 0 7%;
+    }
+
+    .home_pen_stand {
+        width: 5.6%;
+        margin: 4.5% 4% 0 4%;
+    }
+
+    .home_phone {
+        width: 14%;
+        margin: 10% 6% 0 0;
+    }
+
+    .home_dustbin {
+        width: 13%;
+    }
+
+    .home_navigation {
+        bottom: 18%;
+    }
+    /*About*/
+    .about_light {
+        width: 9.8%;
+    }
+
+    .about_bulb_shadow {
+        right: 3.5%;
+        width: 25%;
+        top: 14%;
+    }
+
+    .about_dentistry {
+        right: 1.7%;
+        bottom: 11%;
+        width: 26.8%;
+    }
+
+    .about_birdcage {
+        width: 45%;
+        left: 25%;
+    }
+
+    .about_doctor {
+        width: 32%;
+    }
+
+    .about_door {
+        width: 16.7%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 12.2%;
+        left: 3%;
+        width: 25%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 5%;
+        left: 2.5%;
+        width: 26.3%;
+    }
+
+    .about_bird {
+        width: 31%;
+        top: 11%;
+    }
+
+    .about_body_text {
+        font-size: 110%;
+    }
+
+    .about_dentisty_container {
+        width: 85%;
+        right: 6%;
+        z-index: 99999999;
+    }
+
+    .about_svg {
+        display: none;
+    }
+
+    .about_popup_container {
+        top: 27%;
+        width: 90%;
+        z-index: 99999999;
+        padding: 0% 5% 4.5% 5%;
+    }
+
+    .about_svg_dentisty {
+        display: none;
+    }
+
+    .about_svg_container {
+        left: 6%;
+        width: 85%;
+        z-index: 99999999;
+    }
+
+    .about_body_text {
+        font-size: 150%;
+    }
+
+    .popup_close {
+        top: 2%;
+        padding: 2%;
+    }
+
+    .about_dentisty {
+        right: 0%;
+        width: 100%;
+        bottom: 26%;
+    }
+
+    .about_body_text:first-child {
+        margin: 0;
+    }
+
+    .about_dentisty_content {
+        width: 90%;
+        padding: 4%;
+    }
+    /*Management*/
+    .management_lady_Lastleft {
+        width: 9.5%;
+    }
+
+    .management_lady_secondleft {
+        left: 13%;
+        width: 17%;
+    }
+
+    .management_doctor_center {
+        width: 16.5%;
+        bottom: 4%;
+        left: 29%;
+    }
+
+    .management_lady_secondright {
+        left: 45%;
+        width: 11%;
+    }
+
+    .management_lady_Lastright {
+        width: 10.4%;
+        left: 57%;
+    }
+
+    .management_board {
+        width: 26%;
+        z-index: -1;
+    }
+
+    .management_header {
+        line-height: 80%;
+    }
+
+    .management_aerrow {
+        font-size: 280%;
+    }
+
+    .management_text_body {
+        margin: 0 0 0 6%;
+        line-height: 100%;
+    }
+
+    .tooltip-content {
+        padding: 16px;
+        font-size: 105%;
+    }
+
+    .First_doctor {
+        margin: 0 0 122% -3% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 60% -98% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 50% -43% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 100% -10% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 120% -13% !important;
+    }
+    .vidhi_svg_text {   width: 78%;}
+    .svgpopup_header{ padding:3% 0 0 0 !important;}
+    .tabs label {   font-size: 24px; }
+    .tabs {  width: 90%; }
+    .content div{
+    	padding: 10px 2px;
+    }
+  	.svgpopup_image {
+	    width: 14%;
+	    vertical-align: top;
+	}
+	.vidhi_svg {
+    width: 19%;
+}
+.meet_svg {
+    width: 17%;
+}
+.samta_svg {
+    width: 16%;
+}
+.svgpopup_body{ max-height:160px;}
+    /*Gallery*/
+    .gallery_lamp {
+        width: 10.5%;
+    }
+
+    .gallery_projector {
+        width: 19%;
+        right: 37.5%;
+    }
+
+    .gallery_projector_light {
+        top: 15.3%;
+        right: 16%;
+        width: 61%;
+    }
+
+    .gallery_screen {
+        top: 21%;
+        right: 15%;
+        width: 63.7%;
+    }
+
+    .gallery_desk {
+        width: 14%;
+    }
+
+    .gallery_doctor {
+        width: 24%;
+    }
+
+    .gallery_table {
+        width: 68%;
+        right: 12%;
+        bottom: 3%;
+    }
+
+    .gallery_doctors {
+        width: 57%;
+        right: 18%;
+        bottom: -1;
+    }
+    /*Facility*/
+    .facilities_board {
+        width: 40%;
+    }
+
+    .bottle_text_body {
+        font-size: 180%;
+    }
+
+    .facility_table {
+        width: 38%;
+        left: 3%;
+    }
+
+    .facility_doctor {
+        width: 55%;
+        right: 4.4%;
+    }
+
+    .facility_stand {
+        width: 35%;
+        right: 4%;
+    }
+
+    .facility_table_big {
+        width: 15%;
+        right: 29%;
+    }
+
+    /*FAQ*/
+    .faq_family {
+        width: 29%;
+        left: 5%;
+    }
+
+    .faq_cloud {
+        top: 43%;
+    }
+
+    .faq_text {
+        font-size: 380%;
+    }
+
+    .faq_text_container {
+        top: 36%;
+    }
+
+    .faq_board {
+        right: 4%;
+        width: 50%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 180%;
+    }
+
+    .owl-page {
+        font-size: 160%;
+    }
+
+    .answer_text {
+        line-height: 110%;
+        font-size: 105%;
+    }
+
+    .emergency_light {
+        top: 32%;
+    }
+
+    .emergency_door_shadow {
+        bottom: 12.4%;
+    }
+
+    .feedback_computer {
+        width: 32%;
+    }
+
+    .feedback_apple {
+        width: 3.9%;
+    }
+
+    .feedback_computer_book {
+        left: 26%;
+        width: 12%;
+    }
+
+    .feedback_line_book1 {
+        top: 32%;
+    }
+
+    .feedback_line_book3 {
+        top: 27%;
+    }
+
+    .feedback_line_book4 {
+        top: 21.5%;
+    }
+
+    .feedback_line_book5 {
+        top: 21%;
+    }
+
+    .feedback_board {
+        width: 34%;
+    }
+
+    .feedback_form_header {
+        font-size: 280%;
+    }
+
+    .feedback_form_text {
+        font-size: 245%;
+    }
+
+    .form_submit {
+        font-size: 210%;
+    }
+
+    .contact_board {
+        width: 60%;
+    }
+
+    .contact_text_header {
+        font-size: 285%;
+        margin: 3.2% 0 0 0;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 88%;
+    }
+
+    .fancybox-next span {
+        right: 3%;
+    }
+}
+
+/*800
+ @media (max-height: 800px) {
+	 #nav-toggle{  width:0%; left:1.5%;     padding: 25px 27px 16px 9px;  }
+     .menu_container{ width:21%;}
+     .menu{ background-size: 20%; background-position:11%; height:10%;}
+     .menu:first-child{ height:10%;}
+     .menu_text{ bottom: 20%; width: 75%;  font-size: 150%; left: 25%; transform: translateY(-75%); -webkit-transform: translateY(-75%); -moz-transform: translateY(-75%); -o-transform: translateY(-75%);  -ms-transform: translateY(-75%);}
+     #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after{ height:3px;}
+     #nav-toggle span:after{ bottom:-7px;}
+     #nav-toggle span:before{ top:-7px; }
+ 	.home_lady{ bottom:19.5%;}
+
+}
+
+/* for ipad height 768
+@media (max-height: 768px) {
+	 #nav-toggle{  width:0%; left:1.5%;     padding: 25px 27px 16px 9px;  }
+     .menu_container{ width:21%;}
+     .menu{ background-size: 20%; background-position:11%; height:10%;}
+     .menu:first-child{ height:10%;}
+     .menu_text{ bottom: 20%; width: 75%;  font-size: 150%; left: 25%; transform: translateY(-75%); -webkit-transform: translateY(-75%); -moz-transform: translateY(-75%); -o-transform: translateY(-75%);  -ms-transform: translateY(-75%);}
+     #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after{ height:3px;}
+     #nav-toggle span:after{ bottom:-7px;}
+     #nav-toggle span:before{ top:-7px; }
+	.home_tree{ height:auto; bottom:14%; width:67%; }
+	.home_light{ width:40%;}
+	.logo_img{ width:18%; top:30%; left:25%; }
+	.logo_tagline{ top:36%;  left: 46%; width:21%; }
+	.home_lady{ bottom:16.5%;}
+
+	.about_doctor{ width:29%;}
+	.about_dentisty_container{ width:85%; right:6%; z-index:99999999;}
+    .about_svg{ display:none; }
+    .about_popup_container{  width:92%;  z-index:99999999; padding:  0% 4% 3.5% 4%; top:55%;  transform: translateY(-50%);  -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%);  -ms-transform: translateY(-50%);}
+	.about_dentisty {   right: 7.5%;  width: 85%;  bottom:6%; transform: translateY(50%);  -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%);  -ms-transform: translateY(-50%);}
+    .about_svg_dentisty{display:none;}
+	.about_svg_container{ left:6%; width:85%; z-index:99999999;}
+	.about_body_text{ font-size: 150%;}
+	.popup_close{ top:2% ; padding: 2%; }
+	.about_body_text{ margin:4% 0 0 0; }
+	.about_dentisty_content{ padding: 1% 6% 4% 6%; }
+	.about_dentistry { right: 1%;   width: 26%; }
+	.about_light { width: 10.8%;  right: 9.7%; }
+	.about_bulb_shadow{ right:3%; width: 24%;top:15%; }
+	.about_open_door_shadow { left: 1.5%;  width: 27.7%; }
+
+	.gallery_projector{ right:41%; }
+	.gallery_projector_light{ top:11.5%; width:66%;  }
+	.gallery_screen{ width:66.7%; }
+	.gallery_table{ width:63%; bottom:2%; }
+	.gallery_doctors{ width:52%; right:23%; bottom:-2%; }
+
+	.emergency_door_shadow { bottom: 9%;   right: 3%;   width: 45.5%; }
+	.emergency_light{ top:33%; }
+
+	.feedback_line_book1{ top:31.5%; }
+	.feedback_line_book4{ top:21.5%; }
+	.feedback_line_book5{ top:20.9%; }
+	.feedback_form_text{ font-size: 210%; }
+	.feedback_form_header{font-size: 250%; }
+	.form_submit{font-size: 200%; }
+	.feedback_form_container{ top:11%; }
+}*/
+/*Google Nexus 7  height: 603 */
+/* for kindle fire and kindle fire 7 but max-height 855px */
+
+
+
+@media (max-height: 610px) {
+    .home_lady {
+        bottom: 21.5%;
+    }
+
+    .home_phone {
+        margin: 9.3% 6% 0 0;
+    }
+
+    .about_dentisty_container {
+        width: 85%;
+        right: 6%;
+        z-index: 99999999;
+    }
+
+    .about_svg {
+        display: none;
+    }
+
+    .about_popup_container {
+        top: 22%;
+        width: 90%;
+        z-index: 99999999;
+        padding: 0% 5% 4.5% 5%;
+    }
+
+    .about_svg_dentisty {
+        display: none;
+    }
+
+    .about_svg_container {
+        left: 6%;
+        width: 85%;
+        z-index: 99999999;
+    }
+
+    .about_body_text {
+        font-size: 150%;
+    }
+
+    .popup_close {
+        top: 2%;
+        padding: 2%;
+    }
+
+    .about_dentisty {
+        right: 0%;
+        width: 100%;
+
+    }
+
+    .about_body_text:first-child {
+        margin: 0;
+    }
+
+    .about_dentisty_content {
+        width: 90%;
+        padding: 4%;
+    }
+}
+
+
+ @media (max-width: 650px) and (max-height: 800px) {
+
+}
+@media (max-height: 600px) and (orientation: landscape) {
+    #nav-toggle {
+        width: 0%;
+        left: 1.5%;
+        padding: 25px 27px 16px 9px;
+    }
+
+    .menu_container {
+        width: 21%;
+    }
+
+    .menu {
+        background-size: 20%;
+        background-position: 11%;
+        height: 10%;
+    }
+
+        .menu:first-child {
+            height: 10%;
+        }
+
+    .menu_text {
+        bottom: 20%;
+        width: 75%;
+        font-size: 150%;
+        left: 25%;
+        transform: translateY(-75%);
+        -webkit-transform: translateY(-75%);
+        -moz-transform: translateY(-75%);
+        -o-transform: translateY(-75%);
+        -ms-transform: translateY(-75%);
+    }
+
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+        height: 3px;
+    }
+
+        #nav-toggle span:after {
+            bottom: -7px;
+        }
+
+        #nav-toggle span:before {
+            top: -7px;
+        }
+
+    .home_tree {
+        height: auto;
+        bottom: 14%;
+        width: 67%;
+    }
+
+    .home_light {
+        width: 40%;
+    }
+
+    .logo_img {
+        width: 18%;
+        top: 30%;
+        left: 25%;
+    }
+
+    .logo_tagline {
+        top: 36%;
+        left: 46%;
+        width: 21%;
+    }
+
+    .home_phone {
+        margin: 10% 6% 0 0;
+    }
+
+    .home_lady {
+        bottom: 19.5%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 10.7%;
+    }
+
+    .about_light {
+        right: 11.5%;
+    }
+
+    .about_dentistry {
+        right: 3%;
+        width: 25.5%;
+    }
+
+    .about_bulb_shadow {
+        right: 5%;
+        width: 22.8%;
+    }
+
+    .about_dentisty {
+        bottom: 25%;
+    }
+
+    .about_popup_container {
+        top: 26%;
+    }
+
+    .gallery_projector {
+        width: 14%;
+        right: 40%;
+    }
+
+    .gallery_screen {
+        top: 18%;
+        width: 62.7%;
+    }
+
+    .gallery_projector_light {
+        top: 12.3%;
+    }
+
+
+    .faq_cloud {
+        top: 39%;
+    }
+
+    .emergency_light {
+        top: 28%;
+    }
+
+    .feedback_line_book1 {
+        top: 32.3%;
+    }
+
+    .contact_board {
+        width: 60%;
+    }
+
+    .contact_text_header {
+        font-size: 280%;
+        margin: 3% 0 0 0;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 86%;
+    }
+
+    .contact_mail {
+        padding: 1% 2.1%;
+    }
+
+    .feedback_form_header {
+        font-size: 250%;
+    }
+
+    .feedback_form_text {
+        font-size: 220%;
+    }
+
+    .emergency_door_shadow {
+        bottom: 8%;
+        right: 4%;
+        width: 43.5%;
+    }
+}
+
+/***PlayBook ****/
+@media (max-width: 1024px) and (max-height: 600px) and (orientation: landscape) {
+    .home_phone {
+        margin: 7.8% 6% 0 0;
+    }
+
+    .about_dentistry {
+        right: 4%;
+        width: 23.5%;
+    }
+}
+
+@media (max-width: 860px) and (max-height: 550px) and (orientation: landscape) {
+    .home_light {
+        width: 38%;
+    }
+
+    .home_tree {
+        width: 56%;
+    }
+
+    .home_sofa {
+        width: 62%;
+    }
+
+    .logo_img {
+        width: 16%;
+    }
+
+    .logo_tagline {
+        left: 43%;
+        width: 21%;
+    }
+
+    .home_table {
+        width: 73%;
+    }
+
+    .home_drawer {
+        width: 21%;
+    }
+
+    .home_bird {
+        width: 24%;
+    }
+
+    .home_cupboard {
+        width: 43%;
+    }
+
+    .home_combine_obj {
+        width: 93%;
+        right: 1.5%;
+    }
+
+    .home_laptop {
+        width: 26%;
+    }
+
+    .home_pen_stand {
+        margin: 5% 4% 0 4%;
+    }
+
+    .home_phone {
+        margin: 10.8% 6% 0 0;
+    }
+
+    .home_dustbin {
+        width: 11%;
+        bottom: 3%;
+    }
+
+    .home_lady {
+        bottom: 20.5%;
+        right: 23.5%;
+        width: 29%;
+    }
+    /*About*/
+    .about_light {
+        width: 9%;
+    }
+
+    .about_bulb_shadow {
+        right: 5.7%;
+        width: 21%;
+        top: 15%;
+    }
+
+    .about_dentistry {
+        right: 4.5%;
+        width: 22.5%;
+    }
+
+    .about_doctor {
+        width: 29%;
+    }
+
+    .about_door {
+        width: 16%;
+    }
+
+    .popup_close {
+        padding: 1.7%;
+    }
+
+    .about_dentisty_content {
+        width: 92%;
+        padding: 2% 4% 3.5% 4%;
+    }
+
+    .about_popup_container {
+        width: 92%;
+        padding: 2% 4% 3.5% 4%;
+        top: 10%;
+        height:400px;
+    }
+    .about_academic_text {
+        margin:2% 0 0 0;
+    }
+
+
+    .about_dentisty .about_body_text {
+        margin: 2% 0 0 0;
+    }
+
+    .about_close_door_shadow {
+        bottom: 10.4%;
+        width: 27%;
+        left: 2%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 2%;
+        left: 1.5%;
+        width: 28.3%;
+    }
+
+    .about_popup_container .about_body_text {
+        margin: 2% 0 0 0;
+    }
+
+    .about_body_text {
+        font-size: 115%;
+    }
+
+    .about_dentisty {
+        bottom: 12%;
+    }
+
+    .First_doctor {
+        margin: 0 0 80% -40% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 37% -93% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 17% -8% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 52% -45% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 72% -40% !important;
+    }
+
+	.svgpopup_header{ padding:3% 0 0 0 !important;}
+    .tabs label {   font-size: 24px; }
+    .tabs {  width: 90%; }
+    .content div{
+    	padding: 10px 2px;
+    }
+  	.svgpopup_image {
+	    width: 14%;
+	    vertical-align: top;
+	}
+	.vidhi_svg {
+    width: 19%;
+}
+.meet_svg {
+    width: 17%;
+}
+.samta_svg {
+    width: 16%;
+}
+	.content{   margin:2% 0 0 0;}
+	.svgpopup_body{ max-height:160px;}
+    .tooltip-content::after {
+        height: 90px;
+    }
+
+    .gallery_screen {
+        top: 20%;
+        width: 53.7%;
+    }
+
+    .gallery_projector_light {
+        top: 14%;
+        right: 16%;
+        width: 52%;
+    }
+
+    .gallery_projector {
+        width: 14%;
+        right: 35.5%;
+    }
+
+    .gallery_doctors {
+        width: 52%;
+        right: 16%;
+        bottom: -2%;
+    }
+
+    .gallery_table {
+        width: 61%;
+        right: 12%;
+        bottom: 3%;
+    }
+
+    .facilities_board {
+        width: 38%;
+    }
+
+    .facility_text {
+        font-size: 280%;
+    }
+
+    .facility_table {
+        width: 38%;
+        left: 6%;
+    }
+
+    .facility_doctor {
+        width: 52%;
+    }
+
+    .facility_table_big {
+        width: 14%;
+        right: 26%;
+    }
+
+    .facility_stand {
+        width: 33%;
+    }
+
+    .faq_family {
+        width: 27%;
+        left:3%;
+    }
+
+    .faq_cloud {
+        top: 35%;
+        left: 28%;
+    }
+
+    .faq_board {
+        right: 9%;
+        width: 48%;
+    }
+
+    .emergency_light {
+        top: 22%;
+    }
+
+    .feedback_line_book1 {
+        top: 33%;
+    }
+
+    .feedback_line_book3 {
+        top: 27.4%;
+    }
+
+    .feedback_line_book4 {
+        top: 20.6%;
+    }
+
+    .feedback_line_book5 {
+        top: 20.5%;
+    }
+
+    .feedback_board {
+        width: 32%;
+    }
+}
+/*853*/
+@media (max-width: 860px) and (max-height: 500px) and (orientation: landscape) {
+    .home_light {
+        width: 38%;
+    }
+
+    .home_tree {
+        width: 56%;
+    }
+
+    .home_sofa {
+        width: 62%;
+    }
+
+    .logo_img {
+        width: 16%;
+    }
+
+    .logo_tagline {
+        left: 43%;
+        width: 21%;
+    }
+
+    .home_table {
+        width: 73%;
+    }
+
+    .home_drawer {
+        width: 21%;
+    }
+
+    .home_bird {
+        width: 24%;
+    }
+
+    .home_cupboard {
+        width: 43%;
+    }
+
+    .home_combine_obj {
+        width: 93%;
+        right: 1.5%;
+    }
+
+    .home_laptop {
+        width: 26%;
+    }
+
+    .home_pen_stand {
+        margin: 5% 4% 0 4%;
+    }
+
+    .home_phone {
+        margin: 10.8% 6% 0 0;
+    }
+
+    .home_dustbin {
+        width: 11%;
+        bottom: 3%;
+    }
+
+    .home_lady {
+        bottom: 22.5%;
+        right: 23.5%;
+        width: 29%;
+    }
+    /*About*/
+    .about_light {
+        width: 9%;
+    }
+
+    .about_bulb_shadow {
+        right: 5.7%;
+        width: 20%;
+    }
+
+    .about_dentistry {
+        right: 4.5%;
+        width: 21%;
+    }
+
+    .about_doctor {
+        width: 29%;
+    }
+
+    .about_door {
+        width: 16%;
+    }
+
+    .popup_close {
+        padding: 1.7%;
+    }
+
+    .about_dentisty_content {
+        width: 92%;
+        padding: 2% 4% 3.5% 4%;
+    }
+
+    .about_popup_container {
+        width: 92%;
+        padding: 2% 4% 3.5% 4%;
+        top: 33%;
+    }
+
+    .about_dentisty .about_body_text {
+        margin: 2% 0 0 0;
+    }
+
+    .about_close_door_shadow {
+        bottom: 11.4%;
+        width: 25%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 2%;
+        left: 2.5%;
+        width: 26.3%;
+    }
+
+    .about_popup_container .about_body_text {
+        margin: 2% 0 0 0;
+    }
+
+    .about_body_text {
+        font-size: 115%;
+    }
+
+    .about_dentisty {
+        bottom: 17%;
+    }
+.tooltip-content {
+    	width: 165%;
+	}
+    .First_doctor {
+    	width:180%;
+        margin: 0 0 80% -55% !important;
+    }
+
+    .Second_doctor {
+    	width: 86%;
+        margin: 0 0 37% -96% !important;
+    }
+
+    .Third_doctor {
+    	width:100%;
+        margin: 0 0 17% -15% !important;
+    }
+
+    .Fourth_doctor {
+    	width:172%;
+        margin: 0 0 52% -55% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 72% -55% !important;
+    }
+    .tabs{ margin:5px auto;}
+	/*.content { height:350px;}*/
+
+	.svgpopup_body{ max-height:115px; line-height: 130%; margin:0; font-size: 95%;}
+    .svgpopup_header{ padding: 5% 0 0 0 !important;}
+	.svgpopup_position{ font-size: 145%;}
+	.svgpopup_image{ vertical-align: top; width:18%;}
+
+	.svgpopup_headertxt{ font-size: 240%;}
+
+	.svgpopup_image {    width: 12.5%;}
+	.overlay .overlay-close{ padding: 1.8%; top:5%;    background-size: 100%; }
+	.svgpopup_container{
+		left: 5%;
+		 height:100%;
+		width: 93%;
+		    -webkit-transform: translateY(-45%);
+    -moz-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    -o-transform: translateY(-45%);
+    transform: translateY(-45%);
+	}
+	.tooltip-content p:nth-child(1){ font-size: 250%;    margin-top: 0px;}
+	.tooltip-content p:nth-child(2) {   margin-bottom: 0px;}
+	.tooltip-content a{ font-size: 110%;}
+	.vidhi_svg {
+    width: 18%;
+}
+.vidhi_svg_text {
+    width: 70%;
+}
+.samta_svg {
+    width: 14%;
+}
+.meet_svg {
+    width: 16%;
+}
+    .tooltip-content::after {
+        height: 90px;
+    }
+
+    .gallery_screen {
+        top: 20%;
+        width: 53.7%;
+    }
+
+    .gallery_projector_light {
+        top: 14%;
+        right: 16%;
+        width: 52%;
+    }
+
+    .gallery_projector {
+        width: 13%;
+        right: 36%;
+    }
+
+    .gallery_doctors {
+        width: 52%;
+        right: 16%;
+        bottom: -2%;
+    }
+
+    .gallery_table {
+        width: 61%;
+        right: 12%;
+        bottom: 3%;
+    }
+
+    .facilities_board {
+        width: 35%;
+    }
+
+    .bottle_text_body {
+        font-size: 125%;
+    }
+
+    .bootle_text_header {
+        font-size: 190%;
+    }
+
+    .facility_text {
+        font-size: 280%;
+    }
+
+    .facility_table {
+        width: 35%;
+    }
+
+    .facility_doctor {
+        width: 52%;
+    }
+
+    .facility_table_big {
+        width: 14%;
+        right: 28%;
+    }
+
+    .facility_stand {
+        width: 33%;
+    }
+
+    .faq_family {
+        width: 27%;
+    }
+
+    .faq_cloud {
+        top: 35%;
+        left: 28%;
+    }
+
+    .faq_board {
+        right: 8%;
+        width: 48%;
+    }
+
+    .emergency_light {
+        top: 16%;
+    }
+
+    .feedback_line_book1 {
+        top: 33.5%;
+    }
+
+    .feedback_line_book3 {
+        top: 27.4%;
+    }
+
+    .feedback_line_book4 {
+        top: 20.3%;
+    }
+
+    .feedback_line_book5 {
+        top: 20%;
+    }
+
+    .feedback_board {
+        width: 32%;
+        right:8%;
+
+    }
+}
+
+/* iphone 6+ 736x414 (view on 700 x 350) */
+@media (max-width: 736px) and (orientation: landscape) {
+    .about_academic_text {
+    font-size: 150%;
+}
+    #nav-toggle {
+        width: 0%;
+        left: 1.5%;
+    }
+
+    .menu_container {
+        width: 21%;
+    }
+
+    .menu {
+        background-size: 20%;
+        background-position: 12%;
+        height: 10%;
+    }
+
+        .menu:first-child {
+            height: 10%;
+        }
+
+    .menu_text {
+        bottom: 15%;
+        width: 75%;
+        font-size: 150%;
+        left: 25%;
+        transform: translateY(-75%);
+        -webkit-transform: translateY(-75%);
+        -moz-transform: translateY(-75%);
+        -o-transform: translateY(-75%);
+        -ms-transform: translateY(-75%);
+    }
+
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+        height: 3px;
+    }
+
+        #nav-toggle span:after {
+            bottom: -7px;
+        }
+
+        #nav-toggle span:before {
+            top: -7px;
+        }
+
+    /*About*/
+    .about_close_door_shadow {
+        bottom: 10%;
+        left: 2%;
+        width: 27%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 0%;
+        left: 1%;
+        width: 28.5%;
+    }
+
+    .about_doctor {
+        bottom: 5%;
+    }
+
+    .about_bulb_shadow {
+        right: 4.9%;
+        top: 12%;
+        width: 21%;
+    }
+
+    .about_dentisty_container {
+        width: 85%;
+        right: 6%;
+        z-index: 99999999;
+    }
+
+    .about_svg {
+        display: none;
+    }
+
+    .about_popup_container {
+        top: 18%;
+    height:270px;
+        z-index: 99999999;
+    }
+
+    .about_dentisty {
+        bottom: 17%;
+        height:270px;
+    }
+
+    .about_svg_dentisty {
+        display: none;
+    }
+
+    .about_svg_container {
+        left: 6%;
+        width: 85%;
+        z-index: 99999999;
+    }
+
+    .about_body_text {
+        font-size: 150%;
+    }
+
+    .popup_close {
+        top: 2%;
+        padding: 2%;
+    }
+
+    .about_body_text {
+        margin: 4% 0 0 0;
+    }
+
+    .about_dentisty_content {
+        width: 91%;
+        padding: 2% 4.2% 3.5% 4.2%;
+    }
+    /*Management*/
+
+    .management_lady_Lastleft {
+        width: 8.5%;
+    }
+
+    .management_lady_secondleft {
+        width: 16%;
+    }
+
+    .management_doctor_center {
+        width: 15.5%;
+    }
+
+    .management_lady_secondright {
+        width: 10%;
+    }
+
+    .management_lady_Lastright {
+        width: 9.4%;
+    }
+
+    .management_header {
+        line-height: 80%;
+    }
+
+    .management_aerrow {
+        font-size: 280%;
+    }
+
+    .management_text_body {
+        margin: 0 0 0 6%;
+        line-height: 100%;
+    }
+
+    .tooltip-content {
+        padding: 16px;
+        font-size: 105%;
+    }
+    .tabs{ margin:2px auto;}
+    .overlay .overlay-close{ top:3%;}
+    /*.content {   height: 320px;}*/
+	.tabs label {   font-size: 19px; line-height:55px;    border-bottom: 2px solid; }
+    .tabs input[type="radio"]:checked + label{ border-bottom: 2px solid; }
+    .First_doctor {
+        margin: 0 0 100% -50% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 40% -94% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 20% -20% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 65% -60% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 84% -45% !important;
+    }
+
+    .tooltip-content::after {
+        height: 90px;
+        background-position: center center;
+        background-size: 65% 100%;
+    }
+    .svgpopup_position {   font-size: 30%;}
+    .svgpopup_image{ width:15%;}
+    .vidhi_svg{
+    	width:21%;
+    }
+    .meet_svg{ width:19%;}
+    .samta_svg{ width:16%;}
+    .svgpopup_header{ padding: 0 !important;}
+    .svgpopup_body p {
+    margin: 6px 0;
+}
+	.svgpopup_body {   max-height: 105px;}
+    /*Gallery*/
+    .gallery_screen {
+        width: 53.7%;
+        top: 21%;
+    }
+
+    .gallery_table {
+        width: 63%;
+        right: 10%;
+        bottom: 0%;
+    }
+
+    .gallery_doctors {
+        width: 56%;
+        right: 14%;
+    }
+
+    .gallery_lamp {
+        width: 9.5%;
+    }
+
+    .gallery_projector {
+        width: 14%;
+        right: 35%;
+    }
+
+    .gallery_projector_light {
+        top: 15%;
+        right: 15%;
+        width: 53%;
+    }
+
+    .fancybox-close {
+        background-size: 80%;
+        width: 37px;
+    }
+
+    .faq_board {
+        width: 45%;
+    }
+
+    .slider_desktop {
+        display: none !important;
+    }
+
+    .slider_mobile {
+        display: block !important;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 240%;
+    }
+
+    .faq_cloud {
+        top: 33%;
+    }
+
+    .answer {
+        width: 6%;
+        font-size: 200%;
+        line-height: 115%;
+    }
+
+    .question {
+        width: 6%;
+    }
+
+    .question_text {
+        width: 94%;
+    }
+
+    .answer_text {
+        width: 94%;
+        line-height: 100%;
+        font-size: 110%;
+    }
+
+    .owl-page {
+        padding: 3% 1% 1% 1% !important;
+        font-size: 185% !important;
+    }
+
+    .emergency_door_shadow {
+        width: 45%;
+        right: 3%;
+        bottom: 7%;
+    }
+
+    .feedback_line_book1 {
+        top: 34%;
+    }
+
+    .feedback_computer {
+        bottom: 10%;
+    }
+
+    .feedback_apple, .feedback_computer_book {
+        bottom: 14%;
+    }
+
+    .bottle_text {
+        width: 80%;
+        margin: -1% 11%;
+    }
+
+    .feedback_board {
+        width: 31%;
+    }
+}
+
+
+
+@media ( max-height: 380px) and (orientation: landscape) {
+    #nav-toggle {
+        width: 0%;
+        left: 1.5%;
+    }
+
+    .menu_container {
+        width: 21%;
+    }
+
+    .menu {
+        background-size: 17%;
+        background-position: 15%;
+        height: 9.5%;
+    }
+
+        .menu:first-child {
+            height: 14%;
+        }
+
+    .menu_text {
+        bottom: 0%;
+        width: 75%;
+        font-size: 150%;
+        left: 25%;
+        transform: translateY(-75%);
+        -webkit-transform: translateY(-75%);
+        -moz-transform: translateY(-75%);
+        -o-transform: translateY(-75%);
+        -ms-transform: translateY(-75%);
+    }
+
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+        height: 3px;
+    }
+
+        #nav-toggle span:after {
+            bottom: -7px;
+        }
+
+        #nav-toggle span:before {
+            top: -7px;
+        }
+
+    .home_tree {
+        height: auto;
+    }
+
+    .home_sofa {
+        width: 60%;
+        bottom: 3%;
+    }
+
+    .home_navigation {
+        left: 31%;
+        bottom: 15%;
+    }
+
+    .home_combine_obj {
+        width: 87%;
+    }
+
+    .home_drawer {
+        width: 20%;
+    }
+
+    .home_dustbin {
+        bottom: 0%;
+    }
+
+    .home_lady {
+        right: 21.5%;
+    }
+
+    .home_cupboard {
+        width: 36%;
+        top: 8%;
+    }
+
+    .home_bird {
+        width: 21%;
+        left: 42%;
+    }
+
+    .home_family_denatl {
+        top: 55%;
+        left: 30%;
+    }
+
+
+    .about_door {
+        bottom: -10%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 3.5%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 0%;
+    }
+
+    .about_doctor {
+        width: 26%;
+        bottom: 2%;
+    }
+
+    .about_dentistry {
+        bottom: 5%;
+    }
+
+        .about_dentistry1 {
+            bottom: 5%;
+        }
+    .about_light {
+        top: 0%;
+        width: 7%;
+        right: 12.2%;
+    }
+
+    .about_birdcage {
+        bottom: 10%;
+    }
+
+    .about_dentisty_container {
+        width: 85%;
+        right: 6%;
+        z-index: 99999999;
+    }
+    .about_dentisty_container1 {
+        width: 85%;
+        right: 6%;
+        z-index: 99999999;
+    }
+
+    .about_svg {
+        display: none;
+    }
+
+    .about_dentisty_content {
+        width: 92%;
+        padding: 2% 4% 3.5% 4%;
+    }
+    .about_dentisty_content1 {
+        width: 92%;
+        padding: 2% 4% 3.5% 4%;
+    }
+
+    .about_popup_container {
+        width: 92%;
+        padding: 2% 4% 3.5% 4%;
+        top: 18%;
+        height:200px;
+    }
+
+    .about_dentisty {
+        bottom: 18%;
+        height:200px;
+    }
+
+    .about_svg_dentisty {
+        display: none;
+    }
+
+    .about_svg_container {
+        left: 6%;
+        width: 85%;
+        z-index: 99999999;
+    }
+
+    .about_body_text {
+        font-size: 150%;
+    }
+
+    .popup_close {
+        top: 2%;
+        padding: 2%;
+    }
+
+    .about_body_text {
+        margin: 4% 0 0 0;
+    }
+    /*Management*/
+    .management_lady_Lastleft {
+        width: 8%;
+        bottom: 7%;
+    }
+
+    .management_lady_secondleft {
+        left: 13%;
+        width: 14.5%;
+        bottom: 3%;
+    }
+
+    .management_doctor_center {
+        width: 14%;
+        bottom: 4%;
+        left: 29%;
+        bottom: 1%;
+    }
+
+    .management_lady_secondright {
+        left: 45%;
+        width: 8.5%;
+        bottom: 3%;
+    }
+
+    .management_lady_Lastright {
+        width: 7.9%;
+        left: 57%;
+        bottom: 7%;
+    }
+
+    .management_board {
+        width: 26%;
+        z-index: -1;
+        bottom: 8%;
+    }
+
+    .management_header {
+        line-height: 80%;
+    }
+
+    .management_aerrow {
+        font-size: 280%;
+    }
+
+    .management_text_body {
+        margin: 0 0 0 6%;
+        line-height: 100%;
+    }
+
+    .tooltip-content {
+        padding: 14px 15px;
+        font-size: 105%;
+    }
+
+    .First_doctor {
+        margin: 0 0 110% -45% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 43% -124% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 20% -93% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 95% -50% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 110% -50% !important;
+    }
+
+    .tooltip-content {
+        width: 120%;
+    }
+
+        .tooltip-content::after {
+            height: 68px;
+            background-position: center center;
+            background-size: 50% 100%;
+        }
+
+    /*Gallery*/
+    .gallery_lamp {
+        width: 8%;
+        bottom: 3%;
+    }
+
+    .gallery_desk {
+        width: 13%;
+        bottom: 5%;
+    }
+
+    .gallery_doctor {
+        left: 7.5%;
+        width: 22%;
+        bottom: 6%;
+    }
+
+    .gallery_projector {
+        width: 13%;
+        right: 35.5%;
+    }
+
+    .gallery_screen {
+        width: 53.7%;
+        right: 16%;
+        top: 22%;
+    }
+
+    .gallery_projector_light {
+        top: 15%;
+        right: 16%;
+        width: 51%;
+    }
+
+    .gallery_doctors {
+        right: 18%;
+        bottom: -5%;
+        width: 50%;
+    }
+
+    .gallery_table {
+        width: 58%;
+        right: 14%;
+        bottom: 0%;
+    }
+
+    /*Facility*/
+    .bottle_text {
+        width: 70%;
+        margin: 0% 15%;
+    }
+
+    .facilities_board {
+        width: 33%;
+    }
+
+    .facility_table {
+        width: 29%;
+    }
+
+    .facility_doctor {
+        width: 45%;
+        right: 9%;
+    }
+
+    .facility_table_big {
+        width: 12%;
+        right: 29%;
+    }
+
+    .facility_stand {
+        right: 9.6%;
+        width: 27%;
+        bottom: 0%;
+    }
+
+    .facility_text {
+        font-size: 190%;
+    }
+
+    /*FAQ*/
+    .faq_board {
+        width: 45%;
+    }
+
+    .faq_family {
+        width: 26%;
+    }
+
+    .faq_cloud {
+        top: 18%;
+        left: 27%;
+    }
+
+    .slider_desktop {
+        display: none !important;
+    }
+
+    .slider_mobile {
+        display: block !important;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 200%;
+    }
+
+    .answer_text {
+        font-size: 110%;
+    }
+
+    .answer {
+        line-height: 90%;
+    }
+    /*Emergency*/
+    .emergency_Door {
+        width: 32%;
+        bottom: 7.8%;
+    }
+
+    .emergency_door_shadow {
+        bottom: 0%;
+        right: 3%;
+        width: 43%;
+    }
+
+    .emergency_nurse {
+        width: 50%;
+        left: 6%;
+        bottom: 3%;
+    }
+
+    .emergency_text_door {
+        top: 17%;
+        left: 13%;
+    }
+
+    .emergency_door_container {
+        width: 94%;
+    }
+
+    .emergency_light {
+        top: 8%;
+    }
+
+    .emergency_text_operation {
+        bottom: 0%;
+    }
+
+    .operation_text {
+        font-size: 240%;
+    }
+
+    /*Feedback*/
+    .feedback_computer {
+        width: 27%;
+        bottom: 6%;
+    }
+
+    .feedback_computer_book {
+        left: 23%;
+        width: 10%;
+        bottom: 10%;
+    }
+
+    .feedback_apple {
+        bottom: 10%;
+    }
+
+    .feedback_shelf {
+        width: 50%;
+        top: 20%;
+    }
+
+    .feedback_line_book1 {
+        top: 30.5%;
+    }
+
+    .feedback_line_book2 {
+        top: 21%;
+        left: 13%;
+    }
+
+    .feedback_line_book3 {
+        top: 22%;
+        left: 22%;
+    }
+
+    .feedback_line_book4 {
+        top: 14.3%;
+        left: 28.7%;
+    }
+
+    .feedback_line_book5 {
+        top: 14.5%;
+        width: 10%;
+        left: 38.7%;
+    }
+
+    .feedback_board {
+        width: 29%;
+        bottom: 7.8%;
+    }
+
+    .feedback_form_header {
+        font-size: 240%;
+    }
+
+    .feedback_form_text {
+        font-size: 200%;
+    }
+
+    .feedback_form_container {
+        top: 8%;
+    }
+
+    .form_submit {
+        font-size: 180%;
+        margin: 2% 33% 0 33%;
+    }
+
+    .form_submit {
+        padding: 4% 0 0 0;
+    }
+
+    /*Contact*/
+    .contact_board {
+        width: 53%;
+        bottom: 0%;
+        left: 9%;
+    }
+
+    .contact_text_header {
+        font-size: 250%;
+        margin: -4.5% 0 0 0;
+    }
+
+    .contact_text_subtitle_container {
+        margin: 0% 0 0 0;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 76%;
+    }
+
+    .contact_doctor {
+        bottom: 2%;
+        right: 12%;
+        width: 24%;
+    }
+
+    .contact_baby_middle {
+        width: 9.5%;
+        top: 29%;
+    }
+
+    .contact_baby_top {
+        width: 8.5%;
+        top: 4%;
+    }
+
+    .contact_baby_bottom {
+        width: 9%;
+        bottom: 15%;
+    }
+
+    .contact_text_container {
+        top: 6%;
+    }
+
+    .owl-page {
+        padding: 2.5% 1% 1% 1% !important;
+        line-height: 70% !important;
+    }
+
+    .contact_ph {
+        background-size: 100% 77%;
+        padding: 1.8% 1.8%;
+        background-position: 100%;
+    }
+
+    .contact_mobile {
+        padding: 1.3 1.8%;
+        background-size: 100% 80%;
+    }
+
+    .contact_mail {
+        padding: 1.5% 2.3%;
+    }
+
+    .fancybox-close {
+        background-size: 70%;
+        width: 30px;
+    }
+
+    .fancybox-nav span {
+        width: 40px;
+    }
+
+    .fancybox-next span {
+        background-size: 22px;
+    }
+
+    .fancybox-prev span {
+        background-size: 22px;
+    }
+}
+
+@media (max-width: 640px) and (max-height: 360px) and (orientation: landscape) {
+    /*No CHnage */
+}
+
+@media (max-height: 320px) and (orientation: landscape) {
+
+    .menu_container {
+        width: 21%;
+    }
+
+    .menu {
+        background-size: 17%;
+        background-position: 15%;
+        height: 9.5%;
+    }
+
+        .menu:first-child {
+            height: 14%;
+        }
+
+    .menu_text {
+        bottom: 0%;
+        width: 75%;
+        font-size: 150%;
+        left: 25%;
+        transform: translateY(-75%);
+        -webkit-transform: translateY(-75%);
+        -moz-transform: translateY(-75%);
+        -o-transform: translateY(-75%);
+        -ms-transform: translateY(-75%);
+    }
+
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+        height: 3px;
+    }
+
+        #nav-toggle span:after {
+            bottom: -7px;
+        }
+
+        #nav-toggle span:before {
+            top: -7px;
+        }
+
+    .home_phone {
+        margin: 10.7% 6% 0 0;
+    }
+
+    .home_tree {
+        height: auto;
+        bottom: 10%;
+    }
+
+    .home_light {
+        top: 8%;
+    }
+
+    .logo_img {
+        width: 15%;
+        top: 26%;
+    }
+
+    .logo_tagline {
+        top: 34%;
+        left: 42%;
+        width: 18%;
+    }
+
+    .home_sofa {
+        width: 60%;
+        bottom: 3%;
+    }
+
+    .home_navigation {
+        left: 31%;
+        bottom: 15%;
+    }
+
+    .home_combine_obj {
+        width: 87%;
+    }
+
+    .home_drawer {
+        width: 20%;
+    }
+
+    .home_dustbin {
+        bottom: 0%;
+    }
+
+    .home_lady {
+        right: 21.5%;
+    }
+
+    .home_cupboard {
+        width: 36%;
+        top: 8%;
+    }
+
+    .home_bird {
+        width: 21%;
+        left: 42%;
+    }
+
+    .home_family_denatl {
+        top: 55%;
+        left: 30%;
+    }
+    /*About*/
+    .about_bird {
+        width: 24%;
+        top: 8%;
+    }
+
+    .about_door {
+        width: 15%;
+        bottom: 8%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 3.5%;
+        width: 25%;
+        left: 2%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 0%;
+        left: 4.5%;
+        width: 21%;
+    }
+
+    .about_doctor {
+        width: 26%;
+        bottom: 2%;
+    }
+
+    .about_dentistry {
+        right: 5.7%;
+        width: 18%;
+        bottom: 5%;
+    }
+
+    .about_light {
+        width: 7%;
+        right: 11.8%;
+    }
+
+    .about_bulb_shadow {
+           right: 5.7%;
+    width: 18%;
+    top: 16%;
+    }
+
+    .about_light {
+        top: 0%;
+        width: 7%;
+    }
+
+    .about_birdcage {
+        bottom: 10%;
+    }
+
+    /*Management*/
+    .management_lady_Lastleft {
+        width: 7%;
+        bottom: 7%;
+    }
+
+    .management_lady_secondleft {
+        left: 13%;
+        width: 13.5%;
+        bottom: 3%;
+    }
+
+    .management_doctor_center {
+        width: 13%;
+        left: 29%;
+        bottom: 1%;
+    }
+
+    .management_lady_secondright {
+        left: 45%;
+        width: 7.5%;
+        bottom: 3%;
+    }
+
+    .management_lady_Lastright {
+        width: 6.9%;
+        left: 57%;
+        bottom: 7%;
+    }
+
+    .management_board {
+        width: 26%;
+        z-index: -1;
+        bottom: 8%;
+    }
+
+    .management_header {
+        line-height: 80%;
+    }
+
+    .management_aerrow {
+        font-size: 280%;
+    }
+
+    .management_text_body {
+        margin: 0 0 0 6%;
+        line-height: 100%;
+    }
+
+    .tooltip-content {
+        padding: 16px;
+        font-size: 105%;
+    }
+
+    .First_doctor {
+        margin: 0 0 110% -45% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 43% -126% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 20% -93% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 95% -50% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 110% -50% !important;
+    }
+    .svgpopup_body{ max-height:90px;}
+
+    .tooltip-content {
+        width: 120%;
+    }
+
+        .tooltip-content::after {
+            height: 68px;
+            background-position: center center;
+            background-size: 50% 100%;
+        }
+        .overlay .overlay-close{ top:4%;}
+    /*Gallery*/
+    .gallery_lamp {
+        width: 8%;
+        bottom: 3%;
+    }
+
+    .gallery_desk {
+        width: 13%;
+        bottom: 5%;
+    }
+
+    .gallery_doctor {
+        left: 7.5%;
+        width: 22%;
+        bottom: 6%;
+    }
+
+    .gallery_projector {
+        width: 13%;
+        right: 34.5%;
+    }
+
+    .gallery_screen {
+        width: 48.7%;
+        right: 21%;
+        top: 20%;
+    }
+
+    .gallery_projector_light {
+        top: 15%;
+        right: 21%;
+        width: 39%;
+    }
+
+    .gallery_doctors {
+        right: 16%;
+    }
+
+    .gallery_table {
+        width: 58%;
+        right: 13%;
+        bottom: 2%;
+    }
+
+    /*Facility*/
+    .facilities_board {
+        width: 35%;
+    }
+
+    .bootle_text_header {
+        font-size: 175%;
+    }
+
+    .bottle_text_body {
+        font-size: 135%;
+    }
+
+    .facility_table {
+        width: 29%;
+    }
+
+    .facility_doctor {
+        width: 45%;
+        right: 9%;
+    }
+
+    .facility_table_big {
+        width: 12%;
+        right: 29%;
+    }
+
+    .facility_stand {
+        right: 9.6%;
+        width: 27%;
+    }
+
+    .facility_text {
+        font-size: 190%;
+    }
+
+    /*FAQ*/
+    .faq_board {
+        width: 35%;
+    }
+
+    .faq_family {
+        width: 26%;
+    }
+
+    .faq_cloud {
+        top: 18%;
+        left: 27%;
+    }
+
+    .slider_desktop {
+        display: none !important;
+    }
+
+    .slider_mobile {
+        display: block !important;
+    }
+    /*Emergency*/
+    .emergency_Door {
+        width: 32%;
+        bottom: 7.8%;
+    }
+
+    .emergency_door_shadow {
+        bottom: 0%;
+        right: 3%;
+        width: 43%;
+    }
+
+    .emergency_nurse {
+        width: 50%;
+        left: 6%;
+        bottom: 3%;
+    }
+
+    .emergency_text_door {
+        top: 17%;
+        left: 13%;
+    }
+
+    .emergency_door_container {
+        width: 94%;
+    }
+
+    .emergency_light {
+        top: 7%;
+    }
+
+    .emergency_text_operation {
+        bottom: 0%;
+    }
+
+    .operation_text {
+        font-size: 240%;
+    }
+
+    /*Feedback*/
+    .feedback_computer {
+        width: 27%;
+        bottom: 6%;
+    }
+
+    .feedback_computer_book {
+        left: 23%;
+        width: 10%;
+        bottom: 10%;
+    }
+
+    .feedback_apple {
+        bottom: 10%;
+    }
+
+    .feedback_shelf {
+        width: 50%;
+        top: 20%;
+    }
+
+    .feedback_line_book1 {
+        top: 30.5%;
+    }
+
+    .feedback_line_book2 {
+        top: 21%;
+        left: 13%;
+    }
+
+    .feedback_line_book3 {
+        top: 22%;
+        left: 22%;
+    }
+
+    .feedback_line_book4 {
+        top: 14.3%;
+        left: 28.7%;
+    }
+
+    .feedback_line_book5 {
+        top: 14.5%;
+        width: 10%;
+        left: 38.7%;
+    }
+
+    .feedback_board {
+        width: 29%;
+        bottom: 7.8%;
+    }
+
+    .feedback_form_header {
+        font-size: 240%;
+    }
+
+    .feedback_form_text {
+        font-size: 200%;
+    }
+
+    .feedback_form_container {
+        top: 8%;
+    }
+
+    .form_submit {
+        font-size: 180%;
+        margin: 2% 33% 0 33%;
+    }
+
+    .form_submit {
+        padding: 4% 0 0 0;
+    }
+
+    /*Contact*/
+    .contact_board {
+        width: 53%;
+        bottom: 0%;
+        left: 9%;
+    }
+
+    .contact_text_header {
+        font-size: 250%;
+        margin: 2.5% 0 0 0;
+    }
+
+    .contact_text_subtitle_container {
+        margin: -2% 0 0 0;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 76%;
+    }
+
+    .contact_doctor {
+        bottom: 2%;
+        right: 12%;
+        width: 24%;
+    }
+
+    .contact_baby_middle {
+        width: 9.5%;
+        top: 29%;
+    }
+
+    .contact_baby_top {
+        width: 8.5%;
+        top: 4%;
+    }
+
+    .contact_baby_bottom {
+        width: 9%;
+        bottom: 15%;
+    }
+
+    .contact_text_container {
+        top: 6%;
+    }
+
+    .owl-page {
+        padding: 3% 0 0 0 !important;
+        line-height: 70% !important;
+    }
+
+    .contact_ph {
+        background-size: 100% 77%;
+        padding: 1.8% 1.8%;
+        background-position: 100%;
+    }
+
+    .contact_mobile {
+        padding: 1.3 1.8%;
+        background-size: 100% 80%;
+    }
+
+    .contact_mail {
+        padding: 1.5% 3%;
+    }
+
+    .fancybox-close {
+        background-size: 70%;
+        width: 30px;
+    }
+
+    .fancybox-nav span {
+        width: 36px;
+    }
+
+    .fancybox-next span {
+        background-size: 22px;
+    }
+
+    .fancybox-prev span {
+        background-size: 22px;
+    }
+}
+
+/*Iphone 6 */
+@media (max-width: 680px) and (max-height: 300px) and (orientation: landscape) {
+    #nav-toggle {
+        padding: 8px 25px 16px 5px;
+    }
+
+    .home_combine_obj {
+        width: 80%;
+    }
+
+    .home_drawer {
+        width: 19%;
+    }
+
+    .home_sofa {
+        width: 58%;
+    }
+
+    .logo_img {
+        width: 14%;
+    }
+
+    .home_phone {
+        margin: 10.8% 6% 0 0;
+    }
+
+    .logo_tagline {
+        top: 33%;
+        left: 40%;
+        width: 17%;
+    }
+
+    .home_cupboard {
+        width: 34%;
+        left: 44%;
+        top: 6% !important;
+    }
+
+    .home_lady {
+        bottom: 25%;
+        right: 19.5%;
+        width: 27%;
+    }
+
+    .about_bulb_shadow {
+        right: 6.3%;
+        width: 18%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 2%;
+        left: 1%;
+    }
+
+    .about_open_door_shadow {
+        bottom: 0%;
+        left: 4%;
+        width: 21.5%;
+    }
+
+    .management_lady_Lastleft {
+        left: 8%;
+        width: 7%;
+    }
+
+    .management_lady_secondleft {
+        left: 17%;
+        width: 13.5%;
+    }
+
+    .management_doctor_center {
+        left: 33%;
+        width: 13%;
+    }
+
+    .management_lady_secondright {
+        left: 48%;
+        width: 7.5%;
+    }
+
+    .management_lady_Lastright {
+        left: 58%;
+        width: 7%;
+    }
+
+
+    .First_doctor {
+        margin: 0 0 90% -37% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 37% -70% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 11% -85% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 77% -35% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 90% -35% !important;
+    }
+
+    .tooltip-content {
+        padding: 10px;
+    }
+
+        .tooltip-content::after {
+            height: 60px;
+        }
+
+    .gallery_doctor {
+        left: 6.5%;
+    }
+
+    .gallery_screen {
+        width: 42.7%;
+        top: 21%;
+    }
+
+    .Gallery_Image_container {
+        left: 1.5% !important;
+    }
+
+    .gallery_projector_light {
+        top: 14.5% !important;
+        right: 26%;
+        width: 42%;
+    }
+
+    .gallery_projector {
+        width: 10%;
+        right: 42.5%;
+    }
+
+    .gallery_table {
+        bottom: 0%;
+        width: 61%;
+        right: 16%;
+    }
+
+    .gallery_doctors {
+        width: 53%;
+        right: 21%;
+    }
+
+    .owl-page {
+        margin: 0 2% 0 0;
+        width: 9%;
+        padding: 3% 1% 1% 1% !important;
+    }
+
+    .facilities_board {
+        width: 26%;
+    }
+
+    .bootle_text_header {
+        font-size: 160%;
+    }
+
+    .bottle_text_body {
+        font-size: 105%;
+    }
+
+    .facility_text {
+        font-size: 175%;
+    }
+
+    .facility_doctor {
+        width: 44%;
+        bottom: -3%;
+    }
+
+    .facility_stand {
+        right: 10%;
+        width: 26%;
+    }
+
+    .facility_table_big {
+        width: 11.5%;
+        right: 28.5%;
+    }
+
+    .faq_family {
+        width: 25%;
+        bottom: 2%;
+    }
+
+    .faq_cloud {
+        top: 18%;
+        left: 27%;
+    }
+
+    .faq_board {
+        width: 36%;
+    }
+
+    .answer {
+        line-height: 85%;
+    }
+
+    .answer_text {
+        font-size: 115%;
+        line-height: 80%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 210%;
+    }
+
+    .question_text {
+        line-height: 65%;
+    }
+
+    .owl-page {
+        font-size: 150% !important;
+    }
+
+    .emergency_light {
+        width: 15%;
+        top: 5% !important;
+    }
+
+    .emergency_teeth, .emergency_teeth_shadow {
+        bottom: 9% !important;
+    }
+
+    .emergency_door_shadow {
+        width: 43%;
+        bottom: 0%;
+    }
+
+    .feedback_line_book1 {
+        top: 30.8%;
+    }
+
+    .feedback_line_book3 {
+        top: 22.3%;
+        left: 22.3%;
+    }
+
+    .feedback_line_book4 {
+        top: 14.3% !important;
+    }
+
+    .feedback_line_book5 {
+        top: 16% !important;
+    }
+
+    .feedback_board {
+        width: 26%;
+    }
+
+    .feedback_computer {
+        bottom: 6%;
+    }
+
+    .feedback_apple, .feedback_computer_book {
+        bottom: 10%;
+    }
+
+    .feedback_form_header {
+        font-size: 180% !important;
+    }
+
+    .feedback_form_text {
+        font-size: 160% !important;
+    }
+
+    .feedback_form {
+        width: 90%;
+        margin: 1% 5%;
+    }
+
+    .form_submit {
+        padding: 3% 0 0 0;
+    }
+
+    .contact_board {
+        width: 50%;
+    }
+
+    .contact_text_body_content {
+        margin: 0 0 0 6%;
+    }
+
+        .contact_text_body_content:last-child {
+            margin: 0 0 0 5%;
+        }
+
+    .contact_doctor {
+        width: 23%;
+        right: 14%;
+    }
+
+    .contact_baby_middle {
+        width: 8.5%;
+    }
+
+    .contact_baby_bottom {
+        width: 8.5%;
+    }
+
+    .contact_baby_top {
+        width: 8%;
+    }
+
+    .contact_mail {
+        padding: 1.5% 2.5%;
+    }
+}
+
+/* iphone 6 and galaxy s5 landscape */
+@media (max-width: 670px) and (orientation: landscape) {
+    .menu {
+        background-position: 10%;
+        background-size: 20%;
+        height: 9.7%;
+    }
+
+        .menu:first-child {
+            height: 12%;
+        }
+
+    .home_tree {
+        bottom: 10%;
+    }
+
+    .home_lady {
+        bottom: 22.5%;
+    }
+
+    .about_open_door_shadow {
+        bottom: -7%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 4%;
+    }
+
+    #nav-toggle {
+        padding: 15px 25px 16px 5px;
+    }
+
+    .menu_text {
+        bottom: 12%;
+    }
+
+    .about_doctor {
+        bottom: 2%;
+    }
+
+    .First_doctor {
+    	width:190%;
+        margin: 0 0 90% -30% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 42% -59% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 40% -42% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 85% -90% !important;
+        width:210%;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 104% -63% !important;
+        width:170%;
+    }
+	.tabs label{
+		font-size: 14px;
+	}
+	.content {
+	    /*height: 290px;*/
+		margin:0;
+		/*overflow-y: scroll;*/
+	}
+	 .svgpopup_header {   padding: 2% 0 0 0 !important; }
+	 .svgpopup_image {   width: 12%;}
+	 .vidhi_svg { width:17%;}
+	 .meet_svg {   width: 15%; }
+	 .samta_svg {  width: 12%; }
+	 .svgpopup_body p {   margin: 5px 0; }
+     .gallery_screen {  right: 15%; }
+
+    .Gallery_Image_container {
+        width: 97.6%;
+    }
+
+    .fancybox-close {
+        background-size: 80%;
+        width: 37px;
+    }
+
+    .facility_table {
+        width: 31%;
+    }
+
+    .facilities_board {
+        width: 35%;
+    }
+
+    .bootle_text_header {
+        font-size: 175%;
+    }
+
+    .bottle_text_body {
+        font-size: 145%;
+    }
+
+    .facility_text {
+        font-size: 245%;
+    }
+
+    .faq_cloud {
+        top: 30%;
+    }
+
+    .emergency_light {
+        top: 18%;
+    }
+
+    .emergency_door_shadow {
+        width: 43%;
+        right: 3%;
+        bottom: 1%;
+    }
+
+    .emergency_text_door {
+        top: 14%;
+    }
+
+    .feedback_computer {
+        bottom: 8%;
+    }
+
+    .feedback_apple, .feedback_computer_book {
+        bottom: 11%;
+    }
+
+    .feedback_line_book1 {
+        top: 28.5%;
+    }
+
+    .feedback_line_book4 {
+        top: 14.8%;
+    }
+
+    .feedback_line_book5 {
+        top: 15.5%;
+    }
+
+    .feedback_board {
+        width: 33%;
+        right:10%;
+    }
+
+    .feedback_form_header {
+        font-size: 260%;
+    }
+
+    .feedback_form_text {
+        font-size: 225%;
+    }
+
+    .form_submit {
+        font-size: 190%;
+        margin: 2% 33% 0 33%;
+        padding: 3% 0 1% 0;
+    }
+
+    .feedback_form_container {
+        top: 12%;
+    }
+
+    .contact_board {
+        width: 56%;
+        left: 6%;
+    }
+
+    .contact_text_header {
+        font-size: 270%;
+        margin: -7% 0 0 0;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 82%;
+    }
+
+    .fancybox-close {
+        background-size: 70%;
+        width: 30px;
+    }
+
+    .fancybox-nav span {
+        width: 36px;
+    }
+
+    .fancybox-next span {
+        background-size: 22px;
+    }
+
+    .fancybox-prev span {
+        background-size: 22px;
+    }
+}
+
+
+/* intext auqa  640 x 275px  Keyur Phone*/
+@media (max-width: 640px) and (max-height: 300px) and (orientation: landscape) {
+    .home_lady {
+        bottom: 24.5%;
+    }
+
+    .home_pen_stand {
+        margin: 5.1% 4% 0 4%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 3.5%;
+        left: 2.2%;
+        width: 25%;
+    }
+
+    .about_open_door_shadow {
+        left: 2%;
+        width: 25.5%;
+    }
+
+    .about_popup_container {
+        top: 19%;
+    }
+
+    .about_dentisty {
+        bottom: 17%;
+    }
+
+
+    .First_doctor {
+        margin: 0 0 91% -40% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 43% -72% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 22% -85% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 85% -43% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 88% -44% !important;
+    }
+
+    .gallery_screen {
+        right: 25%;
+        width: 43.7%;
+    }
+
+    .gallery_projector {
+        width: 11%;
+        right: 42%;
+    }
+
+    .facilities_board {
+        width: 33%;
+    }
+
+    .facility_text {
+        font-size: 200%;
+    }
+
+    .faq_cloud {
+        top: 20%;
+        left: 26%;
+    }
+
+    .faq_board {
+        width: 38%;
+    }
+
+    .feedback_line_book1 {
+        top: 30.5%;
+    }
+
+    .feedback_board {
+        width: 27%;
+    	right:14%;
+    }
+
+    .contact_board {
+        width: 51%;
+    }
+
+    .form_submit {
+        font-size: 180%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 79%;
+    }
+}
+
+@media ( max-height: 340px) and (orientation: landscape) {
+    .about_dentisty {
+        bottom: 21%;
+    }
+    .about_dentisty1 {
+        bottom: 21%;
+    }
+
+    .faq_board {
+        width: 43%;
+    }
+
+    .feedback_line_book1 {
+        top: 29.5%;
+    }
+
+    .feedback_board {
+        width: 31%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 670px) and (max-height: 300px) and (orientation: landscape) {
+   .family_body{
+   	font-size: 120%;
+   }
+   .family_header{ font-size: 300%;}
+   .home_family_denatl_menu {
+	    top: 5%;
+	    width: 11%;
+	}
+	.family_text{
+		font-size: 195%;
+	}
+   .family_title{
+   		font-size: 130%;
+   }
+    .menu_text {
+        font-size: 140%;
+        bottom: 6%;
+    }
+
+    .contact_board {
+        width: 49%;
+        left: 10%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 73%;
+    }
+
+    .feedback_computer {
+        bottom: 6%;
+    }
+
+    .feedback_apple, .feedback_computer_book {
+        bottom: 10%;
+    }
+
+    .feedback_line_book1 {
+        top: 31%;
+    }
+
+    .feedback_board {
+        width: 24%;
+    }
+
+    .form_submit {
+        font-size: 155%;
+        padding: 2% 0 0% 0;
+    }
+
+    .feedback_form_container {
+        top: 9%;
+    }
+
+    .faq_cloud {
+        top: 18%;
+        left: 31%;
+    }
+
+    .faq_board {
+        width: 35%;
+            right: 13%;
+    }
+
+    .faq_family {
+        left: 10%;
+    }
+
+    .facilities_board {
+        width: 27%;
+    }
+
+    .bootle_text_header {
+        font-size: 165%;
+    }
+
+    .bottle_text_body {
+        font-size: 115%;
+    }
+
+    .facility_text {
+        font-size: 190%;
+    }
+
+    .facility_table {
+        width: 28%;
+    }
+
+    .gallery_screen {
+        right: 26%;
+    }
+
+    .First_doctor {
+        width:225%;
+        margin: 0 0 90% -70% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 45% -45% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 17% -20% !important;
+    }
+
+    .Fourth_doctor {
+        width:240%;
+        margin: 0 0 74% -90% !important;
+    }
+
+    .Fifth_doctor {
+        width:200%;
+        margin: 0 0 90% -51% !important;
+    }
+
+    .about_dentisty {
+        bottom: 12%;
+    }
+    .about_dentisty1 {
+        bottom: 12%;
+    }
+
+
+    .about_popup_container {
+        top: 12%;
+    }
+
+    .answer_text {
+        font-size: 100%;
+        line-height: 80%;
+    }
+
+    .question_text {
+        line-height: 60%;
+    }
+
+    .door_text {
+        font-size: 235%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 180%;
+    }
+
+    .feedback_form_input {
+        width: 59%;
+        margin: 0 0 0 8%;
+    }
+
+    .textarea_font {
+        border-radius: 0px;
+    }
+}
+/* for iphone-5 568 x 320 (count 240) */
+@media (max-width: 600px) and (orientation: landscape) {
+    .logo_img {
+        top: 33%;
+    }
+
+    .logo_tagline {
+        top: 38.5%;
+        width: 19%;
+    }
+
+    .about_dentistry {
+        right: 3.7%;
+        width: 22%;
+    }
+    .about_dentistry1 {
+        right: 3.7%;
+        width: 22%;
+    }
+
+    .about_doctor {
+        bottom: 2%;
+    }
+
+    .First_doctor {
+    	width:220%;
+        margin: 0 0 140% -60% !important;
+    }
+
+    .Second_doctor {
+    	width:112%;
+        margin: 0 0 60% -40% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 40% -27% !important;
+    }
+
+    .Fourth_doctor {
+    	width:230%;
+        margin: 0 0 90% -85% !important;
+    }
+
+    .Fifth_doctor {
+    	width:190%;
+    	margin: 0 0 120% -50% !important;
+    }
+	.tabs label {
+    font-size: 14px;
+   }
+   .svgpopup_body p {    margin: 3px 0; }
+    .svgpopup_image {   width: 13%;}
+	 .vidhi_svg { width:19%;}
+	 .meet_svg {   width: 17%; }
+	 .samta_svg {  width: 14%; }
+   .content {
+    /*height: 230px;*/
+    margin: 0;
+}
+    .operation_text {
+        font-size: 245%;
+    }
+
+    .emergency_light {
+        top: 19%;
+    }
+
+    .feedback_line_book1 {
+        top: 29%;
+    }
+
+    .feedback_line_book3 {
+        top: 22.3%;
+    }
+
+    .feedback_form_header {
+        font-size: 250%;
+    }
+
+    .feedback_form_text {
+        font-size: 235%;
+    }
+
+    .form_submit {
+        font-size: 200%;
+    }
+
+    .contact_mail {
+        padding: 1.5% 2.5%;
+    }
+}
+
+/****MOto G2******/
+@media (max-width: 600px) and (max-height: 280px) and (orientation: landscape) {
+    .home_lady {
+        bottom: 25%;
+    }
+
+    .about_dentistry {
+        right: 5.7%;
+        width: 18%;
+    }
+
+    .about_dentisty {
+        bottom: 16%;
+    }
+
+    .about_popup_container {
+        top: 17%;
+    }
+
+    .about_dentistry1 {
+        right: 5.7%;
+        width: 18%;
+    }
+
+    .about_dentisty1 {
+        bottom: 16%;
+    }
+
+    .about_popup_container1 {
+        top: 17%;
+    }
+    .question_text {
+        line-height: 76%;
+    }
+
+    .answer_text {
+        line-height: 90%;
+    }
+
+    .emergency_text_door {
+        top: 18%;
+    }
+
+    .operation_text {
+        font-size: 225%;
+    }
+
+    .feedback_form_header {
+        font-size: 205% !important;
+    }
+
+    .feedback_form_text {
+        font-size: 180% !important;
+    }
+
+    .form_submit {
+        font-size: 164%;
+        padding: 3% 0 0% 0;
+    }
+
+    .First_doctor {
+        margin: 0 0 103% -60% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 44% -30% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 18% -20% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 81% -80% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 89% -35% !important;
+    }
+	.svgpopup_image {
+	    width: 12%;
+	}
+	.meet_svg {
+	    width: 15%;
+	}
+
+	.vidhi_svg {
+	    width: 16.5%;
+	}
+	.samta_svg {
+	    width: 13%;
+	}
+	.svgpopup_body{ font-size: 88%;}
+    .vidhi_svg_text {   width: 79%;}
+    .faq_board {
+        width: 37%;
+    }
+
+    .feedback_line_book1 {
+        top: 30.5%;
+    }
+
+    .feedback_board {
+        width: 26%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 73%;
+    }
+
+    .form_submit {
+        font-size: 174%;
+    }
+
+    .feedback_form_container {
+        top: 9%;
+    }
+
+    .emergency_text_operation {
+        bottom: -1%;
+    }
+
+    .answer {
+        line-height: 102%;
+    }
+
+    .facilities_board {
+        width: 29%;
+    }
+
+    .bootle_text_header {
+        font-size: 170%;
+    }
+
+    .bottle_text_body {
+        font-size: 135%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 540px) and (max-height: 320px) and (orientation: landscape) {
+    .about_dentisty {
+        bottom: 23%;
+    }
+    .about_dentisty1 {
+        bottom: 23%;
+    }
+
+    .about_popup_container {
+        top: 26%;
+    }
+
+        .about_popup_container1 {
+            top: 26%;
+        }
+    .about_bulb_shadow {
+        right: 4.83%;
+        width: 22%;
+        top: 12%;
+    }
+
+    .about_dentistry {
+        right: 3.7%;
+        width: 23%;
+    }
+    .about_dentistry1 {
+        right: 3.7%;
+        width: 23%;
+    }
+    .about_light {
+        width: 8%;
+        right: 12%;
+    }
+
+    .management_lady_Lastleft {
+        left: 8%;
+    }
+
+    .management_lady_secondleft {
+        left: 17%;
+    }
+
+    .management_doctor_center {
+        left: 33%;
+    }
+
+    .management_lady_secondright {
+        left: 48%;
+    }
+
+    .management_lady_Lastright {
+        left: 58%;
+    }
+
+    .gallery_screen {
+        width: 54.7%;
+    }
+
+    .gallery_projector {
+        width: 14%;
+        right: 34.5%;
+    }
+
+    .gallery_projector_light {
+        top: 15%;
+        right: 15%;
+        width: 53%;
+    }
+
+    .gallery_screen {
+        width: 54.7%;
+        right: 15%;
+        top: 21.5%;
+    }
+
+    .gallery_table {
+        right: 15%;
+        bottom: 0%;
+    }
+
+    .faq_board {
+        width: 46%;
+    }
+
+    .operation_text {
+        font-size: 260%;
+    }
+
+    .emergency_light {
+        top: 22%;
+    }
+
+    .feedback_line_book1 {
+        top: 28%;
+    }
+
+    .facilities_board {
+        width: 35%;
+    }
+
+    .bootle_text_header {
+        font-size: 180%;
+    }
+
+    .bottle_text_body {
+        font-size: 158%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 320px) and (orientation: landscape) {
+    .menu:first-child {
+        height: 10%;
+    }
+
+    .menu {
+        height: 10%;
+        background-size: 22%;
+    }
+
+    .menu_text {
+        bottom: 12%;
+    }
+
+    #nav-toggle {
+        padding: 15px 25px 16px 5px;
+    }
+
+    .home_tree {
+        height: auto;
+        bottom: 10%;
+    }
+
+    .home_sofa {
+        width: 62%;
+    }
+
+    .logo_img {
+        width: 20%;
+        top: 31%;
+        left: 21%;
+    }
+
+    .logo_tagline {
+        top: 38%;
+        left: 44%;
+        width: 24%;
+    }
+
+    .home_cupboard {
+        width: 40%;
+        top: 18%;
+    }
+
+    .home_bird {
+        width: 24%;
+        left: 45%;
+    }
+
+    .home_lady {
+        bottom: 19%;
+    }
+
+    .home_combine_obj {
+        width: 90%:;
+    }
+
+    .home_dustbin {
+        width: 12%;
+    }
+
+    .home_drawer {
+        width: 21%;
+    }
+
+    .home_lady {
+        right: 21.5%;
+    }
+
+    .home_pen_stand {
+        margin: 5.2% 4% 0 4%;
+    }
+
+    .home_phone {
+        margin: 10.8% 6% 0 0;
+    }
+
+    .about_bird {
+        width: 28%;
+        top: 11%;
+    }
+
+    .about_door {
+        width: 16%;
+    }
+
+    .about_close_door_shadow {
+        bottom: 4.5%;
+        width: 26%;
+        left: 2%;
+    }
+
+    .about_open_door_shadow {
+        bottom: -1.5%;
+        left: 2.5%;
+        width: 26%;
+    }
+
+    .about_dentistry {
+        width: 22%;
+        bottom: 5%;
+        right: 3.7%;
+    }
+    .about_dentistry1 {
+        width: 22%;
+        bottom: 5%;
+        right: 3.7%;
+    }
+
+
+    .about_light {
+        width: 10%;
+        right: 10%;
+    }
+
+    .about_dentistry {
+        width: 24%;
+        bottom: 5%;
+        right: 2.1%;
+    }
+    .about_dentistry {
+        width: 24%;
+        bottom: 5%;
+        right: 2.1%;
+    }
+
+
+    .about_bulb_shadow {
+        right: 3.83%;
+        width: 22%;
+        top: 18%;
+    }
+
+    .about_birdcage {
+        width: 47%;
+    }
+
+    .about_popup_container {
+        top: 30%;
+    }
+
+    .about_dentisty {
+        bottom: 27%;
+    }
+
+    .management_lady_Lastleft {
+        width: 7.5%;
+        bottom: 7%;
+        left: 8%;
+    }
+
+    .management_lady_secondleft {
+        left: 18%;
+        width: 14%;
+    }
+
+    .management_doctor_center {
+        left: 34%;
+        width: 14%;
+    }
+
+    .management_lady_secondright {
+        left: 50%;
+        width: 8%;
+    }
+
+    .management_lady_Lastright {
+        width: 7.3%;
+        left: 60%;
+        bottom: 6%;
+    }
+
+    .First_doctor {
+    	width:250%;
+        margin: 0 0 150% -90% !important;
+    }
+
+    .Second_doctor {
+    	width:125%;
+        margin: 0 0 69% -40% !important;
+    }
+
+    .Third_doctor {
+    	width:140%;
+        margin: 0 0 39% -30% !important;
+    }
+
+    .Fourth_doctor {
+    	width:275%;
+        margin: 0 0 130% -103% !important;
+    }
+
+    .Fifth_doctor {
+    	width:220%;
+        margin: 0 0 150% -60% !important;
+    }
+	.tabs label {
+    	font-size: 10px;
+	}
+	.svgpopup_position {
+    font-size: 24%;
+}
+.svgpopup_image {    width: 16%;}
+.samta_svg {    width: 17%;}
+.vidhi_svg {    width: 22%;}
+.meet_svg {    width: 20%; }
+    .tooltip-content {
+        font-size: 131%;
+        padding: 14px 15px;
+    }
+
+    .gallery_doctor {
+        right: 5.5%;
+    }
+
+    .gallery_screen {
+        width: 60.7%;
+        right: 16%;
+        top: 18%;
+    }
+
+    .gallery_projector_light {
+        top: 12%;
+        right: 19%;
+        width: 54%;
+    }
+
+    .gallery_projector {
+        right: 40%;
+    }
+
+    .facilities_board {
+        width: 40%;
+    }
+
+    .bootle_text_header {
+        font-size: 220%;
+    }
+
+    .bottle_text_body {
+        font-size: 190%;
+    }
+
+    .facility_text {
+        font-size: 300%;
+    }
+
+    .facility_table {
+        width: 38%;
+    }
+
+    .facility_doctor {
+        width: 51%;
+        right: 7%;
+        bottom: -2.8%;
+    }
+
+    .facility_stand {
+        right: 6.8%;
+        width: 32%;
+    }
+
+    .facility_table_big {
+        width: 14%;
+        right: 30%;
+    }
+
+    .gallery_table {
+        width: 61%;
+        right: 16%;
+        bottom: 0%;
+    }
+
+    .gallery_doctors {
+        right: 19%;
+        width: 55%;
+    }
+
+    .faq_family {
+        width: 30%;
+    }
+
+    .faq_cloud {
+        width: 16%;
+        top: 32%;
+        left: 31%;
+    }
+
+    .faq_board {
+        width: 44%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 250%;
+    }
+
+    .answer {
+        width: 6%;
+        font-size: 180%;
+        line-height: 100%;
+    }
+
+    .question {
+        width: 6%;
+    }
+
+    .question_text {
+        width: 94%;
+    }
+
+    .answer_text {
+        width: 94%;
+        line-height: 100%;
+        font-size: 115%;
+    }
+
+    .owl-page {
+        padding: 3% 1% 1% 1% !important;
+        font-size: 185%;
+    }
+
+    .emergency_light {
+        top: 31%;
+    }
+
+    .emergency_door_shadow {
+        bottom: 2%;
+    }
+
+    .feedback_computer {
+        width: 30%;
+        bottom: 7%;
+    }
+
+    .feedback_apple {
+        width: 4%;
+    }
+
+    .feedback_computer_book {
+        left: 25%;
+        width: 11%;
+    }
+
+    .feedback_line_book1 {
+        top: 27.5%;
+    }
+
+    .feedback_line_book2 {
+        top: 21%;
+        left: 13%;
+    }
+
+    .feedback_line_book4 {
+        top: 15.5%;
+    }
+
+    .feedback_line_book5 {
+        top: 16.3%;
+    }
+
+    .feedback_board {
+        width: 36%;
+    }
+
+    .feedback_form_container {
+        top: 12%;
+    }
+
+    .feedback_form_header {
+        font-size: 300%;
+    }
+
+    .feedback_form_text {
+        font-size: 260%;
+    }
+
+    .form_submit {
+        padding: 4% 0 1% 0;
+        font-size: 260%;
+    }
+
+    .contact_text_header {
+        font-size: 300%;
+    }
+
+    .contact_board {
+        width: 60%;
+        left: 3%;
+    }
+
+    .contact_doctor {
+        right: 11%;
+        width: 25%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 87%;
+    }
+}
+
+
+/*Iphone 4 under , */
+@media (max-width: 480px) and (max-height: 250px) and (orientation: landscape) {
+    #nav-toggle {
+        padding: 8px 20px 16px 3px;
+    }
+
+    .menu_text {
+        bottom: 5%;
+        font-size: 130%;
+    }
+
+    .menu {
+        background-size: 20%;
+    }
+
+    .logo_img {
+        width: 16%;
+    }
+
+    .logo_tagline {
+        left: 40%;
+        width: 19%;
+    }
+
+    .home_lady {
+        right: 19.5%;
+        bottom: 22%;
+    }
+
+    .home_tree {
+        height: 48%;
+    }
+
+    .home_pen_stand {
+        margin: 5.5% 4% 0 4%;
+    }
+
+    .about_dentistry {
+        width: 20%;
+        right: 4.7%;
+        bottom: 4%;
+    }
+
+    .about_bulb_shadow {
+        right: 6.2%;
+        width: 18%;
+        top: 13%;
+    }
+
+    .about_light {
+        width: 9%;
+        right: 10.5%;
+    }
+
+    .about_birdcage {
+        bottom: 9%;
+    }
+
+    .about_dentisty {
+        bottom: 14%;
+    }
+
+    .about_popup_container {
+        top: 13%;
+    }
+
+    .about_dentisty {
+        bottom: 10%;
+    }
+
+    .First_doctor {
+        margin: 0 0 145% -45% !important;
+    }
+
+    .Second_doctor {
+        margin: 0 0 66% -62% !important;
+    }
+
+    .Third_doctor {
+        margin: 0 0 35% -70% !important;
+    }
+
+    .Fourth_doctor {
+        margin: 0 0 115% -5% !important;
+    }
+
+    .Fifth_doctor {
+        margin: 0 0 150% -30% !important;
+    }
+
+    .tooltip-content {
+        padding: 10px;
+        font-size: 120%;
+    }
+
+    .management_text_body {
+        font-size: 215%;
+    }
+
+    .gallery_screen {
+        width: 47.7%;
+        right: 19%;
+        top: 23%;
+    }
+
+    .gallery_table {
+        width: 58%;
+        right: 14%;
+    }
+
+    .gallery_doctors {
+        width: 49%;
+    }
+
+    .Gallery_Image_container {
+        width: 97.6%;
+    }
+
+    .gallery_projector_light {
+        top: 16% !important;
+        width: 47%;
+        right: 19%;
+    }
+
+    .gallery_projector {
+        width: 13%;
+        right: 37%;
+    }
+
+    .fancybox-close {
+        background-size: 100%;
+        width: 21px;
+    }
+
+    .facilities_board {
+        width: 33%;
+    }
+
+    .bootle_text_header {
+        font-size: 175%;
+    }
+
+    .bottle_text_body {
+        font-size: 148%;
+    }
+
+    .facility_text {
+        font-size: 190%;
+    }
+
+    .facility_table {
+        width: 30%;
+    }
+
+    .facility_stand {
+        width: 29%;
+    }
+
+    .facility_doctor {
+        width: 50%;
+        right: 8.3%;
+        bottom: -4%;
+    }
+
+    .facility_table_big {
+        width: 13%;
+        right: 30.5%;
+    }
+
+    .faq_family {
+        width: 28%;
+        left: 10%;
+    }
+
+    .faq_cloud {
+        width: 15%;
+        left: 34%;
+        top: 21%;
+    }
+
+    .faq_board {
+        width: 43%;
+    }
+
+    .faq_slider_bodyQ {
+        font-size: 190%;
+    }
+
+    .emergency_text_door {
+        top: 15%;
+    }
+
+    .emergency_light {
+        top: 15% !important;
+    }
+
+    .door_text {
+        font-size: 230%;
+    }
+
+    .operation_text {
+        font-size: 200%;
+    }
+
+    .emergency_teeth, .emergency_teeth_shadow {
+        bottom: 33% !important;
+    }
+
+    .feedback_line_book1 {
+        top: 30%;
+    }
+
+    .feedback_line_book3 {
+        top: 22.5%;
+    }
+
+    .feedback_line_book5 {
+        top: 15.5%;
+    }
+
+    .feedback_form_container {
+        top: 17%;
+    }
+
+    .feedback_computer {
+        bottom: 5%;
+    }
+
+    .feedback_apple, .feedback_computer_book {
+        bottom: 9%;
+    }
+
+    .feedback_board {
+        width: 31%;
+        bottom: 6.8%;
+    }
+
+    .feedback_form_header {
+        font-size: 250%;
+    }
+
+    .feedback_form_text {
+        font-size: 220%;
+    }
+
+    .form_submit {
+        font-size: 200%;
+        padding: 2% 0 0 0;
+    }
+
+    .contact_board {
+        width: 54%;
+        left: 7%;
+    }
+
+    .contact_text_body, .contact_text_subtitle {
+        font-size: 78%;
+    }
+}

@@ -1,0 +1,157 @@
+/* Overlay style */
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index:99999;
+	background:#64b3ba;
+	font-size: 1%;
+	display: none;
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 2%;
+	padding:1%;
+	position: absolute;
+	right: 2%;
+	top: 2%;
+	overflow: hidden;
+	border: none;
+
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+    cursor:pointer;
+  
+ 
+}
+.popupsvg_close{
+	background:none;
+		background-image: url('../images/svgclose.png');
+	background-position:center center;
+	background-size:100%;
+	background-repeat: no-repeat;
+	  -webkit-transition-duration: 0.5s !important;
+    -moz-transition-duration: 0.5s  !important;
+    -ms-transition-duration: 0.5s  !important;
+    -o-transition-duration: 0.5s  !important;
+    transition-duration: 0.5s  !important;
+}
+.popupsvg_close:hover{
+
+	background-image: url('../images/svgclose_hover.png');
+ -webkit-transition-duration: 0.5s  !important;
+    -moz-transition-duration: 0.5s  !important;
+    -ms-transition-duration: 0.5s  !important;
+    -o-transition-duration: 0.5s  !important;
+    transition-duration: 0.5s  !important;
+ 
+	
+}
+
+/* Menu style */
+.overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 80%;
+	overflow:hidden;
+	overflow-y:auto;
+    display:none;                        
+	 /*-webkit-transform: translateY(-50%);
+	 -moz-transform: translateY(-50%);
+	 -ms-transform: translateY(-50%);
+	 -o-transform: translateY(-50%);
+	transform: translateY(-50%);*/
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+.overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	min-height: 54px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.overlay ul li a {
+	font-size: 54px;
+	font-weight: 300;
+	display: block;
+	color: #fff;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+	color: #f0f0f0;
+}
+
+/* Effects */
+.overlay-boxes {
+	background: transparent;
+	visibility: hidden;
+	-webkit-transition: visibility 0s 0.8s;
+	transition: visibility 0s 0.8s;
+}
+
+.overlay-boxes.open {
+	visibility: visible;
+	-webkit-transition: none;
+	transition: none;
+}
+
+.overlay-boxes svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.overlay-boxes svg path {
+	fill: #b72127;
+	display: none;
+}
+
+.overlay-boxes nav,
+.overlay-boxes .overlay-close {
+	opacity: 0;
+	-webkit-transition: opacity 0.5s 0.8s;
+	transition: opacity 0.5s 0.8s;
+}
+
+.overlay-boxes.open nav,
+.overlay-boxes.open .overlay-close {
+	opacity: 1;
+	-webkit-transition-delay: 0.8s;
+	transition-delay: 0.8s;
+}
+
+.overlay-boxes.close nav,
+.overlay-boxes.close .overlay-close {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+@media screen and (max-height: 30.5em) {
+	.overlay nav {
+		height: 70%;
+		font-size: 34px;
+	}
+	.overlay ul li {
+		min-height: 34px;
+	}
+}

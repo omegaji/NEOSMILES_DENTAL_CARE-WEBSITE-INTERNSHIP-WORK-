@@ -1,0 +1,117 @@
+
+.tooltip {
+	position: relative;
+	z-index: 999;
+}
+
+/* Trigger text */
+
+.tooltip-item {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.tooltip-content {
+	position: absolute;
+	font-size: 100%;
+	background: #fff;
+	z-index: 9999;
+	width: 100%;
+	bottom: 100%;
+	left: 50%;
+	margin: 0 0 105px -140px;
+	padding: 0 25px;
+	text-align: left;
+	border-radius: 30px/50%;
+	color: #dd5864;
+	opacity: 0;
+	white-space:normal;
+	font-family: 'quicksandregular';
+	cursor: default;
+	pointer-events: none;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+
+.tooltip-turnright .tooltip-content {
+	-webkit-transform: translate3d(0,50px,0) rotate3d(1,1,1,6deg);
+	transform: translate3d(0,50px,0) rotate3d(1,1,1,6deg);
+}
+
+.tooltip-turnleft .tooltip-content {
+	-webkit-transform: translate3d(0,50px,0) rotate3d(1,1,1,-6deg);
+	transform: translate3d(0,50px,0) rotate3d(1,1,1,-6deg);
+}
+
+.tooltip:hover .tooltip-content {
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	cursor: pointer;
+}
+
+/* Arrow */
+
+.tooltip-content::after {
+	content: '';
+	position: absolute;
+	width: 60px;
+	height: 120px;
+	top: 100%;
+	background: url(../images/tooltip3.svg) no-repeat center center;
+	background-size: 100%;
+	-webkit-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.tooltip-turnright .tooltip-content::after {
+	left: 25%;
+	-webkit-transform: scale3d(-1,1,1) rotate3d(1,1,1,25deg) translate3d(0,-15px,0);
+	transform: scale3d(-1,1,1) rotate3d(1,1,1,25deg) translate3d(0,-15px,0);
+}
+
+.tooltip-turnleft .tooltip-content::after {
+	right: 25%;
+	-webkit-transform: rotate3d(1,1,1,25deg) translate3d(0,-15px,0);
+	transform: rotate3d(1,1,1,25deg) translate3d(0,-15px,0);
+}
+
+.tooltip-turnright:hover .tooltip-content::after {
+	-webkit-transform: scale3d(-1,1,1) rotate3d(1,1,1,0) translate3d(0,-5px,0);
+	transform: scale3d(-1,1,1) rotate3d(1,1,1,0) translate3d(0,-5px,0);
+}
+
+.tooltip-turnleft:hover .tooltip-content::after {
+	-webkit-transform: rotate3d(1,1,1,0) translate3d(0,-5px,0);
+	transform: rotate3d(1,1,1,0) translate3d(0,-5px,0);
+}
+/*Krishnan*/
+.tooltip-content a{ text-decoration: none; color: #3a4573; font-size: 60%; font-weight: bold;  }
+.tooltip-content a:hover{  color:#dd5864;   padding: 0 0 4px 0; } 
+.tooltip-content p:nth-child(1){     margin-bottom: 2px;  font-family: 'life_is_goofybold';  font-size: 185%;   margin-top: 23px; line-height: 60%;}
+.tooltip-content p:nth-child(2){ margin-top: 0px;}
+ 
+.First_doctor{
+	/*margin:0 0 90px -77px  !important;*/
+	margin:0 0 63% -52% !important;
+	width:107%;
+}
+.Second_doctor{
+	width:67%;
+	margin:0 0 23% -68% !important;	
+}
+.Third_doctor{
+	width:67%;
+	margin:0 0 15% -19% !important
+}
+.Fourth_doctor{
+	margin:0 0 41% -50% !important;	
+}
+.Fifth_doctor{
+	width:87%;
+	margin:0 0 45% -33% !important;	
+}
